@@ -1,0 +1,2270 @@
+[
+  {
+    "requirement_id": "REQ-SEC-SMO-1",
+    "support": "MS",
+    "controls": "SEC-CTL-SMO-5\nSEC-CTL-SMO-6",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-2",
+    "support": "MS",
+    "controls": "SEC-CTL-SMO-5\nSEC-CTL-SMO-6",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-3",
+    "support": "MS",
+    "controls": "SEC-CTL-SMO-1\nSEC-CTL-SMO-3\nSEC-CTL-SMO-4",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-4",
+    "support": "MS",
+    "controls": "SEC-CTL-SMO-1\nSEC-CTL-SMO-3",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-5",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-6",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-7",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-8",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-9",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-10",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-Internal-1",
+    "support": "MS",
+    "controls": "SEC-CTL-SMO-Internal-1",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-Internal-2",
+    "support": "MS",
+    "controls": "SEC-CTL-SMO-Internal-2\nSEC-CTL-SMO-Internal-3",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-External-1",
+    "support": "MS",
+    "controls": "SEC-CTL-SMO-External-1",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-External-2",
+    "support": "MS",
+    "controls": "SEC-CTL-SMO-External-2\nSEC-CTL-SMO-External-3\nSEC-CTL-SMO-External-4",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-External-3",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-Log-1",
+    "support": "MS",
+    "controls": "SEC-CTL-SMO-Log-3\nSEC-CTL-SMO-Log-4\nSEC-CTL-SMO-Log-5",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-Log-2",
+    "support": "M",
+    "controls": "SEC-CTL-SMO-Log-1\nSEC-CTL-SMO-Log-2",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-Log-3",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-Log-4",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-Log-5",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-Log-6",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-Log-7",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-Log-8",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-Log-9",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-Log-10",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-Log-11",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMO-Log-12",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-NFO-FOCOM-1",
+    "support": "MS",
+    "controls": "SEC-CTL-NFO-FOCOM-7\nSEC-CTL-NFO-FOCOM-8",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-NFO-FOCOM-3",
+    "support": "MS",
+    "controls": "SEC-CTL-NFO-FOCOM-1",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-NFO-FOCOM-4",
+    "support": "MS",
+    "controls": "SEC-CTL-NFO-FOCOM-2",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-NFO-FOCOM-5",
+    "support": "MS",
+    "controls": "SEC-CTL-NFO-FOCOM-3\nSEC-CTL-NFO-FOCOM-4\nSEC-CTL-NFO-FOCOM-5\nSEC-CTL-NFO-FOCOM-6",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-NFO-FOCOM-6",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-NFO-FOCOM-8",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SME-1",
+    "support": "MS",
+    "controls": "SEC-CTL-SME-1",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SME-2",
+    "support": "MS",
+    "controls": "SEC-CTL-SME-1",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SME-3",
+    "support": "MS",
+    "controls": "SEC-CTL-SME-1",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SME-4",
+    "support": "MS",
+    "controls": "SEC-CTL-SME-2, SEC-CTL-SME-3",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SME-5",
+    "support": "MS",
+    "controls": "SEC-CTL-SME-2, SEC-CTL-SME-3",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SME-6",
+    "support": "MS",
+    "controls": "SEC-CTL-SME-4",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SME-7",
+    "support": "MS",
+    "controls": "None",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SME-8",
+    "support": "MS",
+    "controls": "None",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SME-9",
+    "support": "MS",
+    "controls": "SEC-CTL-NonRTRIC-6",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMOS-1",
+    "support": "MS",
+    "controls": "SEC-CTL-SMOS-1",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMOS-2",
+    "support": "MS",
+    "controls": "SEC-CTL-SMOS-2, SEC-CTL-SMOS-3",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMOS-3",
+    "support": "MS",
+    "controls": "SEC-CTL-SMOS-4",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMOS-4",
+    "support": "MS",
+    "controls": "None",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMOS-5",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMOS-6",
+    "support": "MS",
+    "controls": "SEC-CTL-SMOS-5",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMOS-7",
+    "support": "MS",
+    "controls": "SEC-CTL-SMOS-6",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-SMOS-8",
+    "support": "MS",
+    "controls": "SEC-CTL-SMOS-7",
+    "section": "SMO"
+  },
+  {
+    "requirement_id": "REQ-SEC-NonRTRIC-1",
+    "support": "MS",
+    "controls": "SEC-CTL- NonRTRIC-1",
+    "section": "Non-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NonRTRIC-2",
+    "support": "M",
+    "controls": "SEC-CTL- NonRTRIC-1\nSEC-CTL- NonRTRIC-3\nSEC-CTL- NonRTRIC-6",
+    "section": "Non-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NonRTRIC-3",
+    "support": "M",
+    "controls": "SEC-CTL- NonRTRIC-6",
+    "section": "Non-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NonRTRIC-4",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "Non-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NonRTRIC-5",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "Non-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NonRTRIC-6",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "Non-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NonRTRIC-7",
+    "support": "M",
+    "controls": "SEC-CTL- NonRTRIC-3",
+    "section": "Non-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NonRTRIC-8",
+    "support": "MS",
+    "controls": "SEC-CTL- NonRTRIC-4\nSEC-CTL- NonRTRIC-5\nSEC-CTL- NonRTRIC-6",
+    "section": "Non-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NonRTRIC-9",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Non-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NonRTRIC-10",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Non-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NonRTRIC-11",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Non-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NonRTRIC-12",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Non-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NonRTRIC-14",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Non-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-XAPP-3",
+    "support": "M",
+    "controls": "SEC-CTL-NEAR-RT-12\nSEC-CTL-NEAR-RT-14",
+    "section": "Near-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-XAPP-4",
+    "support": "M",
+    "controls": "SEC-CTL-NEAR-RT-13\nSEC-CTL-NEAR-RT-14",
+    "section": "Near-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NEAR-RT-1",
+    "support": "M",
+    "controls": "SEC-CTL-NEAR-RT-1\nSEC-CTL-NEAR-RT-2\nSEC-CTL-NEAR-RT-20",
+    "section": "Near-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NEAR-RT-2",
+    "support": "M",
+    "controls": "SEC-CTL-NEAR-RT-3\nSEC-CTL-NEAR-RT-20",
+    "section": "Near-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NEAR-RT-2A",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Near-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NEAR-RT-3",
+    "support": "M",
+    "controls": "SEC-CTL-NEAR-RT-1\nSEC-CTL-NEAR-RT-2",
+    "section": "Near-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NEAR-RT-4",
+    "support": "M",
+    "controls": "SEC-CTL-NEAR-RT-3\nSEC-CTL-NEAR-RT-3A\nSEC-CTL-NEAR-RT-3B\nSEC-CTL-NEAR-RT-3C",
+    "section": "Near-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NEAR-RT-5",
+    "support": "MS",
+    "controls": "SEC-CTL-NEAR-RT-4\nSEC-CTL-NEAR-RT-5",
+    "section": "Near-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NEAR-RT-6",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "Near-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NEAR-RT-7",
+    "support": "M",
+    "controls": "SEC-CTL-NEAR-RT-8",
+    "section": "Near-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NEAR-RT-8",
+    "support": "M",
+    "controls": "SEC-CTL-NEAR-RT-15\nSEC-CTL-NEAR-RT-16",
+    "section": "Near-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NEAR-RT-9",
+    "support": "M",
+    "controls": "SEC-CTL-NEAR-RT-17",
+    "section": "Near-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NEAR-RT-10",
+    "support": "MS",
+    "controls": "SEC-CTL-NEAR-RT-8A",
+    "section": "Near-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NEAR-RT-11",
+    "support": "MS",
+    "controls": "SEC-CTL-NEAR-RT-2A",
+    "section": "Near-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-NEAR-RT-12",
+    "support": "MS",
+    "controls": "SEC-CTL-NEAR-RT-19, SEC-CTL-NEAR-RT-6, SEC-CTL-NEAR-RT-7",
+    "section": "Near-RT RIC"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCU-1",
+    "support": "",
+    "controls": "SEC-CTL-OCU-1",
+    "section": "O-CU, O-CU, O-RU, O-eNB"
+  },
+  {
+    "requirement_id": "REQ-SEC-ODU-1",
+    "support": "",
+    "controls": "SEC-CTL-ODU-1",
+    "section": "O-CU, O-CU, O-RU, O-eNB"
+  },
+  {
+    "requirement_id": "REQ-SEC-ORU-1",
+    "support": "",
+    "controls": "All security controls in clause 5.2.5",
+    "section": "O-CU, O-CU, O-RU, O-eNB"
+  },
+  {
+    "requirement_id": "REQ-SEC-ORU-2",
+    "support": "",
+    "controls": "All security controls in clause 5.2.5",
+    "section": "O-CU, O-CU, O-RU, O-eNB"
+  },
+  {
+    "requirement_id": "REQ-SEC-OeNB-1",
+    "support": "",
+    "controls": "SEC-CTL-OeNB-1",
+    "section": "O-CU, O-CU, O-RU, O-eNB"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-1",
+    "support": "M",
+    "controls": "SEC-CTL-OCLOUD-2",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-2",
+    "support": "M",
+    "controls": "SEC-CTL-OCLOUD-1",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-3",
+    "support": "M",
+    "controls": "SEC-CTL-OCLOUD-1",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-4",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-PKG-2",
+    "support": "M",
+    "controls": "SEC-CTL-ALM-PKG-1\nSEC-CTL-ALM-PKG-3",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SW-1",
+    "support": "M",
+    "controls": "SEC-CTL-OCLOUD-SW-1",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-ISO-1",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-ISO-3",
+    "support": "M",
+    "controls": "SEC-CTL-O-CLOUD-ISO-3",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-ISO-4",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-ISO-5",
+    "support": "M",
+    "controls": "SEC-CTL-O-CLOUD-ISO-2",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-ISO-6",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-ISO-7",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SU-1",
+    "support": "M",
+    "controls": "SEC-CTL-OCLOUD-SU-4",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SU-5",
+    "support": "M",
+    "controls": "SEC-CTL-OCLOUD-SU-6",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SU-6",
+    "support": "M",
+    "controls": "SEC-CTL-OCLOUD-SU-5",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SU-7",
+    "support": "O",
+    "controls": "SEC-CTL-OCLOUD-SU-7",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SS-1",
+    "support": "M",
+    "controls": "SEC-CTL-OCLOUD-SS-1 See Annex C for the guidance",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SS-2",
+    "support": "MS",
+    "controls": "SEC-CTL-OCLOUD-SS-2 See Annex C for the guidance\nSEC-CTL-OCLOUD-SS-3 See Annex C for the guidance",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SS-3",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SS-4",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SS-5",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SS-6",
+    "support": "MS",
+    "controls": "SEC-CTL-OCLOUD-1\nSEC-CTL-O-CLOUD-ISO-3",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-COT-1",
+    "support": "MS",
+    "controls": "SEC-CTL-OCLOUD-COT-1 See Annex C for the guidance\nSEC-CTL-OCLOUD-COT-2 See Annex C for the guidance",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-COT-2",
+    "support": "MS",
+    "controls": "SEC-CTL-OCLOUD-COT-3 See Annex C for the guidance",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-COT-3",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-COT-4",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-AALI-C-Mgmt-1",
+    "support": "M",
+    "controls": "SEC-CTL-AALI-C-Mgmt-2",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-AALI-C-Mgmt-2",
+    "support": "M",
+    "controls": "SEC-CTL-AALI-C-Mgmt-3",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-AALI-C-Mgmt-3",
+    "support": "MS",
+    "controls": "SEC-CTL-AALI-C-Mgmt-1",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-AAL-VS-1",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-AAL-VS-2",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-AAL-VS-3",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-AAL-VS-4",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-AAL-VS-5",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-AAL-1",
+    "support": "MS",
+    "controls": "SEC-CTL-AAL-1",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-AAL-2",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-AAL-3",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-AAL-4",
+    "support": "O",
+    "controls": "SEC-CTL-AAL-2",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-AAL-5",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-AAL-6",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-O2dms-1",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-O2dms-2",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-O2dms-3",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-O2dms-4",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-O2ims-1",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-O2ims-2",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-O2ims-3",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-O2ims-4",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-O-CLOUD-NotifAPI-1",
+    "support": "M",
+    "controls": "SEC-CTL-O-CLOUD-INTERFACE-1\nSEC-CTL-O-CLOUD-INTERFACE-3",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-O-CLOUD-NotifAPI-2",
+    "support": "M",
+    "controls": "SEC-CTL-O-CLOUD-INTERFACE-2",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-O-CLOUD-SE-1",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-O-CLOUD-SE-2",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-INST-ID-1",
+    "support": "M",
+    "controls": "SEC-CTL-OCLOUD-INST-ID-1\nSEC-CTL-OCLOUD-INST-ID-2",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-INST-ID-2",
+    "support": "M",
+    "controls": "SEC-CTL-O-CLOUD-ISO-3\nSEC-CTL-OCLOUD-1",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-INST-ID-3",
+    "support": "M",
+    "controls": "SEC-CTL-OCLOUD-INST-ID-3\nSEC-CTL-OCLOUD-INST-ID-4",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-INST-ID-4",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-INST-ID-5",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-TS-1",
+    "support": "M",
+    "controls": "SEC-CTL-SLM-ATS-1\nSEC-CTL-SLM-ATS-2\nSEC-CTL-SLM-ATS-3",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-TS-2",
+    "support": "M",
+    "controls": "SEC-CTL-OCLOUD-TS-3",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-TS-3",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.\nNOTE: See Clause 5.3.8.9.2 for additional security controls.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-TS-4",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.\nNOTE: See Clause 5.3.8.9.2 for additional security controls.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-TS-5",
+    "support": "M",
+    "controls": "SEC-CTL-OCLOUD-TS-3\nNOTE: See Clause 5.3.8.9.2 for additional security controls.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SECPOL-1",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SECPOL-2",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SECPOL-3",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SECPOL-4",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SECPOL-5",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SECPOL-6",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SECPOL-7",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-OCLOUD-SECPOL-8",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O-Cloud"
+  },
+  {
+    "requirement_id": "REQ-SEC-SharedORU-1",
+    "support": "M",
+    "controls": "SEC-CTL-SharedORU-1\nSEC-CTL-SharedORU-2",
+    "section": "Shared O-RU"
+  },
+  {
+    "requirement_id": "REQ-SEC-SharedORU-2",
+    "support": "M",
+    "controls": "SEC-CTL-SharedORU-3",
+    "section": "Shared O-RU"
+  },
+  {
+    "requirement_id": "REQ-SEC-SharedORU-3",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Shared O-RU"
+  },
+  {
+    "requirement_id": "REQ-SEC-SharedORU-4",
+    "support": "M",
+    "controls": "SEC-CTL-SharedORU-4",
+    "section": "Shared O-RU"
+  },
+  {
+    "requirement_id": "REQ-SEC-SharedORU-7",
+    "support": "M",
+    "controls": "SEC-CTL-DOS-1 (DDoS)",
+    "section": "Shared O-RU"
+  },
+  {
+    "requirement_id": "REQ-SEC-SharedORU-8",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Shared O-RU"
+  },
+  {
+    "requirement_id": "REQ-SEC-SharedORU-9",
+    "support": "OS",
+    "controls": "SEC-CTL-SharedORU-5",
+    "section": "Shared O-RU"
+  },
+  {
+    "requirement_id": "REQ-SEC-A1-1",
+    "support": "MS",
+    "controls": "SEC-CTL-A1-1",
+    "section": "A1 Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-A1-2",
+    "support": "MS",
+    "controls": "SEC-CTL-A1-2\nSEC-CTL-A1-3",
+    "section": "A1 Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-A1-3",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "A1 Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-O1-1",
+    "support": "MS",
+    "controls": "SEC-CTL-O1-1\nSEC-CTL-O1-4",
+    "section": "O1 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-O1-2",
+    "support": "MS",
+    "controls": "SEC-CTL-O1-2\nSEC-CTL-O1-5",
+    "section": "O1 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-O1-3",
+    "support": "MS",
+    "controls": "SEC-CTL-O1-3",
+    "section": "O1 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-O1-4",
+    "support": "MS",
+    "controls": "SEC-CTL-O1-6\nSEC-CTL-O1-7\nSEC-CTL-O1-8\nSEC-CTL-O1-9",
+    "section": "O1 interface"
+  },
+  {
+    "requirement_id": "REQ-NAC-FUN-1",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O1 interface"
+  },
+  {
+    "requirement_id": "REQ-NAC-FUN-2",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O1 interface"
+  },
+  {
+    "requirement_id": "REQ-NAC-FUN-3",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O1 interface"
+  },
+  {
+    "requirement_id": "REQ-NAC-FUN-4",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O1 interface"
+  },
+  {
+    "requirement_id": "REQ-NAC-FUN-5",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O1 interface"
+  },
+  {
+    "requirement_id": "REQ-NAC-FUN-6",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O1 interface"
+  },
+  {
+    "requirement_id": "REQ-NAC-FUN-7",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O1 interface"
+  },
+  {
+    "requirement_id": "REQ-NAC-FUN-8",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O1 interface"
+  },
+  {
+    "requirement_id": "REQ-NAC-FUN-9",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O1 interface"
+  },
+  {
+    "requirement_id": "REQ-NAC-FUN-10",
+    "support": "O (may)",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O1 interface"
+  },
+  {
+    "requirement_id": "REQ-NAC-FUN-11",
+    "support": "O (may)",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "O1 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-O2-1",
+    "support": "MS",
+    "controls": "SEC-CTL-O2-1",
+    "section": "O2 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-O2-2",
+    "support": "MS",
+    "controls": "SEC-CTL-O2-2",
+    "section": "O2 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-O2-3",
+    "support": "MS",
+    "controls": "SEC-CTL-O2-3",
+    "section": "O2 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-E2-1",
+    "support": "MS",
+    "controls": "SEC-CTL-E2-1",
+    "section": "E2 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFCP-1",
+    "support": "MS",
+    "controls": "SEC-CTL-OFHPLS-5\nSEC-CTL-OFHPLS-9\nSEC-CTL-OFHPLS-10\nSEC-CTL-OFHPLS-11\nSEC-CTL-OFHPLS-12",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFCP-2",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFCP-3",
+    "support": "O",
+    "controls": "SEC-CTL-OFHMECC-5\nSEC-CTL-OFHWMM-2\nSEC-CTL-OFHLMM-3\nSEC-CTL-MACsec-KM-1",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFCP-4",
+    "support": "O",
+    "controls": "SEC-CTL-OFHMECC-5\nSEC-CTL-OFHWMM-2\nSEC-CTL-OFHLMM-3\nSEC-CTL-MACsec-KM-1",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFUP-1",
+    "support": "O",
+    "controls": "SEC-CTL-OFHMECC-5\nSEC-CTL-OFHWMM-2\nSEC-CTL-OFHLMM-3\nSEC-CTL-MACsec-KM-1",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFUP-2",
+    "support": "MS",
+    "controls": "SEC-CTL-OFHPLS-5\nSEC-CTL-OFHPLS-11\nSEC-CTL-OFHPLS-12",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFUP-3",
+    "support": "MS",
+    "controls": "SEC-CTL-OFHPLS-9\nSEC-CTL-OFHPLS-10\nSEC-CTL-OFHPLS-12",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFUP-4",
+    "support": "OS",
+    "controls": "SEC-CTL-OFHMECC-5\nSEC-CTL-OFHWMM-2\nSEC-CTL-OFHLMM-3\nSEC-CTL-MACsec-KM-1",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFSP-1",
+    "support": "MS",
+    "controls": "SEC-CTL-OFHPLS-5\nSEC-CTL-OFHPLS-9\nSEC-CTL-OFHPLS-10\nSEC-CTL-OFHPLS-11\nSEC-CTL-OFHPLS-12",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFSP-2",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFSP-3",
+    "support": "O",
+    "controls": "SEC-CTL-OFSP-1\nSEC-CTL-OFSP-2\nO-RAN Synchronization Architecture and Solution Specification [30] Clause 8.2.3 Timing/Synchronization Redundancy & Resiliency provides additional details on redundancy for the Open Fronthaul Synchronization architecture.",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFSP-4",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFSP-5",
+    "support": "OS",
+    "controls": "SEC-CTL-OFSP-3",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFSP-6",
+    "support": "OS",
+    "controls": "SEC-CTL-OFSP-3",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFSP-7",
+    "support": "OS",
+    "controls": "SEC-CTL-OFSP-3",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFSP-8",
+    "support": "OS",
+    "controls": "SEC-CTL-OFSP-4\nSEC-CTL-OFHLMM-3\nSEC-CTL-MACsec-KM-1",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFHPLS-1",
+    "support": "MS",
+    "controls": "SEC-CTL-OFHPLS-2\nSEC-CTL-OFHPLS-3\nSEC-CTL-OFHPLS-4\nSEC-CTL-OFHPLS-5\nSEC-CTL-OFHPLS-6\nSEC-CTL-OFHPLS-7\nSEC-CTL-OFHPLS-8",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFHPLS-2",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-OFHPLS-3",
+    "support": "MS",
+    "controls": "SEC-CTL-OFHPLS-9\nSEC-CTL-OFHPLS-10\nSEC-CTL-OFHPLS-11\nSEC-CTL-OFHPLS-12",
+    "section": "Open Fronthaul Interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-R1-1",
+    "support": "MS",
+    "controls": "SEC-CTL-R1-1",
+    "section": "R1 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-R1-2",
+    "support": "MS",
+    "controls": "SEC-CTL-R1-2\nSEC-CTL-R1-3",
+    "section": "R1 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-R1-3",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "R1 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-Y1-1",
+    "support": "MS",
+    "controls": "SEC-CTL-NEAR-RT-9\nSEC-CTL-Y1-1",
+    "section": "Y1 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-Y1-2",
+    "support": "M",
+    "controls": "SEC-CTL-NEAR-RT-10\nSEC-CTL-Y1-2",
+    "section": "Y1 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-Y1-3",
+    "support": "MS",
+    "controls": "SEC-CTL-NEAR-RT-11\nSEC-CTL-Y1-3",
+    "section": "Y1 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-Y1-4",
+    "support": "M",
+    "controls": "SEC-CTL-NEAR-RT-11\nSEC-CTL-Y1-3",
+    "section": "Y1 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-Y1-5",
+    "support": "M",
+    "controls": "SEC-CTL-NEAR-RT-11\nSEC-CTL-Y1-3",
+    "section": "Y1 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-Y1-6",
+    "support": "M",
+    "controls": "SEC-CTL-NEAR-RT-11 (partly)",
+    "section": "Y1 interface"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-1",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-2",
+    "support": "M",
+    "controls": "SEC-CTL-ALM-PKG-1\nSEC-CTL-ALM-PKG-1A",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-2A",
+    "support": "O",
+    "controls": "SEC-CTL-ALM-PKG-2\nSEC-CTL-ALM-PKG-2A",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-3",
+    "support": "M",
+    "controls": "SEC-CTL-ALM-PKG-3",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-4",
+    "support": "M",
+    "controls": "SEC-CTL-ALM-PKG-1\nSEC-CTL-ALM-PKG-1A",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-5",
+    "support": "M",
+    "controls": "SEC-CTL-ALM-PKG-1",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-6",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-7b",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-8",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-9",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-10",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-11",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-12",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-13",
+    "support": "M",
+    "controls": "SEC-CTL-ALM-PKG-2\nSEC-CTL-ALM-PKG-2A\nSEC-CTL-ALM-PKG-4",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-14",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-15",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-PKG-16",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-SU-1",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-SU-2",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-SU-3",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-SU-5",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-LCM-SD-1",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-LCM-SD-2",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-LCM-SD-3",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-LCM-SD-4",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-LCM-SD-5",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-LCM-SD-6",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-LCM-SD-7",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-DECOM-1",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-DECOM-2",
+    "support": "O",
+    "controls": "Control not needed.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-ALM-DECOM-3",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "Application Lifecycle Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-NET-1",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Network Protocols and Services"
+  },
+  {
+    "requirement_id": "REQ-SEC-NET-2",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Network Protocols and Services"
+  },
+  {
+    "requirement_id": "REQ-SEC-TRAN-1",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Robustness of Common Transport Protocols"
+  },
+  {
+    "requirement_id": "REQ-SEC-DOS-1",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "Robustness against Volumetric DDoS Attack"
+  },
+  {
+    "requirement_id": "REQ-SEC-SYS-1",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Robustness of OS and Applications"
+  },
+  {
+    "requirement_id": "REQ-SEC-PASS-1",
+    "support": "O",
+    "controls": "SEC-CTL-PASS-1\nSEC-CTL-PASS-2\nSEC-CTL-PASS-3",
+    "section": "Password-Based Authentication"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-1",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-TESS-1 to 13",
+    "support": "1 to 9: M\n10 to 11: MS\n12: M\n13: MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-TESM-1 to 5",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-TESR-1 to 11",
+    "support": "1 to 6: M\n7 to 8: MS\n9 to 11: M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-SST-1",
+    "support": "M",
+    "controls": "SEC-CTL-SLM-SST-1",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-SST-2",
+    "support": "M",
+    "controls": "SEC-CTL-SLM-SST-2",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-SST-3",
+    "support": "M",
+    "controls": "SEC-CTL-SLM-SST-3",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-SST-4 to 8",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-STR-1 to 5",
+    "support": "1 to 4: M\n5: OS",
+    "controls": "SEC-CTL-SLM-STR-1\nSEC-CTL-SLM-STR-2",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-FMT-1",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-FLD-1",
+    "support": "M",
+    "controls": "SEC-CTL-SLM-FLD-1",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-FLD-2",
+    "support": "M",
+    "controls": "SEC-CTL-SLM-FLD-2",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-FLD-3",
+    "support": "M",
+    "controls": "SEC-CTL-SLM-FLD-2",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-ATS-1",
+    "support": "M",
+    "controls": "SEC-CTL-SLM-ATS-1\nSEC-CTL-SLM-ATS-2\nSEC-CTL-SLM-ATS-3",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-ATS-2 to 4",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-ATS-5",
+    "support": "M",
+    "controls": "SEC-CTL-SLM-CTS-1",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-DDA-1",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-DDA-2",
+    "support": "O",
+    "controls": "SEC-CTL-SLM-DDA-1",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-DDA-3 to 6",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-DDA-7",
+    "support": "O",
+    "controls": "SEC-CTL-SLM-DDA-2",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-DDA-8",
+    "support": "O",
+    "controls": "SEC-CTL-SLM-DDA-3",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-DDA-9 to 11",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-NET-EVT-1",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-GEN-EVT-1",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-GEN-EVT-2",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-GEN-EVT-3",
+    "support": "M",
+    "controls": "SEC-CTL-SLM-GEN-EVT-6\nSEC-CTL-SLM-GEN-EVT-7",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-GEN-EVT-4",
+    "support": "M",
+    "controls": "SEC-CTL-SLM-GEN-EVT-1\nSEC-CTL-SLM-GEN-EVT-2",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-GEN-EVT-5",
+    "support": "M",
+    "controls": "SEC-CTL-SLM-GEN-EVT-4\nSEC-CTL-SLM-GEN-EVT-5",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-GEN-EVT-6",
+    "support": "M",
+    "controls": "SEC-CTL-SLM-GEN-EVT-6\nSEC-CTL-SLM-GEN-EVT-7",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-HYP-EVT-1 to 3",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-CON-EVT-1 to 3",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-APP-EVT-1 to 2",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-DAT-EVT-1 to 8",
+    "support": "1: M\n2: O\n3 to 5: M\n6: O\n7 to 8: M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-AAI-EVT-1 to 10",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-GSE-1 to 4, 6",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-GSE-5",
+    "support": "M",
+    "controls": "SEC-CTL-ALM-PKG-5",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-LCSS-2 to 5",
+    "support": "2 to 3: MS\n4: M\n5: MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-POL-5 to 10",
+    "support": "5 to 8: M\n9: MS\n10: M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-DoS-1 to 7",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-SLM-TLD-1 to 4",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Security Log Management"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-PNF-1",
+    "support": "MS",
+    "controls": "SEC-CTL-CMF-PNF-1",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-PNF-2",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-PNF-3",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-PNF-4",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-PNF-5",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-PNF-6",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-VNF_CNF-1",
+    "support": "MS",
+    "controls": "SEC-CTL-CMF-VNF_CNF-1",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-VNF_CNF-2",
+    "support": "MS",
+    "controls": "SEC-CTL-CMF-VNF_CNF-2",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-VNF_CNF-3",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-ANYNF-1",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-ANYNF-2",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-ANYNF-3",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-ANYNF-4",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-ANYNF-5",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-ANYNF-6",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-ANYNF-7",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-ANYNF-8",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-ANYNF-9",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-ANYNF-10",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-ANYNF-11",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-ANYNF-12",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-CMF-ANYNF-13",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Certificate Management Framework"
+  },
+  {
+    "requirement_id": "REQ-SEC-API-1",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Programming Interfaces (APIs)"
+  },
+  {
+    "requirement_id": "REQ-SEC-API-2",
+    "support": "MS",
+    "controls": "SEC-CTL-API-01",
+    "section": "Application Programming Interfaces (APIs)"
+  },
+  {
+    "requirement_id": "REQ-SEC-API-3",
+    "support": "OS",
+    "controls": "SEC-CTL-API-02",
+    "section": "Application Programming Interfaces (APIs)"
+  },
+  {
+    "requirement_id": "REQ-SEC-API-4",
+    "support": "O",
+    "controls": "SEC-CTL-API-03",
+    "section": "Application Programming Interfaces (APIs)"
+  },
+  {
+    "requirement_id": "REQ-SEC-API-5",
+    "support": "M",
+    "controls": "SEC-CTL-API-04",
+    "section": "Application Programming Interfaces (APIs)"
+  },
+  {
+    "requirement_id": "REQ-SEC-API-6",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Programming Interfaces (APIs)"
+  },
+  {
+    "requirement_id": "REQ-SEC-API-7",
+    "support": "M",
+    "controls": "SEC-CTL-API-05",
+    "section": "Application Programming Interfaces (APIs)"
+  },
+  {
+    "requirement_id": "REQ-SEC-API-8",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Programming Interfaces (APIs)"
+  },
+  {
+    "requirement_id": "REQ-SEC-API-9",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Programming Interfaces (APIs)"
+  },
+  {
+    "requirement_id": "REQ-SEC-API-10",
+    "support": "MS",
+    "controls": "SEC-CTL-API-02\nSEC-CTL-API-03\nSEC-CTL-API-04",
+    "section": "Application Programming Interfaces (APIs)"
+  },
+  {
+    "requirement_id": "REQ-SEC-API-11",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Programming Interfaces (APIs)"
+  },
+  {
+    "requirement_id": "REQ-SEC-API-12",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Programming Interfaces (APIs)"
+  },
+  {
+    "requirement_id": "REQ-SEC-API-13",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Programming Interfaces (APIs)"
+  },
+  {
+    "requirement_id": "REQ-SEC-API-14",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Programming Interfaces (APIs)"
+  },
+  {
+    "requirement_id": "REQ-SEC-API-15",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Application Programming Interfaces (APIs)"
+  },
+  {
+    "requirement_id": "REQ-SEC-TAP-1",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Trust Anchor Provisioning"
+  },
+  {
+    "requirement_id": "REQ-SEC-TAP-1a",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Trust Anchor Provisioning"
+  },
+  {
+    "requirement_id": "REQ-SEC-TAP-2",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Trust Anchor Provisioning"
+  },
+  {
+    "requirement_id": "REQ-SEC-TAP-3",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Trust Anchor Provisioning"
+  },
+  {
+    "requirement_id": "REQ-SEC-TAP-4",
+    "support": "MS",
+    "controls": "SEC-CTL-TAP-1\nSEC-CTL-TAP-2\nSEC-CTL-TAP-3\nSEC-CTL-TAP-4\nSEC-CTL-TAP-5",
+    "section": "Trust Anchor Provisioning"
+  },
+  {
+    "requirement_id": "REQ-SEC-TAP-5",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "Trust Anchor Provisioning"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-1",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-2",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-3",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-4",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-5",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-6",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-7",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-8",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-9",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-10",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-11",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-12",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-13",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-14",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-15",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-16",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-17",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-18",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-19",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-20",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-21",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-22",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-23",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-24",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-25",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-26",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-27",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-28",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-29",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-30",
+    "support": "M",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-31",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-32",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-33",
+    "support": "O",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-34",
+    "support": "MS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-35",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-36",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AMIL-37",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-38",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AMIL-39",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AIML-40",
+    "support": "OS",
+    "controls": "Not defining a control, to enable the many implementations that are existing.",
+    "section": "AI/ML Security"
+  },
+  {
+    "requirement_id": "REQ-SEC-AUTHZ-1",
+    "support": "MS",
+    "controls": "SEC-CTL-SMO-1, SEC-CTL-SMO-3, SEC-CTL-SMO-4\nSEC-CTL-SMO-External-3, SEC-CTL-SMO-External-4\nSEC-CTL-NFO-FOCOM-3 \u2013 6\nSEC-CTL-SME-2\nSEC-CTL-SMOS-2, SEC-CTL-SMOS-3\nSEC-CTL-DME-2\nSEC-CTL-NonRTRIC-1, SEC-CTL-NonRTRIC-2, SEC-CTL-NonRTRIC-4 \u2013 6\nSEC-CTL-NEAR-RT-3A \u2013 C, SEC-CTL-NEAR-RT-3 \u2013 5\nSEC-CTL-NEAR-RT-10\nSEC-CTL-OCLOUD-1\nSEC-CTL-O-CLOUD-ISO-3\nSEC-CTL-AALI-C-Mgmt-3\nSEC-CTL-O-CLOUD-INTERFACE-2\nSEC-CTL-SharedORU-3\nSEC-CTL-A1-3\nSEC-CTL-O1-3\nSEC-CTL-O2-3\nSEC-CTL-OFHM-4\nSEC-CTL-R1-3\nSEC-CTL-Y1-2\nSEC-CTL-API-02 \u2013 4",
+    "section": "Least Privilege Enforcement"
+  },
+  {
+    "requirement_id": "REQ-SEC-AUTHZ-2",
+    "support": "MS",
+    "controls": "SEC-CTL-SMO-1, SEC-CTL-SMO-3, SEC-CTL-SMO-4\nSEC-CTL-SMO-External-3, SEC-CTL-SMO-External-4\nSEC-CTL-NFO-FOCOM-3 \u2013 6\nSEC-CTL-SME-2\nSEC-CTL-SMOS-2, SEC-CTL-SMOS-3\nSEC-CTL-DME-2\nSEC-CTL-NonRTRIC-1, SEC-CTL-NonRTRIC-2, SEC-CTL-NonRTRIC-4 \u2013 6\nSEC-CTL-NEAR-RT-3 \u2013 5\nSEC-CTL-NEAR-RT-10\nSEC-CTL-AALI-C-Mgmt-3\nSEC-CTL-O-CLOUD-INTERFACE-2\nSEC-CTL-A1-3\nSEC-CTL-O2-3\nSEC-CTL-R1-3\nSEC-CTL-Y1-2\nSEC-CTL-API-02 \u2013 4",
+    "section": "Configurable Authorization Expiration Time"
+  },
+  {
+    "requirement_id": "REQ-SBOM-001",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "SBOM"
+  },
+  {
+    "requirement_id": "REQ-SBOM-002",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "SBOM"
+  },
+  {
+    "requirement_id": "REQ-SBOM-003",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "SBOM"
+  },
+  {
+    "requirement_id": "REQ-SBOM-004",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "SBOM"
+  },
+  {
+    "requirement_id": "REQ-SBOM-007",
+    "support": "M",
+    "controls": "SEC-CTL-SBOM-001",
+    "section": "SBOM"
+  },
+  {
+    "requirement_id": "REQ-SBOM-011",
+    "support": "M",
+    "controls": "Control not needed.",
+    "section": "SBOM"
+  }
+]

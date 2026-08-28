@@ -1,0 +1,2170 @@
+[
+  {
+    "threat_id": "T-FRHAUL-01",
+    "threat_title": "An attacker penetrates O-DU and beyond through O-RU or the Fronthaul interface to access or modify sensitive information",
+    "threat_agent": "All",
+    "vulnerability": "Heterogeneous security levels between O-RU and O-DU provided by different vendors",
+    "threatened_asset": "ASSET-D-01, ASSET-D-02, ASSET-D-04, ASSET-D-05",
+    "affected_components": "rApps, xApps, O-RU, O-DU, O-CU, Near-RT RIC, Non-RT RIC"
+  },
+  {
+    "threat_id": "T-FRHAUL-01A",
+    "threat_title": "An attacker penetrates O-DU and beyond through O-RU or the Fronthaul interface to impersonate a legitimate system or user",
+    "threat_agent": "All",
+    "vulnerability": "Heterogeneous security levels between O-RU and O-DU provided by different vendors",
+    "threatened_asset": "ASSET-D-01, ASSET-D-02, ASSET-D-04, ASSET-D-05",
+    "affected_components": "rApps, xApps, O-RU, O-DU, O-CU, Near-RT RIC, Non-RT RIC"
+  },
+  {
+    "threat_id": "T-FRHAUL-02",
+    "threat_title": "Unauthorized access to Open Front Haul Ethernet L1 physical layer interface(s) to obtain protected information",
+    "threat_agent": "All",
+    "vulnerability": "Lack of authentication and access control to the Open Front Haul Ethernet L1 physical layer interface",
+    "threatened_asset": "ASSET-D-01, ASSET-D-02, ASSET-D-04, ASSET-D-05",
+    "affected_components": "rApps, xApps, O-RU, O-DU, O-CU, Near-RT RIC, Non-RT RIC"
+  },
+  {
+    "threat_id": "T-FRHAUL-03",
+    "threat_title": "Unauthorized access to Open Front Haul Ethernet L1 physical layer interface(s) to disrupt services",
+    "threat_agent": "All",
+    "vulnerability": "Lack of authentication and access control to the Open Front Haul Ethernet L1 physical layer interface",
+    "threatened_asset": "ASSET-D-01, ASSET-D-02, ASSET-D-04, ASSET-D-05",
+    "affected_components": "rApps, xApps, O-RU, O-DU, O-CU, Near-RT RIC, Non-RT RIC"
+  },
+  {
+    "threat_id": "T-MPLANE-01",
+    "threat_title": "An attacker attempts to intercept the Fronthaul (MITM) over M Plane to obtain protected information",
+    "threat_agent": "All",
+    "vulnerability": "Lack of sufficient security measures in the Fronthaul due to the negative impact on the performance requirements",
+    "threatened_asset": "ASSET-D-02, ASSET-D-03",
+    "affected_components": "Near-RT RIC, Non-RT RIC, O-CU, O-DU, SMO"
+  },
+  {
+    "threat_id": "T-MPLANE-02",
+    "threat_title": "An attacker attempts to intercept the Fronthaul (MITM) over M Plane to alter m-plane data",
+    "threat_agent": "All",
+    "vulnerability": "Lack of sufficient security measures in the Fronthaul due to the negative impact on the performance requirements",
+    "threatened_asset": "ASSET-D-02, ASSET-D-03",
+    "affected_components": "Near-RT RIC, Non-RT RIC, O-CU, O-DU, SMO"
+  },
+  {
+    "threat_id": "T-MPLANE-03",
+    "threat_title": "An attacker attempts to intercept the Fronthaul (MITM) over M Plane to disrupt services",
+    "threat_agent": "All",
+    "vulnerability": "Lack of sufficient security measures in the Fronthaul due to the negative impact on the performance requirements",
+    "threatened_asset": "ASSET-D-02, ASSET-D-03",
+    "affected_components": "Near-RT RIC, Non-RT RIC, O-CU, O-DU, SMO"
+  },
+  {
+    "threat_id": "T-SPLANE-01",
+    "threat_title": "DoS attack against a Master clock",
+    "threat_agent": "All",
+    "vulnerability": "Improper process to monitor and manage the performance of the Master clock\nANNOUNCE messages can be sent publicly in clear text",
+    "threatened_asset": "ASSET-D-01",
+    "affected_components": "O-DU, O-RU"
+  },
+  {
+    "threat_id": "T-SPLANE-02",
+    "threat_title": "Impersonation of a Master clock (Spoofing) within a PTP network with a fake ANNOUNCE message",
+    "threat_agent": "All",
+    "vulnerability": "Inaccurate timing information\nImproper synchronization between clocks\nANNOUNCE messages can be sent publicly in clear text",
+    "threatened_asset": "ASSET-D-01",
+    "affected_components": "O-DU, O-RU"
+  },
+  {
+    "threat_id": "T-SPLANE-03",
+    "threat_title": "A Rogue PTP Instance wanting to be a Grand Master",
+    "threat_agent": "All",
+    "vulnerability": "Inaccurate timing information\nImproper synchronization between clocks\nANNOUNCE messages can be sent publicly in clear text",
+    "threatened_asset": "ASSET-D-01",
+    "affected_components": "O-DU, O-RU"
+  },
+  {
+    "threat_id": "T-SPLANE-04",
+    "threat_title": "Selective interception and removal of PTP timing packets",
+    "threat_agent": "All",
+    "vulnerability": "Inaccurate timing information\nImproper synchronization between clocks\nANNOUNCE messages can be sent publicly in clear text",
+    "threatened_asset": "ASSET-D-01",
+    "affected_components": "O-DU, O-RU"
+  },
+  {
+    "threat_id": "T-SPLANE-05",
+    "threat_title": "Packet delay manipulation attack",
+    "threat_agent": "All",
+    "vulnerability": "Inaccurate timing information\nImproper synchronization between clocks\nANNOUNCE messages can be sent publicly in clear text",
+    "threatened_asset": "ASSET-D-01",
+    "affected_components": "O-DU, O-RU"
+  },
+  {
+    "threat_id": "T-CPLANE-01",
+    "threat_title": "Spoofing of DL C-plane messages",
+    "threat_agent": "All",
+    "vulnerability": "Lack of authentication could allow an adversary to inject DL C-plane messages",
+    "threatened_asset": "ASSET-D-04",
+    "affected_components": "O-DU, O-RU"
+  },
+  {
+    "threat_id": "T-CPLANE-02",
+    "threat_title": "Spoofing of UL C-plane messages",
+    "threat_agent": "All",
+    "vulnerability": "Lack of authentication could allow an adversary to inject UL C-plane messages",
+    "threatened_asset": "ASSET-D-04",
+    "affected_components": "O-DU, O-RU"
+  },
+  {
+    "threat_id": "T-UPLANE-01",
+    "threat_title": "An attacker attempts to intercept the Fronthaul (MITM) over U-Plane to obtain user data",
+    "threat_agent": "All",
+    "vulnerability": "Lack of sufficient security measures in the Fronthaul due to the negative impact on the performance requirements",
+    "threatened_asset": "ASSET-D-05",
+    "affected_components": "O-DU, O-RU"
+  },
+  {
+    "threat_id": "T-UPLANE-02",
+    "threat_title": "An attacker attempts to intercept the Fronthaul (MITM) over U-Plane to modify u-plane data",
+    "threat_agent": "All",
+    "vulnerability": "Lack of sufficient security measures in the Fronthaul due to the negative impact on the performance requirements",
+    "threatened_asset": "ASSET-D-05",
+    "affected_components": "O-DU, O-RU"
+  },
+  {
+    "threat_id": "T-UPLANE-03",
+    "threat_title": "An attacker attempts to intercept the Fronthaul (MITM) over U-Plane to disrupt services",
+    "threat_agent": "All",
+    "vulnerability": "Lack of sufficient security measures in the Fronthaul due to the negative impact on the performance requirements",
+    "threatened_asset": "ASSET-D-05",
+    "affected_components": "O-DU, O-RU"
+  },
+  {
+    "threat_id": "T-UPLANE-04",
+    "threat_title": "Spoofing and unauthorized access of U-Plane data packets",
+    "threat_agent": "All",
+    "vulnerability": "Lack of authentication, and authorization protection for U-Plane data packets",
+    "threatened_asset": "ASSET-D-05",
+    "affected_components": "O-DU, O-RU"
+  },
+  {
+    "threat_id": "T-ORU-01",
+    "threat_title": "An attacker stands up a false base station attack by attacking an O-RU",
+    "threat_agent": "All",
+    "vulnerability": "False O-RUs",
+    "threatened_asset": "ASSET-C-06, ASSET-C-31, ASSET-C-32, ASSET-C-33",
+    "affected_components": "O-RU"
+  },
+  {
+    "threat_id": "T-O-RU-02",
+    "threat_title": "An attacker leverages the lack of traceability with shared user accounts",
+    "threat_agent": "All",
+    "vulnerability": "Local user accounts are shared across entities (e.g., SMO, O-DU) for access",
+    "threatened_asset": "ASSET-D-18\nASSET-D-20",
+    "affected_components": "ASSET-C-06\nASSET-C-12"
+  },
+  {
+    "threat_id": "T-O-RU-03",
+    "threat_title": "An attacker manipulates initial provisioning information",
+    "threat_agent": "All",
+    "vulnerability": "Initial provisioning information from the Software configuration server could be manipulated to point to another server rather than the centralized authentication and authorization server",
+    "threatened_asset": "ASSET-D-18\nASSET-D-20",
+    "affected_components": "ASSET-C-06"
+  },
+  {
+    "threat_id": "T-O-RU-04",
+    "threat_title": "An attacker compromises O-RU user information- (i.e., compromises the data integrity, confidentiality of user information) in an external centralized authentication and authorization server",
+    "threat_agent": "All",
+    "vulnerability": "Gaps to possibly (1) mismanage O-RU Account information and Credentials, (2) misclassify O-RU users, (3) manipulate O-RU Credentials if not stored securely.",
+    "threatened_asset": "ASSET-D-20",
+    "affected_components": "ASSET-C-06\n\nASSET-C-26"
+  },
+  {
+    "threat_id": "T-NEAR-RT-01",
+    "threat_title": "Malicious Apps can exploit UE identification, track UE location and change UE priority",
+    "threat_agent": "All",
+    "vulnerability": "Malicious xApps may be used to gain access to UE identification location and priority",
+    "threatened_asset": "ASSET-D-21, ASSET-D-22, ASSET-C-02, ASSET-C-09, ASSET-C-41, ASSET-C-43",
+    "affected_components": "Near-RT RIC, xApps, E2 Functions, Y1 Functions"
+  },
+  {
+    "threat_id": "T-NEAR-RT-02",
+    "threat_title": "Risk of a malicious xApp on Near-RT RIC to obtain protected information",
+    "threat_agent": "All",
+    "vulnerability": "Improper or missing authentication and authorization of xApps",
+    "threatened_asset": "ASSET-D-10, ASSET D-11, ASSET D-21, ASSET-D-22",
+    "affected_components": "Near-RT RIC, UE, xApps"
+  },
+  {
+    "threat_id": "T-NEAR-RT-02A",
+    "threat_title": "Risk of a malicious xApp on Near-RT RIC impacting service availability",
+    "threat_agent": "All",
+    "vulnerability": "Improper or missing authentication and authorization of xApps",
+    "threatened_asset": "ASSET-D-10, ASSET D-11, ASSET D-21, ASSET-D-22",
+    "affected_components": "Near-RT RIC, UE, xApps"
+  },
+  {
+    "threat_id": "T-NEAR-RT-03",
+    "threat_title": "Attackers exploit non authenticated, weakly or incorrectly authenticated Near-RT RIC APIs to obtain protected information",
+    "threat_agent": "All",
+    "vulnerability": "Non authenticated, weakly or incorrectly authenticated Near-RT RIC APIs",
+    "threatened_asset": "ASSET-D-09, ASSET-D-10, ASSET D-11, ASSET D-20, ASSET-D-21, ASSET-D-25, ASSET-D-26, ASSET-D-29, ASSET-D-30, ASSET-C-02, ASSET-C-09, ASSET-C-41, ASSET-C-43",
+    "affected_components": "Near-RT RIC, UE, xApps"
+  },
+  {
+    "threat_id": "T-NEAR-RT-03A",
+    "threat_title": "Attackers exploit non authenticated, weakly or incorrectly authenticated Near-RT RIC APIs for MiTM attacks",
+    "threat_agent": "All",
+    "vulnerability": "Non authenticated, weakly or incorrectly authenticated Near-RT RIC APIs",
+    "threatened_asset": "ASSET-D-09, ASSET-D-10, ASSET D-11, ASSET D-20, ASSET-D-21, ASSET-D-25, ASSET-D-26, ASSET-D-29, ASSET-D-30, ASSET-C-02, ASSET-C-09, ASSET-C-41, ASSET-C-43",
+    "affected_components": "Near-RT RIC, UE, xApps"
+  },
+  {
+    "threat_id": "T-NEAR-RT-04",
+    "threat_title": "Attackers exploit non authorized Near-RT RIC APIs to access resources and services which they are not entitled to use, to obtain protected information.",
+    "threat_agent": "All",
+    "vulnerability": "Non-authorized RT RIC APIs",
+    "threatened_asset": "ASSET-D-09, ASSET-D-10, ASSET D-11, ASSET D-20, ASSET-D-21, ASSET-D-25, ASSET-D-26, ASSET-D-29, ASSET-D-30, ASSET-C-02, ASSET-C-09, ASSET-C-41, ASSET-C-43",
+    "affected_components": "Near-RT RIC, UE, xApps"
+  },
+  {
+    "threat_id": "T-NEAR-RT-04A",
+    "threat_title": "Attackers exploit non authorized Near-RT RIC APIs to access resources and services which they are not entitled to use, to disrupt services.",
+    "threat_agent": "All",
+    "vulnerability": "Non-authorized RT RIC APIs",
+    "threatened_asset": "ASSET-D-09, ASSET-D-10, ASSET D-11, ASSET D-20, ASSET-D-21, ASSET-D-25, ASSET-D-26, ASSET-D-29, ASSET-D-30, ASSET-C-02, ASSET-C-09, ASSET-C-41, ASSET-C-43",
+    "affected_components": "Near-RT RIC, UE, xApps"
+  },
+  {
+    "threat_id": "T-NEAR-RT-05",
+    "threat_title": "Attackers exploit non uniquely identified xApps using a trusted xAppID to access resources and services which they are not entitled to use.",
+    "threat_agent": "All",
+    "vulnerability": "Not uniquely identifying xApps using a trusted xAppID",
+    "threatened_asset": "ASSET-D-39, ASSET-C-02, ASSET-C-09",
+    "affected_components": "Near-RT RIC, xApps"
+  },
+  {
+    "threat_id": "T-NONRTRIC-01",
+    "threat_title": "An attacker penetrates the Non-RT RIC to cause a denial of service or degrade the performance",
+    "threat_agent": "All",
+    "vulnerability": "Improper or missing authentication and authorization processes on the Non-RT RIC or SMO",
+    "threatened_asset": "ASSET-D-03, ASSET-D-07, ASSET-D-08, ASSET-C-11",
+    "affected_components": "Non-RT RIC, rApps"
+  },
+  {
+    "threat_id": "T-NONRTRIC-02",
+    "threat_title": "UE tracking in the Non-RT RIC",
+    "threat_agent": "All",
+    "vulnerability": "Malicious rApps may be used to gain access to UE identification",
+    "threatened_asset": "ASSET-D-21, ASSET-D-22, ASSET-C-11",
+    "affected_components": "Non-RT RIC, rApps, UE"
+  },
+  {
+    "threat_id": "T-NONRTRIC-03",
+    "threat_title": "Data Corruption/Modification",
+    "threat_agent": "All",
+    "vulnerability": "Improper or missing authentication and authorization processes on the Non-RT RIC or SMO",
+    "threatened_asset": "ASSET-C-11",
+    "affected_components": "Non-RT RIC"
+  },
+  {
+    "threat_id": "T-NONRTRIC-04",
+    "threat_title": "Attacker exploits non-uniquely identified rApp instances to access services and obtain information",
+    "threat_agent": "All",
+    "vulnerability": "Not uniquely identifying rApp instances using a trusted rAppID",
+    "threatened_asset": "ASSET-C-10, ASSET-C-11",
+    "affected_components": "Non-RT RIC, rApps"
+  },
+  {
+    "threat_id": "T-NONRTRIC-05",
+    "threat_title": "Attacker exploits non-uniquely identified rApp instances, gains access to services resulting in a denial of service to correct rApp instance.",
+    "threat_agent": "All",
+    "vulnerability": "Non unique rAppID",
+    "threatened_asset": "ASSET-C-10",
+    "affected_components": "rApps"
+  },
+  {
+    "threat_id": "T-xAPP-01",
+    "threat_title": "An attacker exploits xApps vulnerabilities and misconfiguration to alter data transmitted over A1 or E2 interfaces.",
+    "threat_agent": "All",
+    "vulnerability": "xApp stems from an untrusted or unmaintained source",
+    "threatened_asset": "ASSET-C-03, ASSET-C-05, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10",
+    "affected_components": "O-CU, Near-RT RIC, xApps"
+  },
+  {
+    "threat_id": "T-xAPP-01A",
+    "threat_title": "An attacker exploits xApps vulnerabilities and misconfiguration to extract sensitive information.",
+    "threat_agent": "All",
+    "vulnerability": "xApp stems from an untrusted or unmaintained source",
+    "threatened_asset": "ASSET-C-03, ASSET-C-05 ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10",
+    "affected_components": "O-CU, Near-RT RIC, xApps"
+  },
+  {
+    "threat_id": "T-xAPP-01B",
+    "threat_title": "An attacker exploits xApps vulnerabilities and misconfiguration to disrupt Near-RT RIC functions",
+    "threat_agent": "All",
+    "vulnerability": "xApp stems from an untrusted or unmaintained source",
+    "threatened_asset": "ASSET-C-03, ASSET-C-05, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10",
+    "affected_components": "O-CU, Near-RT RIC, xApps"
+  },
+  {
+    "threat_id": "T-xAPP-01C",
+    "threat_title": "An attacker exploits xApps vulnerabilities and misconfiguration to gain unauthorized control over Near-RT RIC",
+    "threat_agent": "All",
+    "vulnerability": "xApp stems from an untrusted or unmaintained source",
+    "threatened_asset": "ASSET-C-03, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10",
+    "affected_components": "O-CU, Near-RT RIC, xApps"
+  },
+  {
+    "threat_id": "T-xAPP-02",
+    "threat_title": "Conflicting xApps impact O-RAN system functions to degrade performance or create a DoS [i.12]",
+    "threat_agent": "All",
+    "vulnerability": "xApps may be misconfigured or compromised\nFailing or misconfigured authentication and authorization in xApp",
+    "threatened_asset": "ASSET-C-03, ASSET-C-05, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10",
+    "affected_components": "O-CU, Near-RT RIC, xApps"
+  },
+  {
+    "threat_id": "T-xApp-03",
+    "threat_title": "An attacker compromises xApp isolation to tamper with the underlying system.",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in the underlying system hosting xApps",
+    "threatened_asset": "ASSET-C-02, ASSET-C-08, ASSET-C-09",
+    "affected_components": "Near-RT RIC, O-Cloud, xApps"
+  },
+  {
+    "threat_id": "T-xApp-03A",
+    "threat_title": "An attacker compromises xApp isolation to extract sensitive information from co-hosted xApps.",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in the underlying system hosting xApps",
+    "threatened_asset": "ASSET-C-02, ASSET-C-09",
+    "affected_components": "Near-RT RIC, xApps"
+  },
+  {
+    "threat_id": "T-xApp-03B",
+    "threat_title": "An attacker compromises xApp isolation to degrade services.",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in the underlying system hosting xApps",
+    "threatened_asset": "ASSET-C-02, ASSET-C-08, ASSET-C-09",
+    "affected_components": "Near-RT RIC, O-Cloud, xApps"
+  },
+  {
+    "threat_id": "T-xApp-03C",
+    "threat_title": "An attacker compromises xApp isolation to gain elevated privileges.",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in the underlying system hosting xApps",
+    "threatened_asset": "ASSET-C-02, ASSET-C-08, ASSET-C-09",
+    "affected_components": "Near-RT RIC, O-Cloud, xApps"
+  },
+  {
+    "threat_id": "T-xApp-04",
+    "threat_title": "False or malicious A1 policies modify behaviour of xApps.",
+    "threat_agent": "All",
+    "vulnerability": "xApp functionality exploited by malicious A1 policies",
+    "threatened_asset": "ASSET-D-07, ASSET-D-11, ASSET-C-09",
+    "affected_components": "A1 policies, E2 Node data, xApps"
+  },
+  {
+    "threat_id": "T-xApp-05",
+    "threat_title": "False or malicious A1 policies from the Non-RT RIC modify behaviour of xApps to trigger a DoS.",
+    "threat_agent": "All",
+    "vulnerability": "xApp functionality exploited by malicious A1 policies",
+    "threatened_asset": "ASSET-D-07, ASSET-D-11, ASSET-C-09",
+    "affected_components": "A1 policies, E2 Node data, xApps"
+  },
+  {
+    "threat_id": "T-xApp-06",
+    "threat_title": "False or malicious A1 policies from the Non-RT RIC modify behaviour of xApps to locate a subscriber.",
+    "threat_agent": "All",
+    "vulnerability": "xApp functionality exploited by malicious A1 policies",
+    "threatened_asset": "ASSET-D-07, ASSET-D-11, ASSET-C-09",
+    "affected_components": "A1 policies, E2 Node data, xApps"
+  },
+  {
+    "threat_id": "T-rAPP-01",
+    "threat_title": "Conflicting rApps impact O-RAN system functions to degrade performance or trigger a DoS",
+    "threat_agent": "All",
+    "vulnerability": "rApp stems from an untrusted or unmaintained source",
+    "threatened_asset": "ASSET-C-10",
+    "affected_components": "rApps, Non-RT RIC"
+  },
+  {
+    "threat_id": "T-rAPP-02",
+    "threat_title": "An attacker exploits rApp vulnerability for data breach or denial of service",
+    "threat_agent": "All",
+    "vulnerability": "rApp management is exposed to the tenant in a web front-end or REST API. These interfaces may contain software vulnerabilities or implement authentication and authorization insufficiently.",
+    "threatened_asset": "ASSET-C-10",
+    "affected_components": "rApps, Non-RT RIC"
+  },
+  {
+    "threat_id": "T-rAPP-03",
+    "threat_title": "An attacker exploits rApps misconfiguration",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in the underlying system hosting rApps",
+    "threatened_asset": "ASSET-C-10",
+    "affected_components": "rApps, Non-RT RIC"
+  },
+  {
+    "threat_id": "T-rAPP-04",
+    "threat_title": "An attacker bypasses authentication and authorization",
+    "threat_agent": "All",
+    "vulnerability": "rApps may be misconfigured or compromised\nFailing or misconfigured authentication and authorization in rApp",
+    "threatened_asset": "ASSET-C-10",
+    "affected_components": "rApps, Non-RT RIC"
+  },
+  {
+    "threat_id": "T-rAPP-05",
+    "threat_title": "An attacker deploys and exploits malicious rApp",
+    "threat_agent": "All",
+    "vulnerability": "rApps may be misconfigured or compromised\nFailing or misconfigured authentication and authorization in rApp",
+    "threatened_asset": "ASSET-C-10",
+    "affected_components": "rApps, Non-RT RIC"
+  },
+  {
+    "threat_id": "T-rAPP-06",
+    "threat_title": "An attacker bypasses authentication and authorization using an injection attack",
+    "threat_agent": "All",
+    "vulnerability": "rApps may be misconfigured or compromised\nFailing or misconfigured authentication and authorization in rApp",
+    "threatened_asset": "ASSET-C-10",
+    "affected_components": "rApps, Non-RT RIC"
+  },
+  {
+    "threat_id": "T-rAPP-07",
+    "threat_title": "rApp exploits services",
+    "threat_agent": "All",
+    "vulnerability": "rApps may be misconfigured or compromised\nFailing or misconfigured authentication and authorization in rApp",
+    "threatened_asset": "ASSET-C-10",
+    "affected_components": "rApps, Non-RT RIC"
+  },
+  {
+    "threat_id": "T-PNF-01",
+    "threat_title": "An attacker compromises a PNF to launch attacks against VNFs/CNFs",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in a PNF deployed in a PNF-VNF/CNF deployments.",
+    "threatened_asset": "All",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-PNF-01A",
+    "threat_title": "An attacker compromises a PNF to launch Denial of Service attacks against VNFs/CNFs",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in a PNF deployed in a PNF-VNF/CNF deployments.",
+    "threatened_asset": "All",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-SMO-01",
+    "threat_title": "External attacker exploits authentication weakness on SMO",
+    "threat_agent": "All",
+    "vulnerability": "Missing or improperly configured authentication",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17",
+    "affected_components": "Non-RT RIC, SMO Framework"
+  },
+  {
+    "threat_id": "T-SMO-02",
+    "threat_title": "External attacker exploits authorization weakness on SMO",
+    "threat_agent": "All",
+    "vulnerability": "Missing or improperly configured authorization",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17",
+    "affected_components": "Non-RT RIC, SMO Framework"
+  },
+  {
+    "threat_id": "T-SMO-03",
+    "threat_title": "External Overload DoS attack targeted at SMO",
+    "threat_agent": "All",
+    "vulnerability": "Lack of overload protection and rate-limiting",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17",
+    "affected_components": "Non-RT RIC, SMO Framework"
+  },
+  {
+    "threat_id": "T-SMO-04",
+    "threat_title": "Internal attacker exploits authentication weakness on a SMO function",
+    "threat_agent": "All",
+    "vulnerability": "Missing or improperly configured authentication",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17, ASSET-C-18, ASSET-C-19, ASSET-C-20, ASSET-C-21",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-SMO-05",
+    "threat_title": "Internal attacker exploits authorization weakness on a SMO function",
+    "threat_agent": "All",
+    "vulnerability": "Missing or improperly configured authorization",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17, ASSET-C-18, ASSET-C-19, ASSET-C-20, ASSET-C-21",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-SMO-06",
+    "threat_title": "Internal Overload DoS attack targeted at SMO functions",
+    "threat_agent": "All",
+    "vulnerability": "Lack of overload protection and rate-limiting",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17, ASSET-C-18, ASSET-C-19, ASSET-C-20, ASSET-C-21",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-SMO-07",
+    "threat_title": "Internal DoS attack disables internal SMO function(s) or process(es)",
+    "threat_agent": "All",
+    "vulnerability": "Privilege escalation or improperly configured authorization",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17, ASSET-C-18, ASSET-C-19, ASSET-C-20, ASSET-C-21",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-SMO-08",
+    "threat_title": "Attacker exploits insecure API to gain access to SMO",
+    "threat_agent": "All",
+    "vulnerability": "API vulnerability",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17, ASSET-C-18, ASSET-C-19, ASSET-C-20, ASSET-C-21",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-SMO-09",
+    "threat_title": "Sensitive data in transit is exposed to an internal attacker",
+    "threat_agent": "All",
+    "vulnerability": "Missing or weak confidentiality protection of data in transit",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17, ASSET-C-18, ASSET-C-19, ASSET-C-20, ASSET-C-21",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-SMO-10",
+    "threat_title": "Sensitive data at rest is exposed to an internal attacker",
+    "threat_agent": "All",
+    "vulnerability": "Missing or weak confidentiality protection of data at rest",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17, ASSET-C-18, ASSET-C-19, ASSET-C-20, ASSET-C-21",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-SMO-11",
+    "threat_title": "AI/ML poisoning by internal attacker",
+    "threat_agent": "All",
+    "vulnerability": "Missing integrity protection of data at rest",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17",
+    "affected_components": "Non-RT RIC, SMO Froamework"
+  },
+  {
+    "threat_id": "T-SMO-12",
+    "threat_title": "AI/ML exposure on external entity",
+    "threat_agent": "All",
+    "vulnerability": "Missing or weak confidentiality protection of data at rest",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17",
+    "affected_components": "Non-RT RIC, SMO Framework"
+  },
+  {
+    "threat_id": "T-SMO-13",
+    "threat_title": "Malicious actor views local logs",
+    "threat_agent": "All",
+    "vulnerability": "Missing or weak confidentiality protection of  data at rest",
+    "threatened_asset": "ASSET-C-17, ASSET-C-18",
+    "affected_components": "SMO Framework, SMO Functions"
+  },
+  {
+    "threat_id": "T-SMO-14",
+    "threat_title": "Malicious actor modifies local log entries",
+    "threat_agent": "All",
+    "vulnerability": "Missing integrity protection of data at rest",
+    "threatened_asset": "ASSET-C-17, ASSET-C-18",
+    "affected_components": "SMO Framework, SMO Functions"
+  },
+  {
+    "threat_id": "T-SMO-15",
+    "threat_title": "Malicious actor deletes local logs",
+    "threat_agent": "All",
+    "vulnerability": "Missing integrity protection of  data at rest",
+    "threatened_asset": "ASSET-C-17, ASSET-C-18",
+    "affected_components": "SMO Framework, SMO Functions"
+  },
+  {
+    "threat_id": "T-SMO-16",
+    "threat_title": "Malicious actor intercepts exports of local logs",
+    "threat_agent": "All",
+    "vulnerability": "Missing or weak confidentiality protection of  data in transit",
+    "threatened_asset": "ASSET-C-17, ASSET-C-18, ASSET-C-26",
+    "affected_components": "SMO Framework, SMO Functions, External interfaces"
+  },
+  {
+    "threat_id": "T-SMO-17",
+    "threat_title": "Malicious external actor gains unauthorized access to logs",
+    "threat_agent": "All",
+    "vulnerability": "Missing or improperly configured authorization",
+    "threatened_asset": "ASSET-C-17, ASSET-C-18",
+    "affected_components": "SMO Framework, SMO Functions"
+  },
+  {
+    "threat_id": "T-SMO-18",
+    "threat_title": "Malicious internal actor gains authorized access to logs",
+    "threat_agent": "All",
+    "vulnerability": "Missing or improperly configured authorization",
+    "threatened_asset": "ASSET-C-17, ASSET-C-18",
+    "affected_components": "SMO Framework, SMO Functions"
+  },
+  {
+    "threat_id": "T-SMO-19",
+    "threat_title": "Internal attacker exploits O2 interface to view data in transit between SMO and O-Cloud",
+    "threat_agent": "All",
+    "vulnerability": "Missing or weak confidentiality protection of data in transit",
+    "threatened_asset": "ASSET-C-08, ASSET-C-17, ASSET-C-23",
+    "affected_components": "O-Cloud, SMO, O2 interface"
+  },
+  {
+    "threat_id": "T-SMO-20",
+    "threat_title": "Internal attacker exploits O2 interface to modify data in transit between SMO and O-Cloud",
+    "threat_agent": "All",
+    "vulnerability": "Missing integrity checking for data in transit",
+    "threatened_asset": "ASSET-C-08, ASSET-C-17, ASSET-C-23",
+    "affected_components": "O-Cloud, SMO, O2 interface"
+  },
+  {
+    "threat_id": "T-SMO-21",
+    "threat_title": "Internal attacker uses O2 interface via SMO to exploit API vulnerability to gain access to O-Cloud infrastructure",
+    "threat_agent": "All",
+    "vulnerability": "API vulnerability",
+    "threatened_asset": "ASSET-C-08, ASSET-C-17, ASSET-C-23",
+    "affected_components": "O-Cloud, SMO, O2 interface"
+  },
+  {
+    "threat_id": "T-SMO-22",
+    "threat_title": "Internal attacker floods O2 interface via SMO to cause DDoS on O-Cloud infrastructure",
+    "threat_agent": "All",
+    "vulnerability": "Lack of overload protection and rate-limiting",
+    "threatened_asset": "ASSET-C-08, ASSET-C-17, ASSET-C-23",
+    "affected_components": "O-Cloud, SMO, O2 interface"
+  },
+  {
+    "threat_id": "T-SMO-23",
+    "threat_title": "External attacker uses O2 interface via O-Cloud to exploit API vulnerability to gain access to SMO",
+    "threat_agent": "All",
+    "vulnerability": "API vulnerability",
+    "threatened_asset": "ASSET-C-08, ASSET-C-17, ASSET-C-23",
+    "affected_components": "O-Cloud, SMO, O2 interface"
+  },
+  {
+    "threat_id": "T-SMO-24",
+    "threat_title": "External attacker floods O2 interface via O-Cloud to cause DDoS on SMO",
+    "threat_agent": "All",
+    "vulnerability": "Lack of overload protection and rate-limiting",
+    "threatened_asset": "ASSET-C-08, ASSET-C-17, ASSET-C-23",
+    "affected_components": "O-Cloud, SMO, O2 interface"
+  },
+  {
+    "threat_id": "T-SMO-25",
+    "threat_title": "External attacker uses O2 interface via O-Cloud to gain authorized access to sensitive data-at-rest at the SMO",
+    "threat_agent": "All",
+    "vulnerability": "Missing or improperly configured authorization",
+    "threatened_asset": "ASSET-C-08, ASSET-C-17, ASSET-C-23",
+    "affected_components": "O-Cloud, SMO, O2 interface"
+  },
+  {
+    "threat_id": "T-SMO-26",
+    "threat_title": "External attacker exploits External interface to view data in transit between SMO and external service",
+    "threat_agent": "All",
+    "vulnerability": "Missing or weak confidentiality protection of data in transit",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17, ASSET-C-26",
+    "affected_components": "Non-RT RIC, SMO, External interfaces"
+  },
+  {
+    "threat_id": "T-SMO-27",
+    "threat_title": "External attacker exploits External interface to modify data in transit between SMO and external service",
+    "threat_agent": "All",
+    "vulnerability": "Missing integrity checking for data in transit",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17, ASSET-C-26",
+    "affected_components": "Non-RT RIC, SMO, External interfaces"
+  },
+  {
+    "threat_id": "T-SMO-28",
+    "threat_title": "External attacker uses External interface to exploit API vulnerability to gain access to SMO",
+    "threat_agent": "All",
+    "vulnerability": "API vulnerability",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17, ASSET-C-26",
+    "affected_components": "Non-RT RIC, SMO, External interfaces"
+  },
+  {
+    "threat_id": "T-SMO-29",
+    "threat_title": "External attacker floods External interface to cause DDoS at SMO",
+    "threat_agent": "All",
+    "vulnerability": "Lack of overload protection and rate-limiting",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17, ASSET-C-26, ASSET-C-27, ASSET-C-28",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-SMO-30",
+    "threat_title": "External attacker uses External interface to gain access to sensitive data-at-rest at the SMO",
+    "threat_agent": "All",
+    "vulnerability": "Missing or improperly configured authorization",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17, ASSET-C-26",
+    "affected_components": "Non-RT RIC, SMO, External interfaces"
+  },
+  {
+    "threat_id": "T-SMO-31",
+    "threat_title": "External attacker poisons External AI/ML data to corrupt SMO",
+    "threat_agent": "All",
+    "vulnerability": "Missing integrity checking for data at rest",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17, ASSET-C-26",
+    "affected_components": "Non-RT RIC, SMO, External interfaces"
+  },
+  {
+    "threat_id": "T-SMO-32",
+    "threat_title": "External attacker poisons External Enrichment Information data sources to corrupt SMO",
+    "threat_agent": "All",
+    "vulnerability": "Missing integrity checking for data at rest",
+    "threatened_asset": "ASSET-C-11, ASSET-C-17, ASSET-C-26",
+    "affected_components": "Non-RT RIC, SMO, External interfaces"
+  },
+  {
+    "threat_id": "T-SMO-33",
+    "threat_title": "rApp floods SME",
+    "threat_agent": "All",
+    "vulnerability": "Misbehaving 3rd-party rApp, maliciously or non-maliciously, floods internal SMOS Communication interface targeting the SME to bring a volumetric DDoS attack against the SMO.",
+    "threatened_asset": "ASSET-C-10, ASSET-C-11, ASSET-C-17,",
+    "affected_components": "rApps, Non-RT RIC, SMO"
+  },
+  {
+    "threat_id": "T-SMO-34",
+    "threat_title": "External Consumer floods SME",
+    "threat_agent": "All",
+    "vulnerability": "External Source, maliciously or non-maliciously, floods the External interface targeting the SME to bring a volumetric DDoS attack against the SMO.",
+    "threatened_asset": "ASSET-C-10, ASSET-C-11, ASSET-C-17,",
+    "affected_components": "rApps, Non-RT RIC, SMO"
+  },
+  {
+    "threat_id": "T-R1-01",
+    "threat_title": "A malicious actor gains unauthorized access to R1 services",
+    "threat_agent": "All",
+    "vulnerability": "weak mutual authentication",
+    "threatened_asset": "ASSET-C-16",
+    "affected_components": "R1 interface"
+  },
+  {
+    "threat_id": "T-R1-02",
+    "threat_title": "Attacker modifies Service Heartbeat message to cause Denial of Service",
+    "threat_agent": "All",
+    "vulnerability": "weak mutual authentication",
+    "threatened_asset": "ASSET-C-16",
+    "affected_components": "R1 interface"
+  },
+  {
+    "threat_id": "T-R1-03",
+    "threat_title": "Malicious actor bypasses authentication to Request Data",
+    "threat_agent": "All",
+    "vulnerability": "weak mutual authentication",
+    "threatened_asset": "ASSET-C-16",
+    "affected_components": "R1 interface"
+  },
+  {
+    "threat_id": "T-R1-04",
+    "threat_title": "Malicious actor bypasses authorization to Discover Data",
+    "threat_agent": "All",
+    "vulnerability": "weak mutual authentication",
+    "threatened_asset": "ASSET-C-16",
+    "affected_components": "R1 interface"
+  },
+  {
+    "threat_id": "T-R1-05",
+    "threat_title": "A malicious actor gains unauthorized access to data",
+    "threat_agent": "All",
+    "vulnerability": "weak mutual authentication",
+    "threatened_asset": "ASSET-C-16",
+    "affected_components": "R1 interface"
+  },
+  {
+    "threat_id": "T-R1-06",
+    "threat_title": "Malicious actor modifies a Data Request",
+    "threat_agent": "All",
+    "vulnerability": "weak mutual authentication",
+    "threatened_asset": "ASSET-C-16",
+    "affected_components": "R1 interface"
+  },
+  {
+    "threat_id": "T-R1-07",
+    "threat_title": "Malicious actor compromises Data Delivery to the Data Consumer",
+    "threat_agent": "All",
+    "vulnerability": "weak mutual authentication",
+    "threatened_asset": "ASSET-C-16",
+    "affected_components": "R1 interface"
+  },
+  {
+    "threat_id": "T-A1-01",
+    "threat_title": "Untrusted peering between Non-RT-RIC and Near-RT-RIC",
+    "threat_agent": "All",
+    "vulnerability": "weak mutual authentication",
+    "threatened_asset": "ASSET-C-14",
+    "affected_components": "A1 interface"
+  },
+  {
+    "threat_id": "T-A1-02",
+    "threat_title": "Malicious function or application monitors messaging across A1 interface",
+    "threat_agent": "All",
+    "vulnerability": "weak mutual authentication",
+    "threatened_asset": "ASSET-C-14",
+    "affected_components": "A1 interface"
+  },
+  {
+    "threat_id": "T-A1-03",
+    "threat_title": "Malicious function or application modifies messaging across A1 interface",
+    "threat_agent": "All",
+    "vulnerability": "weak mutual authentication",
+    "threatened_asset": "ASSET-C-14",
+    "affected_components": "A1 interface"
+  },
+  {
+    "threat_id": "T-A1-04",
+    "threat_title": "Unauthorized access to Non-RT-RIC- or Near-RT-RIC- resources",
+    "threat_agent": "All",
+    "vulnerability": "weak service consumer authorization",
+    "threatened_asset": "ASSET-D-07, ASSET-D-08",
+    "affected_components": "A1 interface"
+  },
+  {
+    "threat_id": "T-AppLCM-01",
+    "threat_title": "Compromise of App/VNF/CNF update package integrity during onboarding",
+    "threat_agent": "All",
+    "vulnerability": "Lack of integrity verification",
+    "threatened_asset": "ASSET-D-15",
+    "affected_components": "Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-AppLCM-02",
+    "threat_title": "Compromise of App/VNF/CNF update image integrity during instantiation",
+    "threat_agent": "All",
+    "vulnerability": "Lack of integrity verification",
+    "threatened_asset": "ASSET-D-15",
+    "affected_components": "Apps/VNFs/CNFs images"
+  },
+  {
+    "threat_id": "T-AppLCM-03",
+    "threat_title": "Downgrade attack to vulnerable application version",
+    "threat_agent": "All",
+    "vulnerability": "Lack of integrity verification",
+    "threatened_asset": "ASSET-D-15",
+    "affected_components": "Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-AppLCM-04",
+    "threat_title": "Attacker exploits missing or improperly defined elements of application\u2019s SecurityDescriptor",
+    "threat_agent": "All",
+    "vulnerability": "Misconfiguration",
+    "threatened_asset": "ASSET-D-15",
+    "affected_components": "Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-AppLCM-05",
+    "threat_title": "Malicious actor modifies application\u2019s SecurityDescriptor to gain unauthorized access",
+    "threat_agent": "All",
+    "vulnerability": "Lack of authentication, lack of integrity verification",
+    "threatened_asset": "ASSET-D-15",
+    "affected_components": "Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-AppLCM-05A",
+    "threat_title": "Malicious actor modifies application\u2019s SecurityDescriptor to degrade services",
+    "threat_agent": "All",
+    "vulnerability": "Lack of authentication, lack of integrity verification",
+    "threatened_asset": "ASSET-D-15",
+    "affected_components": "Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-AppLCM-06",
+    "threat_title": "Improper decommissioning of application",
+    "threat_agent": "All",
+    "vulnerability": "Improper release of resources and secrets",
+    "threatened_asset": "ASSET-C-02 to ASSER-C-05, ASSET-C-09 to ASSET-C-11",
+    "affected_components": "Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-AppLCM-07",
+    "threat_title": "Improper deletion of application sensitive data",
+    "threat_agent": "All",
+    "vulnerability": "Missing or weak confidentiality protection",
+    "threatened_asset": "ASSET-D-16, ASSET-D-17, ASSET-D-32",
+    "affected_components": "Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-SharedORU-01",
+    "threat_title": "O-DU Tenant accesses O-DU Host",
+    "threat_agent": "All",
+    "vulnerability": "Weak authentication can be exploited by a tenant to move laterally across the deployment.",
+    "threatened_asset": "ASSET-C-34",
+    "affected_components": "O-DU Host"
+  },
+  {
+    "threat_id": "T-SharedORU-02",
+    "threat_title": "O-DU Host accesses O-DU Tenant",
+    "threat_agent": "All",
+    "vulnerability": "Weak authentication can be exploited by a host to move laterally across the deployment.",
+    "threatened_asset": "ASSET-C-35",
+    "affected_components": "O-DU Tenant"
+  },
+  {
+    "threat_id": "T-SharedORU-03",
+    "threat_title": "O-DU Tenant accesses O-DU Tenant",
+    "threat_agent": "All",
+    "vulnerability": "Weak authentication can be exploited by a tenant to move laterally across the deployment.",
+    "threatened_asset": "ASSET-C-35",
+    "affected_components": "O-DU Tenant"
+  },
+  {
+    "threat_id": "T-SharedORU-04",
+    "threat_title": "Password Attack on OFH M-Plane",
+    "threat_agent": "All",
+    "vulnerability": "The attack can be a brute-force attack or stolen password.  There is increased risk of password attack in a multi-tenant environment.",
+    "threatened_asset": "ASSET-C-31, ASSET-C-34, ASSET-C-35",
+    "affected_components": "Shared O-RU, O-DU Host, O-DU Tenant"
+  },
+  {
+    "threat_id": "T-SharedORU-05",
+    "threat_title": "Untrusted peering to O-DU",
+    "threat_agent": "All",
+    "vulnerability": "Attacker exploits weak authentication on the O-DU to establish a session with a malicious app masquerading as a Shared O-RU.  From the O-DU, a malicious actor can move laterally.",
+    "threatened_asset": "ASSET-C-34, ASSET-C-35",
+    "affected_components": "O-DU Host, O-DU Tenant"
+  },
+  {
+    "threat_id": "T-SharedORU-06",
+    "threat_title": "Untrusted peering to the Shared O-RU",
+    "threat_agent": "All",
+    "vulnerability": "Weak authentication can be exploited to establish session with a malicious app masquerading as a O-DU Host or O-DU Tenant",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-07",
+    "threat_title": "Untrusted peering to the SMO",
+    "threat_agent": "All",
+    "vulnerability": "Weak authentication on the SMO can be exploited to establish session with a malicious app masquerading as a Shared O-RU.",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-08",
+    "threat_title": "SMO Tenant accesses SMO Host",
+    "threat_agent": "All",
+    "vulnerability": "Weak authentication can be exploited by a tenant to move laterally across the deployment.",
+    "threatened_asset": "ASSET-C-38",
+    "affected_components": "SMO Host"
+  },
+  {
+    "threat_id": "T-SharedORU-09",
+    "threat_title": "SMO Host accesses SMO Tenant",
+    "threat_agent": "All",
+    "vulnerability": "Weak authentication can be exploited by a tenant to move laterally across the deployment.",
+    "threatened_asset": "ASSET-C-39",
+    "affected_components": "SMO Tenant"
+  },
+  {
+    "threat_id": "T-SharedORU-10",
+    "threat_title": "O-DU Host accesses O-CU Tenant",
+    "threat_agent": "All",
+    "vulnerability": "Weak authentication can be exploited by a tenant to move laterally across the deployment.",
+    "threatened_asset": "ASSET-C-37",
+    "affected_components": "O-CU Tenant"
+  },
+  {
+    "threat_id": "T-SharedORU-11",
+    "threat_title": "O-DU Tenant accesses O-CU Host",
+    "threat_agent": "All",
+    "vulnerability": "Weak authentication can be exploited by a tenant to move laterally across the deployment.",
+    "threatened_asset": "ASSET-C-36",
+    "affected_components": "O-CU Host"
+  },
+  {
+    "threat_id": "T-SharedORU-12",
+    "threat_title": "O-DU Tenant accesses O-CU Tenant",
+    "threat_agent": "All",
+    "vulnerability": "Weak authentication can be exploited by a tenant to move laterally across the deployment.",
+    "threatened_asset": "ASSET-C-37",
+    "affected_components": "O-CU Tenant"
+  },
+  {
+    "threat_id": "T-SharedORU-13",
+    "threat_title": "SMO Host accesses O-CU Tenant",
+    "threat_agent": "All",
+    "vulnerability": "Weak authentication can be exploited by a tenant to move laterally across the deployment.",
+    "threatened_asset": "ASSET-C-37",
+    "affected_components": "O-CU Tenant"
+  },
+  {
+    "threat_id": "T-SharedORU-14",
+    "threat_title": "SMO Tenant accesses O-CU Host",
+    "threat_agent": "All",
+    "vulnerability": "Weak authentication can be exploited by a tenant to move laterally across the deployment.",
+    "threatened_asset": "ASSET-C-36",
+    "affected_components": "O-CU Host"
+  },
+  {
+    "threat_id": "T-SharedORU-15",
+    "threat_title": "Physical port access to Shared O-RU Host/Tenant",
+    "threat_agent": "All",
+    "vulnerability": "Weak physical layer authentication can be exploited to gain access.",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-16",
+    "threat_title": "Physical port access to O-DU Host/Tenant",
+    "threat_agent": "All",
+    "vulnerability": "Weak physical layer authentication can be exploited to gain access.",
+    "threatened_asset": "ASSET-C-34, ASSET-C-35",
+    "affected_components": "O-DU Host, O-DU Tenant"
+  },
+  {
+    "threat_id": "T-SharedORU-17",
+    "threat_title": "Physical port access to O-CU Host/Tenant",
+    "threat_agent": "All",
+    "vulnerability": "Weak physical layer authentication can be exploited to gain access.",
+    "threatened_asset": "ASSET-C-36, ASSET-C-37",
+    "affected_components": "O-CU Host, O-CU Tenant"
+  },
+  {
+    "threat_id": "T-SharedORU-18",
+    "threat_title": "Malicious User Login Attempt to SMO Host/Tenant",
+    "threat_agent": "All",
+    "vulnerability": "Weak account management and/or authentication can be exploited to gain access.",
+    "threatened_asset": "ASSET-C-38, ASSET-C-39",
+    "affected_components": "SMO Host, SMO Tenant"
+  },
+  {
+    "threat_id": "T-SharedORU-19",
+    "threat_title": "Malicious User Login Attempt to O-CU Host/Tenant",
+    "threat_agent": "All",
+    "vulnerability": "Weak account management and/or authentication can be exploited to gain access",
+    "threatened_asset": "ASSET-C-36, ASSET-C-37",
+    "affected_components": "O-CU Host, O-CU Tenant"
+  },
+  {
+    "threat_id": "T-SharedORU-20",
+    "threat_title": "Malicious User Login Attempt to O-DU Host/Tenant",
+    "threat_agent": "All",
+    "vulnerability": "Weak account management and/or authentication can be exploited to gain access",
+    "threatened_asset": "ASSET-C-32, ASSET-C-33",
+    "affected_components": "O-DU Host, O-DU Tenant"
+  },
+  {
+    "threat_id": "T-SharedORU-21",
+    "threat_title": "Malicious User Login Attempt to Shared O-RU Host/Tenant",
+    "threat_agent": "All",
+    "vulnerability": "Weak account management and/or authentication can be exploited to gain access",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-22",
+    "threat_title": "Unauthorized internal threat actor gains access to data in Shared O-RU",
+    "threat_agent": "All",
+    "vulnerability": "Compromised credentials or weak or misconfigured authorization to gain access to view or modify sensitive data",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-23",
+    "threat_title": "Unauthorized external threat actor gains access to data in Shared O-RU",
+    "threat_agent": "All",
+    "vulnerability": "Compromised credentials or weak or misconfigured authorization to gain access to view or modify sensitive data",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-24",
+    "threat_title": "Data exposure at Shared O-RU",
+    "threat_agent": "All",
+    "vulnerability": "Weak confidentiality protection exploited to view sensitive data",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-25",
+    "threat_title": "Shared O-RU data exposure at SMO",
+    "threat_agent": "All",
+    "vulnerability": "Weak confidentiality protection exploited to view sensitive data",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-26",
+    "threat_title": "Shared O-RU data exposure at O-DU",
+    "threat_agent": "All",
+    "vulnerability": "Weak confidentiality protection exploited to view sensitive data",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-27",
+    "threat_title": "Exposed data in transit between Shared O-RU and O-DU Host/Tenant",
+    "threat_agent": "All",
+    "vulnerability": "Weak confidentiality protection exploited to view sensitive data",
+    "threatened_asset": "ASSET-C-31, ASSET-C-24, ASSET-C-25",
+    "affected_components": "Shared O-RU, M-Plane, CUS-Plane"
+  },
+  {
+    "threat_id": "T-SharedORU-28",
+    "threat_title": "Exposed data in transit between Shared O-RU and SMO Host/Tenant",
+    "threat_agent": "All",
+    "vulnerability": "Weak confidentiality protection exploited to view sensitive data",
+    "threatened_asset": "ASSET-C-31, ASSET-C-22",
+    "affected_components": "Shared O-RU, O1"
+  },
+  {
+    "threat_id": "T-SharedORU-29",
+    "threat_title": "Modify/Delete OFH C-Plane messages",
+    "threat_agent": "All",
+    "vulnerability": "Weak integrity protection exploited to modify or delete control messages",
+    "threatened_asset": "ASSET-C-31, ASSET-C-34, ASSET-C-35, ASSET-C-25",
+    "affected_components": "Shared O-RU, O-DU Host, O-DU Tenant, CUS-Plane"
+  },
+  {
+    "threat_id": "T-SharedORU-30",
+    "threat_title": "Clock hijacking on OFH S-Plane",
+    "threat_agent": "All",
+    "vulnerability": "Weak authorization exploit can also result in spoofing of the Grand Master clock for an availability attack",
+    "threatened_asset": "ASSET-C-31, ASSET-C-34, ASSET-C-35, ASSET-C-25",
+    "affected_components": "Shared O-RU, O-DU Host, O-DU Tenant, CUS-Plane"
+  },
+  {
+    "threat_id": "T-SharedORU-31",
+    "threat_title": "Parameter conflicts at Shared O-RU",
+    "threat_agent": "All",
+    "vulnerability": "Conflicting parameter settings degrade performance or cause an outage.",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-32",
+    "threat_title": "Volumetric DDoS attack from O-DU targeting Shared O-RU",
+    "threat_agent": "All",
+    "vulnerability": "High-rate of malformed, mis-sequenced, invalid, or valid packets to cause a Denial of Service",
+    "threatened_asset": "ASSET-C-31, ASSET-C-24, ASSET-C-25",
+    "affected_components": "Shared O-RU, M-Plane, CUS-Plane"
+  },
+  {
+    "threat_id": "T-SharedORU-33",
+    "threat_title": "Volumetric DDoS attack from SMO targeting Shared O-RU",
+    "threat_agent": "All",
+    "vulnerability": "High-rate of malformed, mis-sequenced, invalid, or valid packets to cause a Denial of Service",
+    "threatened_asset": "ASSET-C-31, ASSET-C-22",
+    "affected_components": "Shared O-RU, O1"
+  },
+  {
+    "threat_id": "T-SharedORU-34",
+    "threat_title": "Volumetric DDoS attack targeting O-DU",
+    "threat_agent": "All",
+    "vulnerability": "High-rate of malformed, mis-sequenced, invalid, or valid packets to cause a Denial of Service",
+    "threatened_asset": "ASSET-C-34, ASSET-C-35, ASSET-C-24, ASSET-C-25",
+    "affected_components": "O-DU Host, O-DU Tenant, M-Plane, CUS-Plane"
+  },
+  {
+    "threat_id": "T-SharedORU-35",
+    "threat_title": "Shared O-RU initialization hijacking by DHCP compromise",
+    "threat_agent": "All",
+    "vulnerability": "Compromise DHCP server and use it to prevent Shared O-RU from reaching carrier-active state causing a Denial of Service",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-36",
+    "threat_title": "Shared O-RU M-plane hijacking by DNS compromise",
+    "threat_agent": "All",
+    "vulnerability": "The name resolution of FQDN can be manipulated by an attacker using a compromised DNS server and prevent Shared O-RU from reaching carrier-active state causing a Denial of Service",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-37",
+    "threat_title": "Misconfiguration of MNO Host Role",
+    "threat_agent": "All",
+    "vulnerability": "A threat actor could exploit an incorrectly assigned role of Host to control function of the Shared O-RU",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-38",
+    "threat_title": "Incorrect Assignment of Spectrum Resources",
+    "threat_agent": "All",
+    "vulnerability": "Tenant access to the wrong resources, due to malicious intent or could be exploited to gain access to information.",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-39",
+    "threat_title": "Chain of Trust in a Multi-Tenant Environment",
+    "threat_agent": "All",
+    "vulnerability": "Untrustworthy certificates can be exploited to gain access to the Shared O-RU",
+    "threatened_asset": "ASSET-C-31, ASSET-C-34, ASSET-C-35, ASSET-C-36, ASSET-C-37, ASSET-C-38, ASSET-C-39",
+    "affected_components": "Shared O-RU, O-DU Host, O-DU Tenant, O-CU Host, O-CU Tenant, SMO Host, SMO Tenant"
+  },
+  {
+    "threat_id": "T-SharedORU-40",
+    "threat_title": "Hijack of MNO Host Role",
+    "threat_agent": "All",
+    "vulnerability": "Elevation of privilege enables the tenant, acting as host, to have authorized access to sensitive data, credentials, and system privileges",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-41",
+    "threat_title": "Not Released Host Role (Host Role resume)",
+    "threat_agent": "All",
+    "vulnerability": "Elevation of privilege enables the tenant, acting as host, to have authorized access to sensitive data, credentials, and system privileges",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-42",
+    "threat_title": "Misuse of \u201csudo\u201d privileges",
+    "threat_agent": "All",
+    "vulnerability": "Elevation of privilege enables the tenant, acting as host, to have authorized access to sensitive data, credentials, and system privileges",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-43",
+    "threat_title": "Eavesdropping of unprotected CUSM-plane data within shared O-RU",
+    "threat_agent": "All",
+    "vulnerability": "Eavesdrop sensitive data between neighbor tenants and the host",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-44 through T-SharedORU-51 are Void",
+    "threat_title": "T-SharedORU-44 through T-SharedORU-51 are Void",
+    "threat_agent": "T-SharedORU-44 through T-SharedORU-51 are Void",
+    "vulnerability": "T-SharedORU-44 through T-SharedORU-51 are Void",
+    "threatened_asset": "T-SharedORU-44 through T-SharedORU-51 are Void",
+    "affected_components": "T-SharedORU-44 through T-SharedORU-51 are Void"
+  },
+  {
+    "threat_id": "T-SharedORU-52",
+    "threat_title": "Thrashing O-DU Failovers",
+    "threat_agent": "All",
+    "vulnerability": "Threat actor spoofs SMO to cause O-DU-1 and O-DU-2 to thrash between Active state and Standby state",
+    "threatened_asset": "ASSET-C-34, ASSET-C-22",
+    "affected_components": "O-DU, O1"
+  },
+  {
+    "threat_id": "T-SharedORU-53",
+    "threat_title": "Dual (Dueling) Active O-DUs",
+    "threat_agent": "All",
+    "vulnerability": "Threat actor spoofs SMO to cause O-DU-1 and O-DU-2 to both be in Active state.",
+    "threatened_asset": "ASSET-C-34, ASSET-C-22",
+    "affected_components": "O-DU, O1"
+  },
+  {
+    "threat_id": "T-SharedORU-54",
+    "threat_title": "Modify/Inject O1 messages at the SMO",
+    "threat_agent": "All",
+    "vulnerability": "Threat actor spoofs O-DU to modify, inject, flood O1 messages to the SMO to prevent SMO detection of O-DU failure.",
+    "threatened_asset": "ASSET-C-38, ASSET-C-22",
+    "affected_components": "SMO, O1"
+  },
+  {
+    "threat_id": "T-SharedORU-55",
+    "threat_title": "Set Incorrect Array-Carrier configuration on O-DU (Standby)",
+    "threat_agent": "All",
+    "vulnerability": "Threat actor spoofs SMO to set or modify the pre-configured array-carrier configuration on the O-DU in Standby state.",
+    "threatened_asset": "ASSET-C-34, ASSET-C-22",
+    "affected_components": "O-DU, O1"
+  },
+  {
+    "threat_id": "T-SharedORU-56",
+    "threat_title": "Modify Array-Carrier pre-configuration on Shared O-RU",
+    "threat_agent": "All",
+    "vulnerability": "Threat actor can gain access to Shared O-RU to modify its pre-configured array-carrier",
+    "threatened_asset": "ASSET-C-31",
+    "affected_components": "Shared O-RU"
+  },
+  {
+    "threat_id": "T-SharedORU-57",
+    "threat_title": "Modify/Inject M-Plane messages with Array-Carrier configuration",
+    "threat_agent": "All",
+    "vulnerability": "Threat actor Modifies/Injects M-Plane messages with Array-Carrier configuration sent to the Shared O-RU.",
+    "threatened_asset": "ASSET-C-31, ASSET-C-24",
+    "affected_components": "Shared O-RU, M-Plane"
+  },
+  {
+    "threat_id": "T-OAuth-G-01",
+    "threat_title": "Obtaining client secrets",
+    "threat_agent": "All",
+    "vulnerability": "Unsecured tokens and secrets",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-02",
+    "threat_title": "Obtaining refresh tokens",
+    "threat_agent": "All",
+    "vulnerability": "A new refresh token was not issued",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-03",
+    "threat_title": "Obtaining access tokens",
+    "threat_agent": "All",
+    "vulnerability": "Insufficient protection for credentials",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-04",
+    "threat_title": "Eavesdropping access tokens",
+    "threat_agent": "All",
+    "vulnerability": "Non authenticated, weakly or incorrectly authenticated communication channels",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-05",
+    "threat_title": "Disclosure of client credentials during transmission",
+    "threat_agent": "All",
+    "vulnerability": "Non authenticated, weakly or incorrectly authenticated communication channels",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-06",
+    "threat_title": "Open redirectors on client",
+    "threat_agent": "All",
+    "vulnerability": "Non authenticated, weakly or incorrectly authenticated communication channels",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-07",
+    "threat_title": "Obtain a deployment-specific secret,",
+    "threat_agent": "All",
+    "vulnerability": "Malicious applications, insufficient access control",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-08",
+    "threat_title": "Obtaining authorization by code substitution (OAuth Login)",
+    "threat_agent": "All",
+    "vulnerability": "Insufficient protection for credentials",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-09",
+    "threat_title": "Access token leak in transport/endpoints",
+    "threat_agent": "All",
+    "vulnerability": "Non authenticated, weakly or incorrectly authenticated URI",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-10",
+    "threat_title": "Malicious client obtains existing authorization by fraud",
+    "threat_agent": "All",
+    "vulnerability": "Improper authorization process and lack of re-validating the authorization requests",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-11",
+    "threat_title": "Malicious client obtains authorization",
+    "threat_agent": "All",
+    "vulnerability": "Insufficient protection for credentials",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-12",
+    "threat_title": "Accidental exposure of passwords at client site",
+    "threat_agent": "All",
+    "vulnerability": "Insufficient protection for credentials",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-13",
+    "threat_title": "Client obtains scopes without end-user authorization and possible misconfigurations",
+    "threat_agent": "All",
+    "vulnerability": "Misconfiguration",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-14",
+    "threat_title": "Client obtains refresh token through automatic authorization",
+    "threat_agent": "All",
+    "vulnerability": "Improper authorization process and lack of re-validating the authorization requests",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-15",
+    "threat_title": "Eavesdropping refresh tokens from authorization server",
+    "threat_agent": "All",
+    "vulnerability": "Non authenticated, weakly or incorrectly authenticated communication channels",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-16",
+    "threat_title": "Obtaining refresh token by online guessing",
+    "threat_agent": "All",
+    "vulnerability": "Improper authorization process and lack of re-validating the authorization requests",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-17",
+    "threat_title": "Refresh token phishing by counterfeit authorization server",
+    "threat_agent": "All",
+    "vulnerability": "Refresh token phishing by counterfeit authorization server",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-18",
+    "threat_title": "Guessing access tokens",
+    "threat_agent": "All",
+    "vulnerability": "Insecure generation of access token",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-19",
+    "threat_title": "Access token phishing by counterfeit resource server",
+    "threat_agent": "All",
+    "vulnerability": "Insufficient protection for credentials",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-20",
+    "threat_title": "Abuse of token by legitimate resource server or client",
+    "threat_agent": "All",
+    "vulnerability": "Insufficient protection for access control on resource server",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-21",
+    "threat_title": "Token leakage via log files and HTTP referrers",
+    "threat_agent": "All",
+    "vulnerability": "Improper implementation of API request",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-22",
+    "threat_title": "User unintentionally grants too much access scope",
+    "threat_agent": "All",
+    "vulnerability": "Misconfiguration, insufficient authorization access",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-23",
+    "threat_title": "Leak of confidential data in HTTP proxies",
+    "threat_agent": "All",
+    "vulnerability": "Non authenticated, weakly or incorrectly authenticated communication channels",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-OAuth-G-24",
+    "threat_title": "Replay of authorized resource server requests",
+    "threat_agent": "All",
+    "vulnerability": "Inadequacy of request validation of Resource server",
+    "threatened_asset": "ASSET-C-01, ASSET-C-02, ASSET-C-07, ASSET-C-08, ASSET-C-09, ASSET-C-10, ASSET-C-11, ASSET-C-32, ASSET-C-34, ASSET-C-36",
+    "affected_components": "SMO Framework, Near-RT RIC, O-Cloud, O-CU, O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-GEN-01",
+    "threat_title": "Software flaw attack",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerable code exploits, Design Weakness",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-GEN-02",
+    "threat_title": "Malicious access to exposed services using valid accounts",
+    "threat_agent": "All",
+    "vulnerability": "Lack of authentication",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-GEN-03",
+    "threat_title": "Untrust binding between the different O-Cloud layers",
+    "threat_agent": "All",
+    "vulnerability": "Lack of integrity verification during boot or runtime",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-GEN-04",
+    "threat_title": "Lack of Authentication & Authorization in interfaces between O-Cloud components",
+    "threat_agent": "All",
+    "vulnerability": "Lack of authentication, Insecure interfaces",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs, O2"
+  },
+  {
+    "threat_id": "T-GEN-05",
+    "threat_title": "Unsecured credentials and keys",
+    "threat_agent": "All",
+    "vulnerability": "Insecure O-Cloud APIs, Lack of integrity verification during boot or runtime",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud"
+  },
+  {
+    "threat_id": "T-GEN-06",
+    "threat_title": "Sensitive application data cache exploitation",
+    "threat_agent": "All",
+    "vulnerability": "Sensitive information disclosure, Privilege escalation in Applications",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-VM-C-01",
+    "threat_title": "Abuse of a privileged VM/Container",
+    "threat_agent": "All",
+    "vulnerability": "Misconfiguration or Insecure VM/Container configurations",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-VM-C-02",
+    "threat_title": "VM/Container escape attack",
+    "threat_agent": "All",
+    "vulnerability": "Shared tenancy vulnerabilities (multitenant environment), Lack of strong VM/Container isolation, lack of authentication, Insecure networking, Unrestricted communication between VMs/Containers",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-VM-C-03",
+    "threat_title": "VM/Container data theft",
+    "threat_agent": "All",
+    "vulnerability": "Lack of authentication, insecure data storage",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-VM-C-04",
+    "threat_title": "VM/Container migration attacks",
+    "threat_agent": "All",
+    "vulnerability": "Host misconfiguration, lack of authentication, memory pages copied in clear, vulnerable code exploits",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-VM-C-05",
+    "threat_title": "Changing virtualization resource without authorization",
+    "threat_agent": "All",
+    "vulnerability": "Insecure O1/O2 interfaces, Lack of authentication/access control on IMS/DMS",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-VM-C-06",
+    "threat_title": "Failed or incomplete VNF/CNF termination or releasing of resources",
+    "threat_agent": "All",
+    "vulnerability": "Lack of authentication, misconfigurations (VNF/CNF, Host OS, Hypervisor/Container Engine)",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-IMG-01",
+    "threat_title": "VM/Container images tampering",
+    "threat_agent": "All",
+    "vulnerability": "Compromised VM/Container images (Build machine attacks, Supply chain attacks) at rest, lack of authentication, misconfiguration or Insecure VM/Container images configurations",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs images"
+  },
+  {
+    "threat_id": "T-IMG-02",
+    "threat_title": "Insecure channels with images repository",
+    "threat_agent": "All",
+    "vulnerability": "Compromised VM/Container images in transit",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs images"
+  },
+  {
+    "threat_id": "T-IMG-03",
+    "threat_title": "Secrets disclosure in VM/Container images",
+    "threat_agent": "All",
+    "vulnerability": "Secret exposure in VNF/CNF images",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs images"
+  },
+  {
+    "threat_id": "T-IMG-04",
+    "threat_title": "Build image on VL",
+    "threat_agent": "All",
+    "vulnerability": "Host misconfiguration, lack of authentication",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs images"
+  },
+  {
+    "threat_id": "T-VL-01",
+    "threat_title": "VM/Container hyperjacking attack",
+    "threat_agent": "All",
+    "vulnerability": "Host misconfiguration, lack of authentication",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-VL-02",
+    "threat_title": "Boot tampering",
+    "threat_agent": "All",
+    "vulnerability": "Host misconfigurations, lack of authentication",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-VL-03",
+    "threat_title": "Attack internal network services",
+    "threat_agent": "All",
+    "vulnerability": "Insecure O-Cloud APIs, Lack of authentication",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud"
+  },
+  {
+    "threat_id": "T-O2-01",
+    "threat_title": "MitM attacks on O2 interface between O-Cloud and SMO",
+    "threat_agent": "All",
+    "vulnerability": "Insecure O2 interface, lack authentication",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O2"
+  },
+  {
+    "threat_id": "T-OCAPI-01",
+    "threat_title": "MitM attacks on O-Cloud interface between VNFs/CNFs and the virtualization layer",
+    "threat_agent": "All",
+    "vulnerability": "Insecure O-Cloud APIs, lack of authentication",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-HW-01",
+    "threat_title": "Cross VM/Container side channel attacks",
+    "threat_agent": "All",
+    "vulnerability": "Flaws in chip design, use of shared hardware, Lack of isolation, lack of authentication",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-HW-02",
+    "threat_title": "MitM attacks on the interface between virtualization layer and hardware",
+    "threat_agent": "All",
+    "vulnerability": "Insecure interfaces between HW and VL layers, lack of authentication, misconfiguration",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "O-Cloud"
+  },
+  {
+    "threat_id": "T-ADMIN-01",
+    "threat_title": "Denial of service against NFO/FOCOM",
+    "threat_agent": "All",
+    "vulnerability": "Lack of authentication, vulnerable code exploits, design weakness, insecure O2 interface",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "NFO/FOCOM, O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-ADMIN-02",
+    "threat_title": "Abuse a O-Cloud administration service",
+    "threat_agent": "All",
+    "vulnerability": "Lack of authentication, secret exposure (insufficient safeguarding of credentials), vulnerable code exploits, design weakness",
+    "threatened_asset": "ASSET-D-12, ASSET-D-13, ASSET-D-14, ASSET-D-15, ASSET-D-16, ASSET-D-17, ASSET-D-18, ASSET-D-19, ASSET-D-20, ASSET-D-29, ASSET-D-31, ASSET-D-32",
+    "affected_components": "NFO/FOCOM, O-Cloud, Apps/VNFs/CNFs"
+  },
+  {
+    "threat_id": "T-AAL-01",
+    "threat_title": "Attacker exploits insecure API to gain access to hardware accelerator resources",
+    "threat_agent": "All",
+    "vulnerability": "Insecure AAL APIs and interfaces\nLack authentication and authorization",
+    "threatened_asset": "ASSET-D-33 to ASSET-D-38",
+    "affected_components": "ASSET-C-29, ASSET-C-30"
+  },
+  {
+    "threat_id": "T-AAL-02",
+    "threat_title": "Internal Overload DoS attack targeting AAL services",
+    "threat_agent": "All",
+    "vulnerability": "Insecure AAL APIs and interfaces \nLack authentication and authorization",
+    "threatened_asset": "ASSET-D-33 to ASSET-D-38",
+    "affected_components": "ASSET-C-29, ASSET-C-30"
+  },
+  {
+    "threat_id": "T-AAL-03",
+    "threat_title": "Fail to clear resources",
+    "threat_agent": "All",
+    "vulnerability": "Insecure AAL APIs\nFlaws in AAL design\nLack of secure deletion of data after process termination",
+    "threatened_asset": "ASSET-D-33 to ASSET-D-38",
+    "affected_components": "ASSET-C-29, ASSET-C-30"
+  },
+  {
+    "threat_id": "T-AAL-04",
+    "threat_title": "HAM compromise",
+    "threat_agent": "All",
+    "vulnerability": "Insecure HAM APIs\nFlaws in HAM design\nLack of access control",
+    "threatened_asset": "ASSET-D-33 to ASSET-D-38",
+    "affected_components": "ASSET-C-29, ASSET-C-30"
+  },
+  {
+    "threat_id": "T-AAL-05",
+    "threat_title": "Malicious memory accesses",
+    "threat_agent": "All",
+    "vulnerability": "Insecure AAL APIs\nFlaws in AAL design\nUnrestricted memory access\nLack of access control",
+    "threatened_asset": "ASSET-D-33 to ASSET-D-38",
+    "affected_components": "ASSET-C-29, ASSET-C-30"
+  },
+  {
+    "threat_id": "T-AAL-06",
+    "threat_title": "Firmware attacks",
+    "threat_agent": "All",
+    "vulnerability": "Weak accelerator design\nMisconfiguration\nInsecure AAL/HAM APIs",
+    "threatened_asset": "ASSET-D-33 to ASSET-D-38",
+    "affected_components": "ASSET-C-29, ASSET-C-30"
+  },
+  {
+    "threat_id": "T-O-CLOUD-ID-01",
+    "threat_title": "ID reuse in O-Cloud's object lifecycle",
+    "threat_agent": "All",
+    "vulnerability": "Insufficient data cleanup\nWeak isolation mechanisms\nInadequate monitoring and Logging\nLack of ID randomization\nInefficient access controls\nNo Timestamping or Versioning\nLack of notification mechanisms",
+    "threatened_asset": "ASSET-D-14, ASSET-D-15, ASSET-D-18, ASSET-D-29",
+    "affected_components": "ASSET-C-08"
+  },
+  {
+    "threat_id": "T-O-CLOUD-ID-02",
+    "threat_title": "Node redundancy in O-Cloud deployments",
+    "threat_agent": "All",
+    "vulnerability": "Inadequate decommissioning procedures\nWeak identity management\nInsufficient data cleanup\nNo state verification\nLack of Resource Auditing\nLack of notification mechanisms\nInadequate monitoring and Logging",
+    "threatened_asset": "ASSET-D-14, ASSET-D-15, ASSET-D-18, ASSET-D-29",
+    "affected_components": "ASSET-C-08"
+  },
+  {
+    "threat_id": "T-O-CLOUD-ID-03",
+    "threat_title": "O-Cloud ID mismanagement",
+    "threat_agent": "All",
+    "vulnerability": "Predictable ID Generation\nLack of ID validation\nInefficient synchronization\nNo ID revocation mechanism\nInadequate access controls\nLack of Namespace Segregation",
+    "threatened_asset": "ASSET-D-14, ASSET-D-15, ASSET-D-18, ASSET-D-29",
+    "affected_components": "ASSET-C-08"
+  },
+  {
+    "threat_id": "T-OPENSRC-01",
+    "threat_title": "Developers use SW components with known vulnerabilities and untrusted libraries that can be exploited by an attacker through a backdoor attack",
+    "threat_agent": "All",
+    "vulnerability": "Inaccurate inventories of open-source software\nLack of consistent Supply Chain traceability and security\nLack of coding best practices\nModules with known vulnerabilities and untrusted libraries",
+    "threatened_asset": "All",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-OPENSRC-02",
+    "threat_title": "A trusted developer intentionally inserts a backdoor into an open-source code O-RAN component",
+    "threat_agent": "All",
+    "vulnerability": "Bugs in open-source software caused by mistakes and human error",
+    "threatened_asset": "All",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-PHYS-01",
+    "threat_title": "An intruder gains physical access to O-RAN components to cause damage by manipulation / modification to software / software configuration /management.",
+    "threat_agent": "All except Script kiddies",
+    "vulnerability": "Improper physical security protection, hardware backdoor",
+    "threatened_asset": "All",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-PHYS-01A",
+    "threat_title": "An intruder gains physical access to O-RAN components to access sensitive data",
+    "threat_agent": "All except Script kiddies",
+    "vulnerability": "Improper physical security protection, hardware backdoor",
+    "threatened_asset": "All",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-PHYS-01B",
+    "threat_title": "An intruder gains physical access to O-RAN components to cause performance degradations, denial of service.",
+    "threat_agent": "All except Script kiddies",
+    "vulnerability": "Improper physical security protection, Improper maintenance and monitoring of hardware parameters, hardware backdoor",
+    "threatened_asset": "All",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-PHYS-02",
+    "threat_title": "An intruder into the Fronthaul cable network attempts to gain electronic access to cause damage or access sensitive data",
+    "threat_agent": "All except Script kiddies",
+    "vulnerability": "Physical access to the open Fronthaul cable network",
+    "threatened_asset": "ASSET-D-01, ASSET-D-02, ASSET-D-04, ASSET-D-05,\nASSET-C-05,\nASSET-C-06,\nASSET-C-31,\nASSET-C-32,\nASSET-C-33,\nASSET-C-34,\nASSET-C-35,\nASSET-C-12",
+    "affected_components": "All"
+  },
+  {
+    "threat_id": "T-RADIO-01",
+    "threat_title": "Disruption through radio jamming",
+    "threat_agent": "All except Script kiddies",
+    "vulnerability": "Weakness of wireless cellular communications",
+    "threatened_asset": "ASSET-D-06\nASSET-C-05\nASSET-C-06",
+    "affected_components": "O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-RADIO-01A",
+    "threat_title": "Disruption through radio sniffing and spoofing",
+    "threat_agent": "All except Script kiddies",
+    "vulnerability": "Weakness of wireless cellular communications",
+    "threatened_asset": "ASSET-D-06\nASSET-C-05\nASSET-C-06",
+    "affected_components": "O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-RADIO-02",
+    "threat_title": "DoS attacks on cognitive radio networks",
+    "threat_agent": "All except Script kiddies",
+    "vulnerability": "Weakness of wireless cellular communications",
+    "threatened_asset": "ASSET-D-06\nASSET-C-05\nASSET-C-06",
+    "affected_components": "O-RU, O-DU"
+  },
+  {
+    "threat_id": "T-AIML-IM-1",
+    "threat_title": "Training Data Control",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in training database",
+    "threatened_asset": "ASSET-D-25, ASSET-D-26, ASSET-D-27, ASSET-D-28",
+    "affected_components": "Near-RT RIC, Non-RT RIC, xAPPs, rApps"
+  },
+  {
+    "threat_id": "T-AIML-IM-2",
+    "threat_title": "Testing Data Control",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in training database",
+    "threatened_asset": "ASSET-D-25, ASSET-D-26, ASSET-D-27, ASSET-D-28",
+    "affected_components": "Near-RT RIC, Non-RT RIC, xAPPs, rApps"
+  },
+  {
+    "threat_id": "T-AIML-IM-3",
+    "threat_title": "Label Manipulation",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in training database",
+    "threatened_asset": "ASSET-D-25, ASSET-D-26, ASSET-D-27, ASSET-D-28",
+    "affected_components": "Near-RT RIC, Non-RT RIC, xAPPs, rApps"
+  },
+  {
+    "threat_id": "T-AIML-IM-4",
+    "threat_title": "AI/ML Query Exploitation",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in training database, vulnerabilities in AI/ML APIs",
+    "threatened_asset": "ASSET-D-26, ASSET-D-27, ASSET-D-28",
+    "affected_components": "Near-RT RIC, Non-RT RIC, xAPPs, rApps"
+  },
+  {
+    "threat_id": "T-AIML-DP-01",
+    "threat_title": "Black-box Data Poisoning",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in training database",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, \nASSET-D-26, ASSET-C-12,\nASSET-C-02, ASSET-C-11",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Training or test data sets collected externally or internally, Trained ML model, xApps, rApps, Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-DP-02",
+    "threat_title": "Grey-box Data Poisoning",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in data transport, vulnerabilities in training database",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, \nASSET-D-26, ASSET-C-12,\nASSET-C-02, ASSET-C-11, ASSET-C-22, ASSET-C-14,\nASSET-C-40",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Training or test data sets collected externally or internally, Trained ML model, xApps, rApps, Near-RT-RIC SW, Non-RT-RIC SW, O1 interface for streaming data, A1 interface, E2 interface for streaming data"
+  },
+  {
+    "threat_id": "T-AIML-DP-03",
+    "threat_title": "White-box Data Poisoning",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in training database",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, \nASSET-D-26, ASSET-C-12,\nASSET-C-02, ASSET-C-11, ASSET-C-22, ASSET-C-14,\nASSET-C-40",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Training or test data sets collected externally or internally, Trained ML model, xApps, rApps, Near-RT-RIC SW, Non-RT-RIC SW, O1 interface for streaming data, A1 interface, E2 interface for streaming data"
+  },
+  {
+    "threat_id": "T-AIML-MEI-01",
+    "threat_title": "Information Access - Membership Inference",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in training database",
+    "threatened_asset": "ASSET-D-26, \nASSET-C-02, \nASSET-C-11",
+    "affected_components": "Trained ML model, xApps, rApps, Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-MEI-02",
+    "threat_title": "Inference Technique - Membership Inference",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in training database",
+    "threatened_asset": "ASSET-D-26, \nASSET-C-02, \nASSET-C-11",
+    "affected_components": "Trained ML model, xApps, rApps, Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-MEI-03",
+    "threat_title": "Target based - Membership Inference",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in training database",
+    "threatened_asset": "ASSET-D-26, \nASSET-C-02, \nASSET-C-11",
+    "affected_components": "Trained ML model,  xApps, rApps, Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-ME-01",
+    "threat_title": "Intellectual Property Theft",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in training database, vulnerabilities in ML model storage, vulnerabilities in ML model transfer",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-C-02, ASSET-C-11",
+    "affected_components": "Database holding data from xApp applications and E2, Training or test data sets collected externally or internally, Trained ML model, Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-ME-02",
+    "threat_title": "Data Privacy Violations",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in training database, vulnerabilities in ML model storage, vulnerabilities in ML model transfer",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-C-02, ASSET-C-11",
+    "affected_components": "Database holding data from xApp applications and E2, Training or test data sets collected externally or internally, Trained ML model, Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-ME-03",
+    "threat_title": "Adversarial Attacks with Stolen Models",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in training database, vulnerabilities in ML model storage, vulnerabilities in ML model transfer",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-C-02, ASSET-C-11",
+    "affected_components": "Database holding data from xApp applications and E2, Training or test data sets collected externally or internally, Trained ML model, Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-MOI-01",
+    "threat_title": "Black-box Model Inversion",
+    "threat_agent": "All",
+    "vulnerability": "Model is overfitted, model may have memorized specific training examples, model API not properly protected",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-D-27",
+    "affected_components": "Near-RT RIC, Non-RT RIC, xAPPs, rApps"
+  },
+  {
+    "threat_id": "T-AIML-MOI-02",
+    "threat_title": "White-box Model Inversion",
+    "threat_agent": "All",
+    "vulnerability": "Model is not protected, training data is not protected, model is overfitted, model may have memorized specific training examples, model API not protected",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-D-27, ASSET-D-28",
+    "affected_components": "Near-RT RIC, Non-RT RIC, xAPPs, rApps"
+  },
+  {
+    "threat_id": "T-AIML-SC-01",
+    "threat_title": "Data Poisoning via Supply Chain",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in training database, vulnerabilities in ML model transfer",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-C-02, ASSET-C-11, ASSET-C-12",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Training or test data sets collected externally or internally, Trained ML model, ML components deploying machine learning (xApps, rApps),Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-SC-02",
+    "threat_title": "Model Tampering",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in ML model transfer",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-C-02, ASSET-C-11, ASSET-C-12",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Training or test data sets collected externally or internally, Trained ML model, ML components deploying machine learning (xApps, rApps),Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-SC-03",
+    "threat_title": "Backdoor via Supply Chain",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in ML model transfer",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-C-02, ASSET-C-11, ASSET-C-12",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Training or test data sets collected externally or internally, Trained ML model, ML components deploying machine learning (xApps, rApps),Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-SC-04",
+    "threat_title": "Hardware Tampering",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in the AI processing HW",
+    "threatened_asset": "ASSET-D-10, ASSET-D-26, ASSET-C-02, ASSET-C-11, ASSET-C-12",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Trained ML model, ML components deploying machine learning (xApps, rApps),Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-SC-05",
+    "threat_title": "Insecure Maintenance APIs",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in the ML maintenance APIs",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-C-02, ASSET-C-11, ASSET-C-12",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Training or test data sets collected externally or internally, Trained ML model, ML components deploying machine learning (xApps, rApps),Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-SC-06",
+    "threat_title": "Third-party Libraries and Dependencies",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in the ML- related SW",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-C-02, ASSET-C-11, ASSET-C-12",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Training or test data sets collected externally or internally, Trained ML model, ML components deploying machine learning (xApps, rApps),Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-OI-01",
+    "threat_title": "Denial of Service Impacting Output Integrity",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in training database, vulnerabilities in ML model storage, vulnerabilities in ML model transfer",
+    "threatened_asset": "ASSET-D-25,ASSET-D-26, ASSET-D-27, ASSET-D-07,ASSET-C-12,\nASSET-C-02, ASSET-C-11",
+    "affected_components": "Training or test data sets collected externally or internally, Trained ML model, ML prediction results,A1 policies,E2 node data, Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-OI-02",
+    "threat_title": "Subscriber QoE Change",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, vulnerabilities in training database, vulnerabilities in ML model storage, vulnerabilities in ML model transfer.",
+    "threatened_asset": "ASSET-D-25, \nASSET-D-26, ASSET-D-27, ASSET-D-07, ASSET-D-11,ASSET-C-02,\nASSET-C-02, ASSET-C-11",
+    "affected_components": "Training or test data sets collected externally or internally, Trained ML model ,\nML prediction results ,Data transported over the O1 interface,A1 policies,\nE2 node data, Near-RT-RIC SW, Non-RT-RIC SW ."
+  },
+  {
+    "threat_id": "T-AIML-MP-01",
+    "threat_title": "Model Parameter Poisoning",
+    "threat_agent": "All",
+    "vulnerability": "\u2022\tInsufficient access controls to the model\u2019s parameters [i.33]\n\u2022\tInadequate monitoring and logging of model\u2019s activity [i.32]\n\u2022\tLack of control for poisoning in model [i.32]\n\u2022\tWeak access protection mechanisms for ML model components [i.32]",
+    "threatened_asset": "[ASSET-D-26], [ASSET-C-12], [ASSET-D-27]",
+    "affected_components": "Near-RT RIC, Non-RT RIC, O-CU, O-DU, xApps, rApps"
+  },
+  {
+    "threat_id": "T-AIML-MP-02",
+    "threat_title": "Inference Algorithm Poisoning",
+    "threat_agent": "All",
+    "vulnerability": "\u2022\tInsufficient access controls to the model\u2019s code [i.33]\n\u2022\tInadequate monitoring and logging of model\u2019s activity [i.32]\n\u2022\tLack of code integrity checking\n\u2022\tWeak access protection mechanisms for ML model components [i.32]",
+    "threatened_asset": "[ASSET-D-26], [ASSET-D-27]",
+    "affected_components": "Near-RT RIC, Non-RT RIC, O-CU, O-DU, xApps, rApps"
+  },
+  {
+    "threat_id": "T-AIML-MP-03",
+    "threat_title": "Learning Algorithm Poisoning",
+    "threat_agent": "All",
+    "vulnerability": "\u2022\tInsufficient access controls to the model\u2019s code [i.33]\n\u2022\tInadequate monitoring and logging of model\u2019s activity [i.32]\n\u2022\tWeak access protection mechanisms for ML model components [i.32]\nLack of code integrity checking",
+    "threatened_asset": "[ASSET-C-12]",
+    "affected_components": "Near-RT RIC, Non-RT RIC, xApps, rApps"
+  },
+  {
+    "threat_id": "T-AIML-MP-04",
+    "threat_title": "Model Control",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in ML model storage, vulnerabilities in ML model transfer",
+    "threatened_asset": "ASSET-D-12, ASSET-D-26, ASSET-D-27, ASSET-D-28",
+    "affected_components": "Near-RT RIC, Non-RT RIC, xAPPs, rApps"
+  },
+  {
+    "threat_id": "T-AIML-MS-01",
+    "threat_title": "Data Manipulation for Model Skewing",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in (i) training data validation, (ii) less robust model training against cyber-attacks, (iii) less model performance monitoring for monitoring of suspicious activity",
+    "threatened_asset": "ASSET-D-26, \nASSET-D-27, \nASSET-D-28",
+    "affected_components": "Trained ML model,  xApps, rApps, Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-MS-02",
+    "threat_title": "Feedback Manipulation for Model Skewing",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in (i) less secure feedback mechanisms to prevent manipulation, (ii) less robust model training against cyber-attacks, (iii) less model performance monitoring for monitoring of suspicious activity",
+    "threatened_asset": "ASSET-D-26, \nASSET-D-27, \nASSET-D-28",
+    "affected_components": "Trained ML model,  xApps, rApps, Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-TL-01",
+    "threat_title": "Data Poisoning for Transfer Learning",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, \nVulnerabilities in training database",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-C-02, ASSET-C-11, ASSET-C-12",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Training or test data sets collected externally or internally, Trained ML model, ML components deploying machine learning (xApps, rApps),Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-TL-02",
+    "threat_title": "Model Stealing for Transfer Learning",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, \nVulnerabilities in training database, \nVulnerabilities in ML model storage, \nVulnerabilities in ML model transfer",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-C-02, ASSET-C-11, ASSET-C-12",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Training or test data sets collected externally or internally, Trained ML model, ML components deploying machine learning (xApps, rApps),Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-TL-03",
+    "threat_title": "Adversarial Examples",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources, \nVulnerabilities in training database, \nVulnerabilities in ML model storage, Vulnerabilities in ML model transfer",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-C-02, ASSET-C-11",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Training or test data sets collected externally or internally, Trained ML model, Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-TL-04",
+    "threat_title": "Backdoor for Tranfer Learning",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in ML model transfer",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-C-02, ASSET-C-11, ASSET-C-12",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Training or test data sets collected externally or internally, Trained ML model, ML components deploying machine learning (xApps, rApps),Near-RT-RIC SW, Non-RT-RIC SW"
+  },
+  {
+    "threat_id": "T-AIML-EL-01",
+    "threat_title": "Model Extraction",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources",
+    "threatened_asset": "ASSET-D-10, ASSET-D-26, ASSET-C-02, ASSET-C-11, ASSET-C-29, ASSET-30",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Trained ML model, Near-RT-RIC SW, Non-RT-RIC SW, AAL software, Hardware accelerator device firmware"
+  },
+  {
+    "threat_id": "T-AIML-EL-02",
+    "threat_title": "Data Inference",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources",
+    "threatened_asset": "ASSET-D-10, ASSET-C-02, ASSET-C-11, ASSET-C-29, ASSET-30",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Near-RT-RIC SW, Non-RT-RIC SW, AAL software, Hardware accelerator device firmware"
+  },
+  {
+    "threat_id": "T-AIML-EL-03",
+    "threat_title": "Denial of Service via Side Channels",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in data sources",
+    "threatened_asset": "ASSET-D-10, ASSET-D-26, ASSET-C-02, ASSET-C-11, ASSET-C-29, ASSET-30",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Trained ML model, Near-RT-RIC SW, Non-RT-RIC SW, AAL software, Hardware accelerator device firmware"
+  },
+  {
+    "threat_id": "T-AIML-EV-01",
+    "threat_title": "Grey-box based Data Evasion",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in the input APIs of the AI ML model application\nVulnerabilities in the source of input data used by AI ML for inferences",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-C-02, ASSET-C-11",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Training or test data sets collected externally or internally, Trained ML model, Near-RT-RIC SW, Non-RT-RIC"
+  },
+  {
+    "threat_id": "T-AIML-EV-02",
+    "threat_title": "White-box based data evasion attacks",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in the input APIs of the AI/ML model application\nVulnerabilities in the source of input data used by AI/ML for inferences",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-C-02, ASSET-C-11",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Training or test data sets collected externally or internally, Trained ML model, Near-RT-RIC SW, Non-RT-RIC"
+  },
+  {
+    "threat_id": "T-AIML-EV-03",
+    "threat_title": "Black-box based data evasion attacks",
+    "threat_agent": "All",
+    "vulnerability": "Vulnerabilities in the input APIs of the AI ML model application\nVulnerabilities in the source of input data used by AI ML for inferences",
+    "threatened_asset": "ASSET-D-10, ASSET-D-25, ASSET-D-26, ASSET-C-02, ASSET-C-11",
+    "affected_components": "Database holding data from xApp applications and E2 Node, Training or test data sets collected externally or internally, Trained ML model, Near-RT-RIC SW, Non-RT-RIC"
+  },
+  {
+    "threat_id": "T-E2-01",
+    "threat_title": "Untrusted Near-RT-RIC and E2 Nodes",
+    "threat_agent": "All",
+    "vulnerability": "weak mutual authentication",
+    "threatened_asset": "ASSET-C-40",
+    "affected_components": "E2 interface"
+  },
+  {
+    "threat_id": "T-E2-02",
+    "threat_title": "Malicious actor monitors messaging across E2 interface",
+    "threat_agent": "All",
+    "vulnerability": "Missing or weak confidentiality protection",
+    "threatened_asset": "ASSET-C-40",
+    "affected_components": "E2 interface"
+  },
+  {
+    "threat_id": "T-E2-03",
+    "threat_title": "Malicious actor modifies messaging across E2 interface",
+    "threat_agent": "All",
+    "vulnerability": "Lack of integrity verification",
+    "threatened_asset": "ASSET-C-40",
+    "affected_components": "E2 interface"
+  },
+  {
+    "threat_id": "T-Y1-01",
+    "threat_title": "Untrusted Near-RT-RIC and Y1 consumers",
+    "threat_agent": "All",
+    "vulnerability": "weak mutual authentication",
+    "threatened_asset": "ASSET-C-42",
+    "affected_components": "Y1interface"
+  },
+  {
+    "threat_id": "T-Y1-02",
+    "threat_title": "Malicious actor monitors messaging across Y1 interface",
+    "threat_agent": "All",
+    "vulnerability": "Missing or weak confidentiality protection",
+    "threatened_asset": "ASSET-C-42",
+    "affected_components": "Y1 interface"
+  },
+  {
+    "threat_id": "T-Y1-03",
+    "threat_title": "Malicious actor modifies messaging across Y1 interface",
+    "threat_agent": "All",
+    "vulnerability": "Lack of integrity verification",
+    "threatened_asset": "ASSET-C-42",
+    "affected_components": "Y1 interface"
+  }
+]

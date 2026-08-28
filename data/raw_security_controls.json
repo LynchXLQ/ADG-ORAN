@@ -1,0 +1,1157 @@
+[
+  {
+    "control_id": "SEC-CTL-SMO-1",
+    "context": "SEC-CTL-SMO-1: SMO may support OAuth 2.0 authorization server and provide a token end-point, as specified in O-RAN Security Protocols Specifications [3], clause 4.7.",
+    "section": "SMO"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-2",
+    "context": "SEC-CTL-SMO-2: Void",
+    "section": "SMO"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-3",
+    "context": "SEC-CTL-SMO-3: SMO shall support OAuth 2.0 resource owner/server, as specified in O-RAN Security Protocols Specifications [3], clause 4.7, for service requests received from other SMO functions.",
+    "section": "SMO"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-4",
+    "context": "SEC-CTL-SMO-4: SMO shall support OAuth 2.0 client functionality, as specified in O-RAN Security Protocols Specifications [3], clause 4.7, for service requests to other SMO functions.",
+    "section": "SMO"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-5",
+    "context": "SEC-CTL-SMO-5: SMO shall support mutual authentication of SMO functions using mTLS with PKI X.509v3 certificates as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "SMO"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-6",
+    "context": "SEC-CTL-SMO-6: SMO functions may support authentication of other SMO functions using TLS with pre-shared key (PSK) as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "SMO"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-Internal-1",
+    "context": "SEC-CTL-SMO-Internal-1: For security protection at the transport layer, SMOS Communication shall support TLS, as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "SMOS Communication"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-Internal-2",
+    "context": "SEC-CTL-SMO-Internal-2: For mutual authentication between SMOS Producers and SME, and SMOS Consumers and SME, SMOS Communication shall support mTLS, as shown in Figure 5.1.1.2.2-1 and specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "SMOS Communication"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-Internal-3",
+    "context": "SEC-CTL-SMO-Internal-3: For authentication between SMOS, SMOS Communication may support TLS with pre-shared key (PSK), as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "SMOS Communication"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-External-1",
+    "context": "SEC-CTL-SMO-External-1: SMOS shall support confidentiality and integrity protection of data-in-transit with a SMO External Consumer or Producer using TLS, as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "SMO External Interfaces"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-External-2",
+    "context": "SEC-CTL-SMO-External-2: SMOS shall support mutual authentication with a SMO External Consumer or Producer using mTLS with PKI using X.509v3 certificates, as shown in Figure 5.1.1.2.3-1 and specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "SMO External Interfaces"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-External-3",
+    "context": "SEC-CTL-SMO-External-3: SMOS shall support OAuth 2.0 resource owner/server, as specified in O-RAN Security Protocols Specifications [3], clause 4.7, for authorization of a SMO External Consumer.",
+    "section": "SMO External Interfaces"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-External-4",
+    "context": "SEC-CTL-SMO-External-4: SMO External Interfaces shall support OAuth 2.0 client functionality, as specified in O-RAN Security Protocols Specifications [3], clause 4.7.",
+    "section": "SMO External Interfaces"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-Log-1",
+    "context": "SEC-CTL-SMO-Log-1: A SMO External Interface used for SMO log export shall support TLS, as specified in O-RAN Security Protocols Specifications [3], clause 4.2, and FTPES, as specified in O-RAN Security Protocols Specifications [3], clause 6.3.",
+    "section": "SMO Logging"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-Log-2",
+    "context": "SEC-CTL-SMO-Log-2: SMO log export may support SSH as specified in O-RAN Security Protocols Specifications [3], clause 4.1, and SFTP, as specified in O-RAN Security Protocols Specifications [3], clause 6.2.",
+    "section": "SMO Logging"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-Log-3",
+    "context": "SEC-CTL-SMO-Log-3: SMO log export shall support mutual authentication using mTLS with public key infrastructure (PKI) and X.509v3 certificates as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "SMO Logging"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-Log-4",
+    "context": "SEC-CTL-SMO-Log-4: When SSH is supported for SMO log export, SSH may support authentication using SSH public and private key pairs.",
+    "section": "SMO Logging"
+  },
+  {
+    "control_id": "SEC-CTL-SMO-Log-5",
+    "context": "SEC-CTL-SMO-Log-5: When SSH is supported for SMO log export, SSH may support authentication using PKI and X.509v3 certificates.",
+    "section": "SMO Logging"
+  },
+  {
+    "control_id": "SEC-CTL-NFO-FOCOM-1",
+    "context": "SEC-CTL-NFO-FOCOM-1: NFO shall support mutual authentication with O-Cloud DMS using mTLS with PKI X.509v3 certificates, as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "NFO and FOCOM"
+  },
+  {
+    "control_id": "SEC-CTL-NFO-FOCOM-2",
+    "context": "SEC-CTL-NFO-FOCOM-2: FOCOM shall support mutual authentication with O-Cloud IMS using mTLS with PKI X.509v3 certificates, as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "NFO and FOCOM"
+  },
+  {
+    "control_id": "SEC-CTL-NFO-FOCOM-3",
+    "context": "SEC-CTL-NFO-FOCOM-3: NFO shall support OAuth 2.0 resource owner/server as specified in O-RAN Security Protocols Specifications [3], clause 4.7, for service requests from O-Cloud resources.",
+    "section": "NFO and FOCOM"
+  },
+  {
+    "control_id": "SEC-CTL-NFO-FOCOM-4",
+    "context": "SEC-CTL-NFO-FOCOM-4: FOCOM shall support OAuth 2.0 resource owner/server, as specified in O-RAN Security Protocols Specifications [3], clause 4.7, for service requests from O-Cloud resources.",
+    "section": "NFO and FOCOM"
+  },
+  {
+    "control_id": "SEC-CTL-NFO-FOCOM-5",
+    "context": "SEC-CTL-NFO-FOCOM-5: NFO shall support OAuth 2.0 client functionality as specified in O-RAN Security Protocols Specifications [3], clause 4.7, for service requests to O-Cloud resources.",
+    "section": "NFO and FOCOM"
+  },
+  {
+    "control_id": "SEC-CTL-NFO-FOCOM-6",
+    "context": "SEC-CTL-NFO-FOCOM-6: FOCOM shall support OAuth 2.0 client functionality, as specified in O-RAN Security Protocols Specifications [3], clause 4.7, for service requests to O-Cloud resources.",
+    "section": "NFO and FOCOM"
+  },
+  {
+    "control_id": "SEC-CTL-NFO-FOCOM-7",
+    "context": "SEC-CTL-NFO-FOCOM-7: NFO shall support TLS, as specified in O-RAN Security Protocols Specifications [3], clause 4.2, on the O2 interface.",
+    "section": "NFO and FOCOM"
+  },
+  {
+    "control_id": "SEC-CTL-NFO-FOCOM-8",
+    "context": "SEC-CTL-NFO-FOCOM-8: FOCOM shall support TLS, as specified in O-RAN Security Protocols Specifications [3], clause 4.2, on the O2 interface.",
+    "section": "NFO and FOCOM"
+  },
+  {
+    "control_id": "SEC-CTL-SME-1",
+    "context": "SEC-CTL-SME-1: SME shall support mutual authentication using mTLS with PKI X.509v3 certificates, as specified in O-RAN Security Protocols Specifications [3], clause 4.2, with SMOS Producers, SMOS Consumers, and SMO External Systems.",
+    "section": "SME"
+  },
+  {
+    "control_id": "SEC-CTL-SME-2",
+    "context": "SEC-CTL-SME-2: SME shall support OAuth server role as specified in O-RAN Security Protocols Specifications [3], clause 4.7, for service requests from a SMO Consumer and SMO External System.",
+    "section": "SME"
+  },
+  {
+    "control_id": "SEC-CTL-SME-3",
+    "context": "SEC-CTL-SME-3: SME shall support TLS, as specified in O-RAN Security Protocols Specifications [3], clause 4.2 for data-in-transit with SMOS Producers, SMOS Consumers, and SMO External Systems.",
+    "section": "SME"
+  },
+  {
+    "control_id": "SEC-CTL-SMOS-1",
+    "context": "SEC-CTL-SMOS-1: SMOS Producers and SMOS Consumers shall support mutual authentication with SME using mTLS with PKI X.509v3 certificates, as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "SMOS Producers and SMOS Consumers"
+  },
+  {
+    "control_id": "SEC-CTL-SMOS-2",
+    "context": "SEC-CTL-SMOS-2: SMOS Producers shall support OAuth 2.0 resource owner/server role as specified in O-RAN Security Protocols Specifications [3], clause 4.7, for service requests from the SME.",
+    "section": "SMOS Producers and SMOS Consumers"
+  },
+  {
+    "control_id": "SEC-CTL-SMOS-3",
+    "context": "SEC-CTL-SMOS-3: SMOS Consumers shall support OAuth 2.0 client role as specified in O-RAN Security Protocols Specifications [3], clause 4.7, for service requests to the SME.",
+    "section": "SMOS Producers and SMOS Consumers"
+  },
+  {
+    "control_id": "SEC-CTL-SMOS-4",
+    "context": "SEC-CTL-SMOS-4: SMOS Producers and SMOS Consumers shall support TLS, as specified in O-RAN Security Protocols Specifications [3], clause 4.2, for SMOS Communication.",
+    "section": "SMOS Producers and SMOS Consumers"
+  },
+  {
+    "control_id": "SEC-CTL-SMOS-5",
+    "context": "SEC-CTL-SMOS-5: A software package supported in the ETSI profile [80] shall be compliant with ETSI GS NFV-SOL004 [42] clause 5, and ETSI GS NFV-SEC 021 [41] clauses 5 and 6, for package formats and signing/verification procedures.",
+    "section": "SMOS Producers and SMOS Consumers"
+  },
+  {
+    "control_id": "SEC-CTL-SMOS-6",
+    "context": "SEC-CTL-SMOS-6: During onboarding, the Software Package Onboarding SMOS shall verify the signature of the software package manifest and verify the digest of each artifact in the software package if the software package is signed as defined in ETSI GS NFV-SOL004 [42], clause 5, option 1.",
+    "section": "SMOS Producers and SMOS Consumers"
+  },
+  {
+    "control_id": "SEC-CTL-SMOS-7",
+    "context": "SEC-CTL-SMOS-7: During onboarding, the Software Package Onboarding SMOS shall verify the signature of the software package if the software package is signed as defined in ETSI GS NFV-SOL004 [42], clause 5, option 2.",
+    "section": "SMOS Producers and SMOS Consumers"
+  },
+  {
+    "control_id": "SEC-CTL-DME-1",
+    "context": "SEC-CTL-DME-1: For data subscription, DME shall support authentication using TLS with X.509 certificate or pre-shared key (PSK), as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "DME"
+  },
+  {
+    "control_id": "SEC-CTL-DME-2",
+    "context": "SEC-CTL-DME-2: DME shall support OAuth server role as specified in O-RAN Security Protocols Specifications [3], clause 4.7, for service requests from a SMOS Consumer or SMO External System.",
+    "section": "DME"
+  },
+  {
+    "control_id": "SEC-CTL-DME-3",
+    "context": "SEC-CTL-DME-3: DME shall support TLS, as specified in O-RAN Security Protocols Specifications [3], clause 4.2 for data-in-transit with SMOS Producer, SMOS Consumer, and SMO External System.",
+    "section": "DME"
+  },
+  {
+    "control_id": "SEC-CTL-NonRTRIC-1",
+    "context": "SEC-CTL-NonRTRIC-1: For A1-EI, Non-RT RIC shall support OAuth 2.0 resource owner/server role, as specified in O-RAN Security Protocols Specifications [3], clause 4.7, for service requests received from one or more Near-RT RICs.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-NonRTRIC-2",
+    "context": "SEC-CTL-NonRTRIC-2: For A1-P, Non-RT RIC shall support OAuth 2.0 client role, as specified in O-RAN Security Protocols Specifications [3], clause 4.7.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-NonRTRIC-3",
+    "context": "SEC-CTL-NonRTRIC-3: For R1, SMO/Non-RT RIC Framework shall support TLS, as specified in O-RAN Security Protocols Specifications [3] , clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-NonRTRIC-4",
+    "context": "SEC-CTL-NonRTRIC-4: For R1, SMO/Non-RT RIC Framework shall support OAuth 2.0 client role, as specified in O-RAN Security Protocols Specifications [3], clause 4.7.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-NonRTRIC-5",
+    "context": "SEC-CTL-NonRTRIC-5: For R1, SMO/Non-RT RIC Framework shall support OAuth 2.0 resource owner/server functionality, as specified in O-RAN Security Protocols Specifications [3], clause 4.7.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-NonRTRIC-6",
+    "context": "SEC-CTL-NonRTRIC-6: For R1, an rApp as service consumer shall support OAuth 2.0 client role, as specified in O-RAN Security Protocols Specifications [3], clause 4.7.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-NonRTRIC-7",
+    "context": "SEC-CTL-NonRTRIC-7: For R1, an rApp as service producer shall support OAuth 2.0 resource owner/server functionality, as specified in O-RAN Security Protocols Specifications [3], clause 4.7.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-NonRTRIC-8",
+    "context": "SEC-CTL-NonRTRIC-8: For R1, an rApp shall support mutual authentication using mTLS with PKI X.509v3 certificates, as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-1",
+    "context": "SEC-CTL-NEAR-RT-1: Transactional APIs (REST and gRPC) shall support mutual TLS (mTLS) authentication via X.509v3 certificates as specified in the O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "API Security \u2013 Authentication"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-2",
+    "context": "SEC-CTL-NEAR-RT-2: Time critical APIs, not supported by TLS protocol, shall support IPsec with IKEv2 certificate-based authentication according to O-RAN Security Protocols Specifications [3].",
+    "section": "API Security \u2013 Authentication"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-2A",
+    "context": "SEC-CTL-NEAR-RT-2A: The Near-RT RIC shall support mTLS as specified in O-RAN Security Protocols Specifications [3], clause 4.2, in order to provide mutual authentication for the A1 interface.",
+    "section": "API Security \u2013 Authentication"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-3A",
+    "context": "SEC-CTL-NEAR-RT-3A: The Near-RT RIC platform as API producer shall support rights/privileges for the platform services as resources to the xApps consumers.",
+    "section": "API Security \u2013 Authorization"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-3B",
+    "context": "SEC-CTL-NEAR-RT-3B: An xApp should only have the required set of permissions to perform the actions for which they are authorized, and no more.",
+    "section": "API Security \u2013 Authorization"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-3C",
+    "context": "SEC-CTL-NEAR-RT-3C: The Near-RT RIC platform shall enforce authorization mechanisms in the following key API procedures [33]:",
+    "section": "API Security \u2013 Authorization"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-3",
+    "context": "SEC-CTL-NEAR-RT-3: Transactional APIs (REST and gRPC) in Near-RT RIC shall support OAuth 2.0 authorization framework as specified in in O-RAN Security Protocols Specifications [3], clause 4.7.",
+    "section": "API Security \u2013 Authorization"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-4",
+    "context": "SEC-CTL-NEAR-RT-4: For A1-P, Near-RT RIC shall support OAuth 2.0 resource owner/server, as specified in O-RAN Security Protocols Specifications [3], clause 4.7, for service requests received from a Non-RT RIC.",
+    "section": "API Security \u2013 Authorization"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-5",
+    "context": "SEC-CTL-NEAR-RT-5: For A1-EI, Near-RT RIC shall support OAuth 2.0 client, as specified in O-RAN Security Protocols Specifications [3], clause 4.7.",
+    "section": "API Security \u2013 Authorization"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-6",
+    "context": "SEC-CTL-NEAR-RT-6: Transactional APIs (REST and gRPC) shall support TLS as specified in the O-RAN Security Protocols Specifications [3], clause 4.2 to provide message confidentiality and integrity.",
+    "section": "API Security \u2013 Confidentiality and Integrity"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-7",
+    "context": "SEC-CTL-NEAR-RT-7: Time critical APIs, not supported by TLS protocol, shall support IPsec as specified in the O-RAN Security Protocols Specifications [3], clause 4.5 to provide message confidentiality and integrity.",
+    "section": "API Security \u2013 Confidentiality and Integrity"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-8",
+    "context": "SEC-CTL-NEAR-RT-8: The Near-RT RIC shall verify policies received through the A1 interface as follows:",
+    "section": "API Security \u2013 Confidentiality and Integrity"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-8A",
+    "context": "SEC-CTL-NEAR-RT-8A: The Near-RT RIC shall support TLS as specified in O-RAN Security Protocols Specifications [3], clause 4.2, in order to provide confidentiality, integrity and replay protection for the A1 interface.",
+    "section": "API Security \u2013 Confidentiality and Integrity"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-9",
+    "context": "SEC-CTL-NEAR-RT-9: The Near-RT RIC shall support mutual TLS (mTLS) authentication via X.509v3 certificates for the Y1 interface protocol structure solution 1, as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security controls for the Y1 interface protocol structure solution 1"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-10",
+    "context": "SEC-CTL-NEAR-RT-10: The Near-RT RIC shall support the OAuth 2.0 authorization framework for the Y1 interface protocol structure solution 1 as specified in O-RAN Security Protocols Specifications [3], clause 4.7, in the role of a resource owner / resource server (producer).",
+    "section": "Security controls for the Y1 interface protocol structure solution 1"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-11",
+    "context": "SEC-CTL-NEAR-RT-11: The Near-RT RIC shall support TLS for the Y1 interface protocol structure solution 1, as specified in O-RAN Security Protocols Specifications [3], clause 4.2, to provide data confidentiality, integrity, and replay-protection.",
+    "section": "Security controls for the Y1 interface protocol structure solution 1"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-12",
+    "context": "SEC-CTL-NEAR-RT-12: The xApp ID shall be embedded into the provided xApp X.509 certificate used for authentication (mTLS) according to the parametrization in [3], issued by operator RA/CA PKI infrastructure.",
+    "section": "xApp Registration \u2013 Security procedure"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-13",
+    "context": "SEC-CTL-NEAR-RT-13: The data type of the xApp ID shall be a string that uniquely identifies the xApp instance. The format of this string shall be a Universally Unique Identifier (UUID) version 4 as described in IETF RFC 9562 [84].",
+    "section": "xApp Registration \u2013 Security procedure"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-14",
+    "context": "SEC-CTL-NEAR-RT-14: subjectAltName in the xApp instance certificate shall contain a URI-ID with the URI for the xApp ID as an URN; this URI-ID shall contain the xApp ID of the xApp instance using the UUID format as described in IETF RFC 9562 [84].",
+    "section": "xApp Registration \u2013 Security procedure"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-15",
+    "context": "SEC-CTL-NEAR-RT-15: The Near-RT RIC shall verify data received through the Y1 interface as follows:",
+    "section": "xApp Registration \u2013 Security procedure"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-16",
+    "context": "SEC-CTL-NEAR-RT-16: The Near-RT RIC shall log a security event each time an input validation step fails for data received through the Y1 interface.",
+    "section": "xApp Registration \u2013 Security procedure"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-17",
+    "context": "SEC-CTL-NEAR-RT-17: The Near-RT RIC shall verify data received through the E2 interface as follows:",
+    "section": "xApp Registration \u2013 Security procedure"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-18",
+    "context": "SEC-CTL-NEAR-RT-18: The Near-RT RIC platform shall verify data received from an xApp through E2 related APIs [33] as follows:",
+    "section": "xApp Registration \u2013 Security procedure"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-19",
+    "context": "SEC-CTL-NEAR-RT-19: A Near-Real Time RIC deployed on an O-Cloud shall support the capabilities of the O-Cloud to provide the confidentiality and integrity of data at rest.",
+    "section": "xApp Registration \u2013 Security procedure"
+  },
+  {
+    "control_id": "SEC-CTL-NEAR-RT-20",
+    "context": "SEC-CTL-NEAR-RT-20: A Near-Real Time RIC deployed on an O-Cloud shall support the capabilities of the O-Cloud to provide access control to data.",
+    "section": "xApp Registration \u2013 Security procedure"
+  },
+  {
+    "control_id": "SEC-CTL-OCU-1",
+    "context": "SEC-CTL-OCU-1: O-CU-CP and O-CU-UP shall support the security controls for gNB-CU-CP and gNB-CU-UP respectively, as specified in 3GPP TS 33.501 [55].",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-ODU-1",
+    "context": "SEC-CTL-ODU-1: O-DU shall support the security controls for gNB-DU as specified in 3GPP TS 33.501[55]. The security controls for the Open Fronthaul Interface are specified in clause 5.2.5.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OeNB-1",
+    "context": "SEC-CTL-OeNB-1: O-eNB shall support the security controls for eNB as specified in 3GPP TS 33.401[56].",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-1",
+    "context": "SEC-CTL-OCLOUD-1: O-Cloud Platform should support Role-based Access Control (RBAC).",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-2",
+    "context": "SEC-CTL-OCLOUD-2: Void.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-IMG-1",
+    "context": "SEC-CTL-OCLOUD-IMG-1 to 4: Void",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-ALM-PKG-1A",
+    "context": "NOTE: For implementation details of REQ-SEC-OCLOUD-PKG-2, refer to SEC-CTL-ALM-PKG-1A.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-SW-1",
+    "context": "SEC-CTL-OCLOUD-SW-1 For all deployments and updates, the O-Cloud shall verify the digital signature associated with the new O-Cloud Platform software before installing the software package. The algorithms, key sizes, and standards used for signature generation and verification shall adhere to the O-",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O-CLOUD-ISO-1",
+    "context": "SEC-CTL-O-CLOUD-ISO-1: For mutual authentication between O-Cloud Platform software components, mTLS with PKI using X.509v3 certificates shall be supported as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O-CLOUD-ISO-2",
+    "context": "SEC-CTL-O-CLOUD-ISO-2: For confidentiality and integrity protection of data in transit, O-Cloud Platform software components shall support TLS as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O-CLOUD-ISO-3",
+    "context": "SEC-CTL-O-CLOUD-ISO-3: The O-Cloud Platform shall support an access control system to enforce access control policies that align with the principle of least privilege.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-SU-1",
+    "context": "SEC-CTL-OCLOUD-SU-1: Void",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-SU-2",
+    "context": "SEC-CTL-OCLOUD-SU-2: Void",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-SU-3",
+    "context": "SEC-CTL-OCLOUD-SU-3: Void",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-SU-4",
+    "context": "SEC-CTL-OCLOUD-SU-4: The O-Cloud Platform shall support the capability to detect and retrieve the latest security updates of the O-Cloud Platform software.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-SU-5",
+    "context": "SEC-CTL-OCLOUD-SU-5: The O-Cloud Platform shall possess the capability to securely log and control software versions, thereby preventing unauthorized rollbacks to older, less secure software versions.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-SU-6",
+    "context": "SEC-CTL-OCLOUD-SU-6: The O-Cloud Platform should possess the capability to revert an O-Cloud Platform software component to its previous stable version in the event of an incomplete update or installation incident, ensuring operational continuity.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-SU-7",
+    "context": "SEC-CTL-OCLOUD-SU-7: The O-Cloud Platform should be designed for redundancy and high availability, to maintain uninterrupted service during both the update process and in scenarios of unexpected update failures.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-SS-1",
+    "context": "SEC-CTL-OCLOUD-SS-1: The O-Cloud Platform shall support encryption of data at rest as specified in O-RAN Security Protocols Specifications [3], clause 5.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-SS-2",
+    "context": "SEC-CTL-OCLOUD-SS-2: The O-Cloud Platform shall support the capability for secure deletion of data in addressable memory locations that are no longer in use due to reallocation.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-SS-3",
+    "context": "SEC-CTL-OCLOUD-SS-3: Media containing sensitive information shall be sanitized using media-specific techniques.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-COT-1",
+    "context": "SEC-CTL-OCLOUD-COT-1: The chain of trust shall be built from measurements stored in a hardware root of trust.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-COT-2",
+    "context": "SEC-CTL-OCLOUD-COT-2: The chain of trust shall be built from measurements stored in a software root of trust for scenarios where a hardware root of trust is not feasible or available.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-COT-3",
+    "context": "SEC-CTL-OCLOUD-COT-3: A remote attestation service (AS) should be supported for providing additional benefits beside verifying O-Cloud platform integrity by CoT. The remote AS should collect O-Cloud platform configurations and integrity measurements from data center servers at an O-Cloud service pro",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-AALI-C-Mgmt-1",
+    "context": "SEC-CTL-AALI-C-Mgmt-1: AALI-C-Mgmt interface shall support TLS as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-AALI-C-Mgmt-2",
+    "context": "SEC-CTL-AALI-C-Mgmt-2: For mutual authentication between the hardware accelerator manager and O-Cloud IMS, AALI-C-Mgmt interface shall support mTLS with PKI using X.509v3 certificates as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-AALI-C-Mgmt-3",
+    "context": "SEC-CTL-AALI-C-Mgmt-3: AALI-C-Mgmt interface shall support authorization using OAuth 2.0, as specified in O-RAN Security Protocols Specifications [3], clause 4.7.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-AAL-1",
+    "context": "SEC-CTL-AAL-1: The clear memory mechanism should involve overwriting data that was previously stored in the memory with a known pattern, such as all zeros or a random value, to memory buffers.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-AAL-2",
+    "context": "SEC-CTL-AAL-2: Void",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O-CLOUD-INTERFACE-1",
+    "context": "SEC-CTL-O-CLOUD-INTERFACE-1: For the security protection at the transport layer on O2 interface, TLS shall be supported, as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O-CLOUD-INTERFACE-2",
+    "context": "SEC-CTL-O-CLOUD-INTERFACE-2: For the authorization of O2 RESTful and O-Cloud Notification APIs requests and notifications, OAuth 2.0 shall be supported, as specified in O-RAN Security Protocols Specifications [3], clause 4.7.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O-CLOUD-INTERFACE-3",
+    "context": "SEC-CTL-O-CLOUD-INTERFACE-3: For the mutual authentication between O-Cloud platform and Applications, and between O-Cloud platform and SMO, O2 interface and O-Cloud Notification APIs shall support mutual TLS (mTLS) authentication via X.509v3 certificates, as specified in O-RAN Security Protocols Spe",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O-CLOUD-HW-1",
+    "context": "SEC-CTL-O-CLOUD-HW-1: Void",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-INST-ID-1",
+    "context": "SEC-CTL-OCLOUD-INST-ID-1: Identifiers used in O-Cloud shall be generated using strong randomization methods as defined in O-RAN Security Protocols Specifications [3], Table 5-1 (\u2018RNG\u2019 entry).",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-INST-ID-2",
+    "context": "SEC-CTL-OCLOUD-INST-ID-2: O-Cloud should validate newly generated identifiers against existing identifiers to guarantee uniqueness before finalizing instance creation.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-INST-ID-3",
+    "context": "SEC-CTL-OCLOUD-INST-ID-3: Identifiers used in O-Cloud shall be protected using encryption, as specified in Clause 5 of O-RAN Security Protocols Specifications [3], to ensure confidentiality during storage.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-INST-ID-4",
+    "context": "SEC-CTL-OCLOUD-INST-ID-4: Identifiers used in O-Cloud shall be protected during transmission using TLS, as defined in Clause 4.2 of O-RAN Security Protocols Specifications [3].",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-TS-1",
+    "context": "SEC-CTL-OCLOUD-TS-1: Void",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-TS-2",
+    "context": "SEC-CTL-OCLOUD-TS-2: Void",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OCLOUD-TS-3",
+    "context": "SEC-CTL-OCLOUD-TS-3: The O-Cloud should establish multiple time servers for redundancy. This ensures that nodes can switch to an alternative trusted server if the primary server becomes unavailable, thereby maintaining consistent time synchronization.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SharedORU-1",
+    "context": "SEC-CTL-SharedORU-1: The Shared O-RU shall support mTLS, as specified in O-RAN Security Protocols Specifications [3], clause 4.2, with PKI using X.509v3 certificates for mutual authentication on the M-Plane interface with an O-RU Controller.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SharedORU-2",
+    "context": "SEC-CTL-SharedORU-2: The Shared Operator Host O-RU Controller shall be able to disable password-based authentication on the Shared O-RU.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SharedORU-3",
+    "context": "SEC-CTL-SharedORU-3: The Shared O-RU shall support NACM as defined in IETF RFC 8341 [10] and refined in [14] clause 19.3.3, for permitting or denying access to a SRO.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SharedORU-4",
+    "context": "SEC-CTL-SharedORU-4: The Shared O-RU shall support TLS, as specified in O-RAN Security Protocols Specifications [3], clause 4.2, for confidentiality and integrity protection of data-in-transit on the M-Plane interface with an O-RU Controller.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SharedORU-5",
+    "context": "SEC-CTL-SharedORU-5: The Shared O-RU should support MACsec, as specified in clause 5.2.5.6, for confidentiality, integrity, and replay protection of CUS-Plane data on the Open FH interface.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-A1-1",
+    "context": "SEC-CTL-A1-1: For the security protection at the transport layer on A1 interface, TLS shall be supported, as specified in O-RAN Security Protocols Specifications [3] clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-A1-2",
+    "context": "SEC-CTL-A1-2: For the mutual authentication of the Non-RT RIC and one or more Near-RT RICs, the A1 interface shall support mTLS with PKI using X.509v3 certificates, as shown in Figure 5.2.1.2-1 and specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-A1-3",
+    "context": "SEC-CTL-A1-3: The A1 interface shall support authorization using OAuth 2.0, as specified in O-RAN Security Protocols Specifications [3], clause 4.7.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O1-1",
+    "context": "SEC-CTL-O1-1: O1 interface shall support confidentiality and integrity protection using TLS, as specified in O-RAN Security Protocols Specifications [3] clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O1-2",
+    "context": "SEC-CTL-O1-2: O1 interface shall support mutual authentication using mTLS with X.509 certificates, as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O1-3",
+    "context": "SEC-CTL-O1-3: O1 producers and consumers that use NETCONF shall support authorization and least privilege using NACM, as specified in clause 5.2.2.3.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O1-4",
+    "context": "SEC-CTL-O1-4: The O1 interface in a Shared O-RU configuration shall support confidentiality and integrity protection using TLS, as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O1-5",
+    "context": "SEC-CTL-O1-5: The O1 interface in a Shared O-RU configuration shall support mutual authentication using mTLS , as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O1-6",
+    "context": "SEC-CTL-O1-6: O1 interface may support confidentiality and integrity protection using SSH, as specified in O-RAN Security Protocols Specifications [3] clause 4.1.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O1-7",
+    "context": "SEC-CTL-O1-7: O1 interface shall support secure file transfer using FTPES, as specified in O-RAN Security Protocols Specifications [3], clause 6.3.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O1-8",
+    "context": "SEC-CTL-O1-8: O1 interface may support secure file transfer using SFTP, as specified in O-RAN Security Protocols Specifications [3], clause 6.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O1-9",
+    "context": "SEC-CTL-O1-9: O1 interface may support secure file transfer using HTTPS, as specified in O-RAN Security Protocols Specifications [3], clause 6.4.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O2-1",
+    "context": "SEC-CTL-O2-1: O2 interface shall support confidentiality and integrity protection using TLS, as specified in O-RAN Security Protocols Specifications [3] clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O2-2",
+    "context": "SEC-CTL-O2-2: O2 interface, as shown in Figure 5.2.3.2-1, shall support mutual authentication using mTLS, as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-O2-3",
+    "context": "SEC-CTL-O2-3: O2 interface, as shown in Figure 5.2.3.2-1, shall support authorization using OAuth 2.0, as specified in O-RAN Security Protocols Specifications [3], clause 4.7.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-E2-1",
+    "context": "SEC-CTL-E2-1: For the security protection at the IP layer on E2 interface, IPsec shall be supported as specified in O-RAN Security Protocols Specifications [3], clause 4.5.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFCP-1",
+    "context": "SEC-CTL-OFCP-1: Void",
+    "section": "Securing the C-Plane data using MACsec"
+  },
+  {
+    "control_id": "SEC-CTL-OFUP-1",
+    "context": "SEC-CTL-OFUP-1: Void",
+    "section": "Confidentiality protection for U-Plane data using MACsec"
+  },
+  {
+    "control_id": "SEC-CTL-OFSP-1",
+    "context": "SEC-CTL-OFSP-1: The Open Fronthaul Synchronization architecture should support simultaneous Grandmasters.",
+    "section": "Synchronization Architecture Redundancy"
+  },
+  {
+    "control_id": "SEC-CTL-OFSP-2",
+    "context": "SEC-CTL-OFSP-2: The Open Fronthaul Synchronization architecture should support the assignment of GMs to physically separated PTP ports.",
+    "section": "Synchronization Architecture Redundancy"
+  },
+  {
+    "control_id": "SEC-CTL-OFSP-3",
+    "context": "SEC-CTL-OFSP-3: The Open Fronthaul Synchronization architecture may support IEEE 1588-2019 [27] Authentication TLV for securing PTP ANNOUNCE messages.",
+    "section": "General"
+  },
+  {
+    "control_id": "SEC-CTL-OFSP-KM-1",
+    "context": "SEC-CTL-OFSP-KM-1: An Open Fronthaul network element with IEEE 1588-2019 [27] Authentication TLV capabilities may support the manual configuration of security key.",
+    "section": "Key Management for the PTP integrated security mechanism"
+  },
+  {
+    "control_id": "SEC-CTL-OFSP-4",
+    "context": "SEC-CTL-OFSP-4: The Open Fronthaul Synchronization architecture may support MACsec for securing PTP messages.",
+    "section": "MACsec for S-Plane"
+  },
+  {
+    "control_id": "SEC-CTL-OFHM-1",
+    "context": "SEC-CTL-OFHM-1: Open Fronthaul M-Plane interface shall support confidentiality and integrity protection using TLS, as specified in O-RAN Security Protocols Specifications [3] clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHM-2",
+    "context": "SEC-CTL-OFHM-2: Open Fronthaul M-Plane interface shall support mutual authentication using mTLS 1.2 with X.509 certificates, as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHM-3",
+    "context": "SEC-CTL-OFHM-3: Open Fronthaul M-Plane interface shall support mutual authentication using mTLS 1.3 with X.509 certificates, as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHM-4",
+    "context": "SEC-CTL-OFHM-4: Open Fronthaul M-Plane interface shall support authorization and least privilege using NACM, as specified in clause 5.2.5.4.3.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHM-5",
+    "context": "SEC-CTL-OFHM-5: Open Fronthaul M-Plane interface shall support secure file transfer using FTPES, as specified in O-RAN Security Protocols Specifications [3], clause 6.3.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHM-6",
+    "context": "SEC-CTL-OFHM-6: Open Fronthaul M-Plane interface shall support confidentiality and integrity protection using SSH with password-based authentication, as specified in O-RAN Security Protocols Specifications [3] clause 4.1.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHM-7",
+    "context": "SEC-CTL-OFHM-7: Open Fronthaul M-Plane interface shall support confidentiality and integrity protection using SSH with simple public key server authentication by the SSH client, as specified in O-RAN Security Protocols Specifications [3] clause 4.1.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHM-8",
+    "context": "SEC-CTL-OFHM-8: Open Fronthaul M-Plane interface shall support confidentiality and integrity protection using SSH with simple public key client authentication by the SSH server, as specified in O-RAN Security Protocols Specifications [3] clause 4.1.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHM-9",
+    "context": "SEC-CTL-OFHM-9: Open Fronthaul M-Plane interface shall support secure file transfer using SFTP, as specified in O-RAN Security Protocols Specifications [3], clause 6.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHPLS-1",
+    "context": "SEC-CTL-OFHPLS-1: Void.",
+    "section": "Solution #1: Authentication and Authorization based on 802.1X Port based Network Access Control"
+  },
+  {
+    "control_id": "SEC-CTL-OFHPLS-2",
+    "context": "SEC-CTL-OFHPLS-2: Open Fronthaul network elements shall support IEEE 802.1X-2020 [12] supplicant functionality for each port connection in the Open Fronthaul network element.",
+    "section": "Solution #1: Authentication and Authorization based on 802.1X Port based Network Access Control"
+  },
+  {
+    "control_id": "SEC-CTL-OFHPLS-3",
+    "context": "SEC-CTL-OFHPLS-3: Any Open Fronthaul network element may be an authenticator in the Open Fronthaul network.",
+    "section": "Solution #1: Authentication and Authorization based on 802.1X Port based Network Access Control"
+  },
+  {
+    "control_id": "SEC-CTL-OFHPLS-4",
+    "context": "SEC-CTL-OFHPLS-4: An authenticator in an Open Fronthaul network shall support port-based network access control on each point-to-point LAN segment as defined in IEEE 802.1X-2020 [12].",
+    "section": "Solution #1: Authentication and Authorization based on 802.1X Port based Network Access Control"
+  },
+  {
+    "control_id": "SEC-CTL-OFHPLS-5",
+    "context": "SEC-CTL-OFHPLS-5: Port-based network access control between a supplicant and authenticator in an Open Fronthaul network shall use EAP-TLS authentication as defined in IEEE 802.1X-2020 [12].",
+    "section": "Solution #1: Authentication and Authorization based on 802.1X Port based Network Access Control"
+  },
+  {
+    "control_id": "SEC-CTL-OFHPLS-6",
+    "context": "SEC-CTL-OFHPLS-6: In the case of Configuration LLS-C1, the O-DU shall support the authenticator functionality as defined in IEEE 802.1X-2020 [12].",
+    "section": "Solution #1: Authentication and Authorization based on 802.1X Port based Network Access Control"
+  },
+  {
+    "control_id": "SEC-CTL-OFHPLS-7",
+    "context": "SEC-CTL-OFHPLS-7: The interface between an authenticator and authentication server shall support IETF RADIUS standards, IETF RFC 2865 [22], IETF RFC 2866 [23], IETF RFC 2869 [24], IETF RFC 3579 [90].",
+    "section": "Solution #1: Authentication and Authorization based on 802.1X Port based Network Access Control"
+  },
+  {
+    "control_id": "SEC-CTL-OFHPLS-8",
+    "context": "SEC-CTL-OFHPLS-8: The interface between an authenticator and authentication server should support IETF Diameter standards, IETF RFC 4072 [25].",
+    "section": "Solution #1: Authentication and Authorization based on 802.1X Port based Network Access Control"
+  },
+  {
+    "control_id": "SEC-CTL-OFHPLS-9",
+    "context": "SEC-CTL-OFHPLS-9: Open Fronthaul network elements acting as an authenticator shall place each of its unauthorized ports into a state that allows EAPOL traffic and block all other Ethernet traffic.",
+    "section": "Authentication and authorization procedure for 802.1X Port based Network Access Control"
+  },
+  {
+    "control_id": "SEC-CTL-OFHPLS-10",
+    "context": "SEC-CTL-OFHPLS-10: Open Fronthaul network elements acting as an authenticator should be able to implement authorization policies that apply to its authorized ports.",
+    "section": "Authentication and authorization procedure for 802.1X Port based Network Access Control"
+  },
+  {
+    "control_id": "SEC-CTL-OFHPLS-11",
+    "context": "SEC-CTL-OFHPLS-11: The O-RU shall have installed a Manufacturer Installed X.509 Certificate.",
+    "section": "Authentication and authorization procedure for 802.1X Port based Network Access Control"
+  },
+  {
+    "control_id": "SEC-CTL-OFHPLS-12",
+    "context": "SEC-CTL-OFHPLS-12: The normal operation procedure defined in IEEE 802.1X [12] shown in Figure 5.2.5.5.3.2-1 and Figure 5.2.5.5.3.2-2 shall be performed to authenticate and authorize an O-RU within an Open Fronthaul network.",
+    "section": "Authentication and authorization procedure for 802.1X Port based Network Access Control"
+  },
+  {
+    "control_id": "SEC-CTL-OFHMECC-1",
+    "context": "SEC-CTL-OFHMECC-1: The Open Fronthaul network elements may support the functional blocks of controlled port, uncontrolled port, and Ethernet Data Encryption (EDE), as defined in the standard IEEE 802.1AE -2018 [79] clauses 5.2, 5.3 and 15.6.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHMECC-2",
+    "context": "SEC-CTL-OFHMECC-2: Void",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHMECC-3",
+    "context": "SEC-CTL-OFHMECC-3: The Open Fronthaul network elements may forward the data that need to be encrypted to the controlled port. The controlled port then sends the data to the EDE functional block that is secured by MACsec.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHMECC-4",
+    "context": "SEC-CTL-OFHMECC-4: The Open Fronthaul network elements may support the EDE-CC functionality that allows utilization of the frame\u2019s VLAN tag for service selection and conveyance of Priority Code Point (PCP) and drop-eligible (DEI) information.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHMECC-5",
+    "context": "SEC-CTL-OFHMECC-5: If an Open Fronthaul network element supports the EDE-CC functionality, it shall support the cipher suites, as specified in O-RAN Security Protocols Specifications [3], clause 4.9.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHWMM-1",
+    "context": "SEC-CTL-OFHWMM-1: The Open Fronthaul network elements may support a MACsec solution allowing the VLAN header to travel in the clear.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHWMM-2",
+    "context": "SEC-CTL-OFHWMM-2: If an Open Fronthaul network element supports a MACsec solution allowing the VLAN header to travel in the clear, it shall support the cipher suites, as specified in O-RAN Security Protocols Specifications [3], clause 4.9.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHLMM-1",
+    "context": "SEC-CTL-OFHLMM-1: The Open Fronthaul network elements may support securing of all Open Fronthaul traffic using MACsec.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHLMM-2",
+    "context": "SEC-CTL-OFHLMM-2: The Open Fronthaul network elements may support the configuration of policies to allow certain type of Open Fronthaul traffic to be sent in clear text.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-OFHLMM-3",
+    "context": "SEC-CTL-OFHLMM-3: If an Open Fronthaul network element supports securing of all Open Fronthaul traffic using MACsec, the Open Fronthaul network element shall support the cipher suites, as specified in O-RAN Security Protocols Specifications [3], clause 4.9.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-MACsec-KM-1",
+    "context": "SEC-CTL-MACsec-KM-1: An Open Fronthaul network element with MACsec capabilities should support the key distribution and management using the MACsec Key Agreement (MKA) protocol based on a previous, successful, EAP-TLS authentication, as defined in clause 6.3.1 and clause 9 of IEEE 802.1X-2020 [12].",
+    "section": "5.2.5.6.5.2.2\t\tSecurity Controls"
+  },
+  {
+    "control_id": "SEC-CTL-MACsec-KM-2",
+    "context": "SEC-CTL-MACsec-KM-2: An Open Fronthaul network element with MACsec capabilities may support the key distribution and management using the MACsec Key Agreement (MKA) protocol with pre-shared keys, as defined in clause 6.3.3 and clause 9 of IEEE 802.1X-2020 [12].",
+    "section": "5.2.5.6.5.3.2 Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-R1-1",
+    "context": "SEC-CTL-R1-1: For the security protection at the transport layer on R1 interface, TLS shall be supported as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-R1-2",
+    "context": "SEC-CTL-R1-2: For the mutual authentication of the Non-RT RIC Framework and rApps, the R1 interface shall support mTLS with PKI using X.509v3 certificates, as shown in Figure 5.2.6.2-1 and specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-R1-3",
+    "context": "SEC-CTL-R1-3: The R1 interface shall support authorization using OAuth 2.0, as specified in O-RAN Security Protocols Specifications [3], clause 4.7.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-Y1-1",
+    "context": "SEC-CTL-Y1-1: The Y1 interface protocol structure solution 1 shall support mutual TLS (mTLS) authentication via X.509v3 certificates, as specified in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Y1 interface protocol structure solution 1"
+  },
+  {
+    "control_id": "SEC-CTL-Y1-2",
+    "context": "SEC-CTL-Y1-2: The Y1 interface protocol structure solution 1 shall support the OAuth 2.0 authorization framework as specified in O-RAN Security Protocols Specifications [3], clause 4.7.",
+    "section": "Y1 interface protocol structure solution 1"
+  },
+  {
+    "control_id": "SEC-CTL-Y1-3",
+    "context": "SEC-CTL-Y1-3: The Y1 interface protocol structure solution 1 shall support TLS, as specified in O-RAN Security Protocols Specifications [3], clause 4.2, to provide data confidentiality, integrity, and replay-protection.",
+    "section": "Y1 interface protocol structure solution 1"
+  },
+  {
+    "control_id": "SEC-CTL-ALM-PKG-1",
+    "context": "SEC-CTL-ALM-PKG-1: During onboarding, SMO shall verify the signature(s) of the application package and the signature(s) of application artifacts.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-ALM-PKG-1B",
+    "context": "SEC-CTL-ALM-PKG-1B: During deployment, SMO or O-Cloud shall verify the signatures of all the onboarded application artifacts necessary for deployment, both the Service Provider signature created by Service Provider, if applicable by the Service Provider policy, and the Solution Provider signature.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-ALM-PKG-2",
+    "context": "SEC-CTL-ALM-PKG-2: Sensitive artifacts shall be encrypted for confidentiality protection.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-ALM-PKG-2A",
+    "context": "SEC-CTL-ALM-PKG-2A: Algorithms, key sizes, and standards to be used for encryption/decryption shall follow the O-RAN Security Protocols Specifications [3], clause 5.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-ALM-PKG-3",
+    "context": "SEC-CTL-ALM-PKG-3: Applications supported in the ETSI profile [80] shall be compliant with ETSI NFV specifications, ETSI GS NFV-SOL004 [42] clause 5, and ETSI GS NFV-SEC 021 [41] clauses 5 and 6, for package formats and signing/verification procedures.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-ALM-PKG-4",
+    "context": "SEC-CTL-ALM-PKG-4: Encryption shall be used to secure cryptographic keys used by the cryptographic operations.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-ALM-PKG-5",
+    "context": "SEC-CTL-ALM-PKG-5: An O-RAN architecture element performing authenticity and integrity verification of application packages should log a unique identification of the application package, the result of the signature verification and the result of the integrity verification for each event.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-DEL-1",
+    "context": "SEC-CTL-DEL-1: Void",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-DEL-2",
+    "context": "SEC-CTL-DEL-2: Void",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-DOS-1",
+    "context": "SEC-CTL-DOS-1: Void",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-PASS-1",
+    "context": "SEC-CTL-PASS-1: O-RAN architecture elements with default password shall support the ability to change the password.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-PASS-2",
+    "context": "SEC-CTL-PASS-2: O-RAN architecture elements shall support account lock-out for repeated failed login attempts. The number of failed login attempts shall be configurable.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-PASS-3",
+    "context": "SEC-CTL-PASS-3: User passwords managed by authenticators shall be stored only as salted, cryptographic hashes, as defined in O-RAN Security Protocols Specifications [3], clause 5.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-PASS-4",
+    "context": "SEC-CTL-PASS-4: An O-RAN architecture element acting as a client shall store the passwords or secrets it uses to authenticate to a server, encrypted as specified in O-RAN Security Protocols Specifications [3], clause 5.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-PASS-5",
+    "context": "SEC-CTL-PASS-5: All passwords or secrets shall be encrypted when transmitted over networks, using SSH as defined in O-RAN Security Protocols Specifications [3], clause 4.1, or TLS as defined in O-RAN Security Protocols Specifications [3], clause 4.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-SST-1",
+    "context": "SEC-CTL-SLM-SST-1: Centralized storage for security log data should be realized using centralized logging servers or cloud-based services.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-SST-2",
+    "context": "SEC-CTL-SLM-SST-2: Tamper-proof storage of security log data may be achieved through digital signature, encryption, and hashing techniques.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-SST-3",
+    "context": "SEC-CTL-SLM-SST-3: The retention period should be based on legal, regulatory, and compliance requirements, as well as the organization's own policies.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-STR-1",
+    "context": "SEC-CTL-SLM-STR-1: O-RAN architecture elements may support secure transfer of security log data using FTPES, as specified in O-RAN Security Protocols Specifications [3], clause 6.3.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-STR-2",
+    "context": "SEC-CTL-SLM-STR-2: An O-RAN component may support the transport of Syslog as defined in RFC 5424 [64] over TLS as defined in RFC 5425 [65] for log streaming of security log events.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-STR-3",
+    "context": "SEC-CTL-SLM-STR-3: O-RAN architecture elements may support secure transfer of security log data using SFTP, as specified in O-RAN Security Protocols Specifications [3], clause 6.2.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-FLD-1",
+    "context": "SEC-CTL-SLM-FLD-1: Security logs should use the ISO 8601 date and time format [62].",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-FLD-2",
+    "context": "SEC-CTL-SLM-FLD-2: Security logs shall use IP addresses for the location field.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-ATS-1",
+    "context": "SEC-CTL-SLM-ATS-1: The Network Time Protocol (NTP) version 4 should be supported as specified by RFC5905[60] for the support of authenticated time stamping.",
+    "section": "Authenticated Time Stamping"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-ATS-2",
+    "context": "SEC-CTL-SLM-ATS-2: If NTPv4 authentication is in use, then AES-CMAC as specified by RFC4493 [78] shall be supported. In this use case the NTP client can verify the integrity of the received NTP-packet.",
+    "section": "Authenticated Time Stamping"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-ATS-3",
+    "context": "SEC-CTL-SLM-ATS-3: If NTP security (as specified by RFC5905 [60]) is in use for the integrity and replay protection of NTP-packets, then NTS (RFC8915 [63]) shall be supported.",
+    "section": "Authenticated Time Stamping"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-CTS-1",
+    "context": "SEC-CTL-SLM-CTS-1: The Time Stamp representation should be in a standardized format, and the format in use should be logged. For reference to the formatting please refer to RFC 3339 [61] and ISO 8601 [62].",
+    "section": "Common Time Source"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-GEN-EVT-1",
+    "context": "SEC-CTL-SLM-GEN-EVT-1: O-Cloud shall log a security event if driver signature verification fails.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-GEN-EVT-2",
+    "context": "SEC-CTL-SLM-GEN-EVT-2: O-Cloud shall implement a robust File Integrity Monitoring (FIM) system that continuously monitors the integrity of all driver-related files, including executables, libraries, configuration files, and dependencies. The FIM system shall be configured to calculate cryptographic ",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-GEN-EVT-3",
+    "context": "SEC-CTL-SLM-GEN-EVT-3: O-Cloud shall log a security event if any hashes of driver files do not match their baseline values.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-GEN-EVT-4",
+    "context": "SEC-CTL-SLM-GEN-EVT-4: Baseline configurations for the hardware resource shall be established by the SMO, and regularly compared to the current state.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-GEN-EVT-5",
+    "context": "SEC-CTL-SLM-GEN-EVT-5: O-Cloud shall log a security event when it detects unauthorized deviation from the O-Cloud hardware resource configuration baseline.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-GEN-EVT-6",
+    "context": "SEC-CTL-SLM-GEN-EVT-6: Baseline configurations for each Application shall be established by the SMO, and regularly compared to the current state.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SLM-GEN-EVT-7",
+    "context": "SEC-CTL-SLM-GEN-EVT-7: O-Cloud shall log a security event when it detects unauthorized deviation from the Application configuration baseline.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-CMF-PNF-1",
+    "context": "SEC-CTL-CMF-PNF-1: An O-RAN PNF requiring a PKI certificate shall support CMPv2 as specified in O-RAN Security Protocols Specifications [3], clause 4.6.",
+    "section": "5.3.9.2.1 PNFs"
+  },
+  {
+    "control_id": "SEC-CTL-CMF-PNF-2",
+    "context": "SEC-CTL-CMF-PNF-2: An O-RAN PNF with pre-installed vendor-signed certificate shall support initial registration and certificate enrolment as described in 3GPP TS 33.310 [88] clause 9 \u201ccertificate enrolment for base stations\u201d.",
+    "section": "5.3.9.2.1 PNFs"
+  },
+  {
+    "control_id": "SEC-CTL-CMF-VNF",
+    "context": "SEC-CTL-CMF-VNF_CNF-1: Void",
+    "section": "5.3.9.2.2 VNFs/CNFs"
+  },
+  {
+    "control_id": "SEC-CTL-CMF-ANYNF-1",
+    "context": "SEC-CTL-CMF-ANYNF-1: NFs may establish TLS connection using renewed certificates before terminating existing TLS connections.",
+    "section": "5.3.9.2.3 Any NF (PNF/VNF/CNF)"
+  },
+  {
+    "control_id": "SEC-CTL-CMF-ANYNF-2",
+    "context": "SEC-CTL-CMF-ANYNF-2: NFs may terminate any established TLS connection after the renewed certificates are validated and re-establish TLS connection with new certificate.",
+    "section": "5.3.9.2.3 Any NF (PNF/VNF/CNF)"
+  },
+  {
+    "control_id": "SEC-CTL-CMF-ANYNF-3",
+    "context": "SEC-CTL-CMF-ANYNF-3: NFs may wait for already established TLS connections to close before applying the renewed certificate for new TLS connections.",
+    "section": "5.3.9.2.3 Any NF (PNF/VNF/CNF)"
+  },
+  {
+    "control_id": "SEC-CTL-API-01",
+    "context": "SEC-CTL-API-01: API client and server shall support mTLS, as specified in O-RAN Security Protocols Specifications [3], clause 4.2, with PKI using X.509v3 certificates for mutual authentication.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-API-02",
+    "context": "SEC-CTL-API-02: API server shall support OAuth 2.0 resource server functionality, as specified in O-RAN Security Protocols Specifications [3], clause 4.7, for service requests received from API clients.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-API-03",
+    "context": "SEC-CTL-API-03: API server shall support OAuth 2.0 resource owner functionality, as specified in O-RAN Security Protocols Specifications [3], clause 4.7, for service requests received from API clients.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-API-04",
+    "context": "SEC-CTL-API-04: API client shall support OAuth 2.0 client functionality, as specified in O-RAN Security Protocols Specifications [3], clause 4.7 for each service request.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-API-05",
+    "context": "SEC-CTL-API-05: API client and server shall support TLS, as specified in O-RAN Security Protocols Specifications [3], clause 4.2, for protection of data-in-transit.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-TAP-1",
+    "context": "SEC-CTL-TAP-1: An O-RAN PNF shall support CMPv2, as specified in O-RAN Security Protocols Specifications [3], clause 4.6, for trust anchor provisioning.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-TAP-2",
+    "context": "SEC-CTL-TAP-2: An O-RAN PNF may support voucher-based protocols [69] to enable an O-RAN function to be securely provisioned with a new trust anchor.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-TAP-3",
+    "context": "SEC-CTL-TAP-3: An O-RAN PNF may support BRSKI [70] for trust anchor provisioning.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-TAP-4",
+    "context": "SEC-CTL-TAP-4: An O-RAN PNF may support SZTP [71] for trust anchor provisioning.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-TAP-5",
+    "context": "SEC-CTL-TAP-5: An O-RAN PNF may support 3GPP SCS [72], [73], [74] for download of initial security configuration.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SBOM-001",
+    "context": "SEC-CTL-SBOM-001: The SBOM for an O-RAN software package shall use hashing and digital signing as defined in O-RAN Security Protocols Specifications [3], clause 5.",
+    "section": "Security Controls"
+  },
+  {
+    "control_id": "SEC-CTL-SBOM-002",
+    "context": "SEC-CTL-SBOM-002: Void",
+    "section": "Security Controls"
+  }
+]

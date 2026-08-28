@@ -1,0 +1,1327 @@
+[
+  {
+    "threat_id": "T-O-RAN-01",
+    "threat_title": "An attacker exploits insecure designs or lack of adoption in O-RAN components",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-O-RAN-02",
+    "threat_title": "An attacker exploits misconfigured or poorly configured O-RAN components",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-O-RAN-03",
+    "threat_title": "Attacks from the internet exploit weak authentication and access control to penetrate O-RAN network boundary",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-O-RAN-04",
+    "threat_title": "An attacker attempts to jam the airlink signal through IoT devices",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-O-RAN-05",
+    "threat_title": "An attacker penetrates and compromises the O-RAN system through the open O-RAN\u2019s Fronthaul, O1, O2, A1, and E2",
+    "security_requirements": "REQ-SEC-SLM-GSE-5"
+  },
+  {
+    "threat_id": "T-O-RAN-06",
+    "threat_title": "An attacker exploits insufficient/improper mechanisms for authentication and authorization to compromise O-RAN components",
+    "security_requirements": "REQ-SEC-SLM-GSE-5\nREQ-SEC-SLM-SST-1..7\nREQ-SEC-AUTHZ-1\nREQ-SEC-AUTHZ-2"
+  },
+  {
+    "threat_id": "T-O-RAN-07",
+    "threat_title": "An attacker compromises O-RAN monitoring mechanisms and log files integrity and availability",
+    "security_requirements": "REQ-SEC-SLM-FLD-2, REQ-SEC-SLM-ATS-1, REQ-SEC-SLM-SST-1..7, REQ-SEC-SLM-STR-1..5, REQ-SEC-SLM-DDA-9"
+  },
+  {
+    "threat_id": "T-O-RAN-08",
+    "threat_title": "An attacker compromises O-RAN data integrity, confidentiality and traceability",
+    "security_requirements": "REQ-SEC-SLM-DAT-EVT-1..8\nREQ-SEC-SLM-GSE-5\nREQ-SEC-SLM-SST-7, REQ-SEC-SLM-TLD-1..5\nREC-SEC-APP-PKG-16\nREQ-SEC-SMOS-6\nREQ-SEC-SMOS-7\nREQ-SEC-SMOS-8"
+  },
+  {
+    "threat_id": "T-O-RAN-09",
+    "threat_title": "An attacker compromises O-RAN components integrity and availability",
+    "security_requirements": "REQ-SEC-SLM-DoS-1..7\nREQ-SEC-SLM-SST-7, REQ-SEC-SLM-TLD-1..5"
+  },
+  {
+    "threat_id": "T-O-RAN-10",
+    "threat_title": "Inconsistent Log Format Impeding Effective Attack Detection",
+    "security_requirements": "REQ-SEC-SLM-FMT-1, REQ-SEC-SLM-FLD-1..3, REQ-SEC-SLM-FLD-1, REQ-SEC-SLM-FMT-1, REQ-SEC-LCSS-2..5, REQ-SEC-SLM-DDA-1..11"
+  },
+  {
+    "threat_id": "T-FRHAUL-01",
+    "threat_title": "An attacker penetrates O-DU and beyond through O-RU or the Fronthaul interface",
+    "security_requirements": "REQ-SEC-OFHM-2 and REQ-SEC-OFHM-3, REQ-SEC-OFHPLS-1, REQ-SEC-OFHPLS-2, REQ-SEC-OFHPLS-3"
+  },
+  {
+    "threat_id": "T-FRHAUL-01A",
+    "threat_title": "An attacker penetrates O-DU and beyond through O-RU or the Fronthaul interface to impersonate a legitimate system or user [i.12]",
+    "security_requirements": "REQ-SEC-OFHPLS-1, REQ-SEC-OFHPLS-2,\nREQ-SEC-OFHPLS-3"
+  },
+  {
+    "threat_id": "T-FRHAUL-02",
+    "threat_title": "Unauthorized access to Open Front Haul Ethernet L1 physical layer interface(s)",
+    "security_requirements": "REQ-SEC-OFHM-3, REQ-SEC-OFHPLS-1, REQ-SEC-OFHPLS-2\nREQ-SEC-OFHPLS-3"
+  },
+  {
+    "threat_id": "T-FRHAUL-03",
+    "threat_title": "Unauthorized access to Open Fronthaul Ethernet L1 physical layer interface(s) to disrupt services",
+    "security_requirements": "REQ-SEC-OFHPLS-1, REQ-SEC-OFHPLS-2, REQ-SEC-OFHPLS-3"
+  },
+  {
+    "threat_id": "T-MPLANE-01",
+    "threat_title": "An attacker attempts to intercept the Fronthaul (MITM) over M Plane",
+    "security_requirements": "REQ-SEC-OFHM-1, REQ-SEC-OFHM-2, REQ-SEC-OFHM-3, REQ-SEC-OFHM-4"
+  },
+  {
+    "threat_id": "T-MPLANE-02",
+    "threat_title": "An attacker attempts to intercept the Fronthaul (MITM) over M Plane to alter m-plane data",
+    "security_requirements": "REQ-SEC-OFHM-1,REQ-SEC-OFHM-4"
+  },
+  {
+    "threat_id": "T-MPLANE-03",
+    "threat_title": "An attacker attempts to intercept the Fronthaul (MITM) over M Plane to disrupt services",
+    "security_requirements": "REQ-SEC-SLM-NET-EVT-1, REQ-SEC-OFHPLS-1, REQ-SEC-OFHPLS-2, REQ-SEC-OFHPLS-3, REQ-SEC-OFHM-1, REQ-SEC-OFHM-2, REQ-SEC-OFHM-3,REQ-SEC-OFHM-4"
+  },
+  {
+    "threat_id": "T-SPLANE-01",
+    "threat_title": "DoS attack against a Master clock",
+    "security_requirements": "REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-ATS-1\nREQ-SEC-OFSP-1, REQ-SEC-OFSP-5, REQ-SEC-OFSP-6, REQ-SEC-OFSP-7, REQ-SEC-OFSP-8"
+  },
+  {
+    "threat_id": "T-SPLANE-02",
+    "threat_title": "Impersonation of a Master clock (Spoofing) within a PTP network with a fake ANNOUNCE message",
+    "security_requirements": "REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-ATS-1\nREQ-SEC-OFSP-1, REQ-SEC-OFSP2, REQ-SEC-OFSP-5, REQ-SEC-OFSP-6, REQ-SEC-OFSP-7, REQ-SEC-OFSP-8"
+  },
+  {
+    "threat_id": "T-SPLANE-03",
+    "threat_title": "A Rogue PTP Instance wanting to be a Grand Master",
+    "security_requirements": "REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-ATS-1\nREQ-SEC-OFSP-5, REQ-SEC-OFSP-6, REQ-SEC-OFSP-7, REQ-SEC-OFSP-8"
+  },
+  {
+    "threat_id": "T-SPLANE-04",
+    "threat_title": "Selective interception and removal of PTP timing packets",
+    "security_requirements": "REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-ATS-1\nREQ-SEC-OFSP-3"
+  },
+  {
+    "threat_id": "T-SPLANE-05",
+    "threat_title": "Packet delay manipulation attack",
+    "security_requirements": "REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-ATS-1\nREQ-SEC-OFSP-3"
+  },
+  {
+    "threat_id": "T-CPLANE-01",
+    "threat_title": "Spoofing of DL C-plane messages",
+    "security_requirements": "REQ-SEC-OFCP-1"
+  },
+  {
+    "threat_id": "T-CPLANE-02",
+    "threat_title": "Spoofing of UL C-plane messages",
+    "security_requirements": "REQ-SEC-OFCP-1"
+  },
+  {
+    "threat_id": "T-UPLANE-01",
+    "threat_title": "An attacker attempts to intercept the Fronthaul (MITM) over U Plane",
+    "security_requirements": "REQ-SEC-OFHPLS-1, REQ-SEC-OFHPLS-2,  REQ-SEC-OFHPLS-3, REQ-SEC-OFUP-2, REQ-SEC-OFUP-3, REQ-SEC-OFUP-4"
+  },
+  {
+    "threat_id": "T-UPLANE-02",
+    "threat_title": "An attacker attempts to intercept the Fronthaul (MITM) over U-Plane to modify u-plane data",
+    "security_requirements": "REQ-SEC-OFHPLS-1, REQ-SEC-OFHPLS-2, REQ-SEC-OFHPLS-3, REQ-SEC-OFUP-1, REQ-SEC-OFUP-4"
+  },
+  {
+    "threat_id": "T-UPLANE-03",
+    "threat_title": "An attacker attempts to intercept the Fronthaul (MITM) over U-Plane to disrupt services",
+    "security_requirements": "REQ-SEC-OFHPLS-1, REQ-SEC-OFHPLS-2, REQ-SEC-OFHPLS-3, REQ-SEC-OFUP-1, REQ-SEC-OFUP-2, REQ-SEC-OFUP-3, REQ-SEC-OFUP-4"
+  },
+  {
+    "threat_id": "T-UPLANE-04",
+    "threat_title": "Spoofing and unauthorized access of U-Plane data packets",
+    "security_requirements": "REQ-SEC-OFHPLS-1, REQ-SEC-OFHPLS-2, REQ-SEC-OFHPLS-3, REQ-SEC-OFUP-2, REQ-SEC-OFUP-3"
+  },
+  {
+    "threat_id": "T-ORU-01",
+    "threat_title": "An attacker stands up a false base station attack by attacking an O-RU",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-NEAR-RT-01",
+    "threat_title": "Malicious xApps can exploit UE identification, track UE location and change UE priority",
+    "security_requirements": "REQ-SEC-NEAR-RT-1"
+  },
+  {
+    "threat_id": "T-NEAR-RT-02",
+    "threat_title": "Risk of deployment of a malicious xApp on Near-RT RIC",
+    "security_requirements": "REQ-SEC-OCLOUD-PKG-1..3, REQ-SBOM-001..002, REQ-SBOM-004..006, REQ-SEC-NEAR-RT-1..4, REQ-SEC-XAPP-3..4"
+  },
+  {
+    "threat_id": "T-NEAR-RT-03",
+    "threat_title": "Attackers exploit non authenticated, weakly or incorrectly authenticated Near-RT RIC APIs",
+    "security_requirements": "REQ-SEC-OCLOUD-PKG-1..3, REQ-SBOM-001..002, REQ-SBOM-004..006, REQ-SEC-NEAR-RT-1..4, REQ-SEC-E2-1, SEC-CTL-E2"
+  },
+  {
+    "threat_id": "T-NEAR-RT-04",
+    "threat_title": "Attackers exploit non authorized Near-RT RIC APIs to access to resources and services which they are not entitled to use.",
+    "security_requirements": "REQ-SEC-NEAR-RT-1..4, REQ-SEC-OCLOUD-PKG-1..3"
+  },
+  {
+    "threat_id": "T-NEAR-RT-05",
+    "threat_title": "Attackers exploit non uniquely identified xApps using a trusted xAppID to access to resources and services which they are not entitled to use.",
+    "security_requirements": "REQ-SEC-XAPP-3..4, SEC-CTL-NEAR-RT-13..14"
+  },
+  {
+    "threat_id": "T-NONRTRIC-01",
+    "threat_title": "An attacker gains access to the Non-RT RIC through the SMO to cause a denial of service or degrade the performance of the Non-RT-RIC",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-NONRTRIC-02",
+    "threat_title": "An attacker gains access to the Non-RT RIC through the SMO for UE tracking",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-NONRTRIC-03",
+    "threat_title": "An attacker gains access to the Non-RT RIC through the SMO to cause Data Corruption/Modification",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-NONRTRIC-04",
+    "threat_title": "An attacker exploits non uniquely identified rApp instances using a trusted rAppID to access R1 services and data which they are not entitled to use",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-xApp-01",
+    "threat_title": "An attacker exploits xApps vulnerabilities and misconfiguration",
+    "security_requirements": "REQ-SEC-OCLOUD-PKG-1..3, REQ-SBOM-001..002, REQ-SBOM-004..006, REQ-SEC-NEAR-RT-1..4, REQ-SEC-ALM-SU-2"
+  },
+  {
+    "threat_id": "T-xApp-02",
+    "threat_title": "Conflicting xApps unintentionally or maliciously impact O-RAN system functions to degrade performance or trigger a DoS",
+    "security_requirements": "REQ-SEC-E2-1, SEC-CTL-E2"
+  },
+  {
+    "threat_id": "T-xApp-03",
+    "threat_title": "An attacker compromises xApp isolation",
+    "security_requirements": "REQ-SEC-NEAR-RT-1..4, REQ-SEC-OCLOUD-PKG-1..3, REQ-TLS-FUN-1..10\nREQ-SEC-SLM-GEN-EVT-1..6, REQ-SEC-SLM-HYP-EVT-1..3, REQ-SEC-SLM-CON-EVT-1..3, REQ-SEC-SLM-APP-EVT-1..2, REQ-SEC-SLM-DAT-EVT-1..8, REQ-SEC-SLM-AAI-EVT-1..10, REQ-SEC-SLM-GSE-1..6, REQ-SEC-SLM-TESS-4, REQ-SEC-SLM-FLD-3, REQ-SEC-SLM-AAI-EVT-4"
+  },
+  {
+    "threat_id": "T-xApp-04",
+    "threat_title": "False or malicious A1 policies modify behavior of xApps",
+    "security_requirements": "REQ-SEC-NEAR-RT-1..7, REQ-SEC-A1-1..2"
+  },
+  {
+    "threat_id": "T-rAPP-01",
+    "threat_title": "Conflicting rApps impact O-RAN system functions to degrade performance or trigger a DoS",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-rAPP-02",
+    "threat_title": "An attacker exploits rApp vulnerability for data breach or denial of service",
+    "security_requirements": "REQ-SEC-ALM-SU-2"
+  },
+  {
+    "threat_id": "T-rAPP-03",
+    "threat_title": "An attacker exploits rApps misconfiguration",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-rAPP-04",
+    "threat_title": "An attacker bypasses authentication and authorization",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-rAPP-05",
+    "threat_title": "An attacker deploys and exploits malicious rApp",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-rAPP-06",
+    "threat_title": "An attacker bypasses authentication and authorization using an injection attack",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-rAPP-07",
+    "threat_title": "rApp exploits services",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-PNF-01",
+    "threat_title": "An attacker compromises a PNF to launch reverse attacks and other attacks against VNFs/CNFs",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-R1-01",
+    "threat_title": "A malicious actor gains unauthorized access to R1 services",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-R1-02",
+    "threat_title": "Attacker modifies Service Heartbeat message to cause Denial of Service",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-R1-03",
+    "threat_title": "Malicious actor bypasses authentication to Request Data",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-R1-04",
+    "threat_title": "Malicious actor bypasses authorization to Discover Data",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-R1-05",
+    "threat_title": "A malicious actor gains unauthorized access to data",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-R1-06",
+    "threat_title": "Malicious actor modifies a Data Request",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-R1-07",
+    "threat_title": "Malicious actor compromises Data Delivery to the Data Consumer",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-A1-01",
+    "threat_title": "Untrusted peering between Non-RT-RIC and Near-RT-RIC",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-A1-02",
+    "threat_title": "Malicious function or application monitors messaging across A1 interface",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-A1-03",
+    "threat_title": "Malicious function or application modifies messaging across A1 interface",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-AppLCM-01",
+    "threat_title": "Compromise of App/VNF/CNF update package integrity prior to onboarding",
+    "security_requirements": "REQ-SEC-ALM-PKG-2\nREQ-SEC-ALM-PKG-3\nREQ-SEC-ALM-PKG-4\nREQ-SEC-ALM-PKG-5\nREQ-SEC-ALM-PKG-6\nSEC-CTL-ALM-PKG-5\nREC-SEC-APP-PKG-16\nREQ-SEC-SMOS-6\nREQ-SEC-SMOS-7\nREQ-SEC-SMOS-8"
+  },
+  {
+    "threat_id": "T-AppLCM-02",
+    "threat_title": "Compromise of App/VNF/CNF update image integrity during instantiation",
+    "security_requirements": "REQ-SEC-OCLOUD-PKG-1\nREQ-SEC-OCLOUD-PKG-2"
+  },
+  {
+    "threat_id": "T-AppLCM-03",
+    "threat_title": "Downgrade attack to vulnerable application version",
+    "security_requirements": "REQ-SEC-ALM-SU-3"
+  },
+  {
+    "threat_id": "T-AppLCM-04",
+    "threat_title": "Attacker exploits missing or improperly defined elements of application\u2019s SecurityDescriptor",
+    "security_requirements": "REQ-SEC-LCM-SD-1\nREQ-SEC-LCM-SD-2"
+  },
+  {
+    "threat_id": "T-AppLCM-05",
+    "threat_title": "Malicious actor modifies application\u2019s SecurityDescriptor",
+    "security_requirements": "Integrity protection of descriptors during delivery and onboarding: REQ-SEC-ALM-PKG-2, REQ-SEC-ALM-PKG-4, REQ-SEC-ALM-PKG-5, REQ-SEC-ALM-PKG-6\nIntegrity protection within the catalogue (SMO level): REQ-SEC-ALM-PKG-10, REQ-SEC-ALM-PKG-11\nIntegrity protection during the life cycle: REQ-SEC-ALM-PKG-13\nIntegrity protection within the O-Cloud: REQ-SEC-OCLOUD-SS-1"
+  },
+  {
+    "threat_id": "T-AppLCM-06",
+    "threat_title": "Improper decommissioning of application",
+    "security_requirements": "REQ-SEC-ALM-DECOM-1\nREQ-SEC-ALM-DECOM-2\nREQ-SEC-ALM-DECOM-3"
+  },
+  {
+    "threat_id": "T-AppLCM-07",
+    "threat_title": "Improper deletion of application sensitive data",
+    "security_requirements": "REQ-SEC-OCLOUD-SS-2\nREQ-SEC-OCLOUD-SS-3\nREQ-SEC-OCLOUD-SS-4\nREQ-SEC-OCLOUD-SS-5"
+  },
+  {
+    "threat_id": "T-E2-01",
+    "threat_title": "Untrusted Near-RT-RIC and/or E2 Nodes",
+    "security_requirements": "REQ-SEC-NEAR-RT-9"
+  },
+  {
+    "threat_id": "T-E2-02",
+    "threat_title": "Malicious actor monitors messaging across E2 interface",
+    "security_requirements": "REQ-SEC-E2-1"
+  },
+  {
+    "threat_id": "T-E2-03",
+    "threat_title": "Malicious actor modifies messaging across E2 interface",
+    "security_requirements": "REQ-SEC-E2-1"
+  },
+  {
+    "threat_id": "T-Y1-01",
+    "threat_title": "Untrusted Near-RT-RIC and Y1 consumers",
+    "security_requirements": "REQ-SEC-NEAR-RT-8, REQ-SEC-Y1-1..6"
+  },
+  {
+    "threat_id": "T-Y1-02",
+    "threat_title": "Malicious actor monitors messaging across Y1 interface",
+    "security_requirements": "REQ-SEC-Y1-3"
+  },
+  {
+    "threat_id": "T-Y1-03",
+    "threat_title": "Malicious actor modifies messaging across Y1 interface",
+    "security_requirements": "REQ-SEC-Y1-3"
+  },
+  {
+    "threat_id": "T-GEN-01",
+    "threat_title": "Software flaw attack",
+    "security_requirements": "SBOM requirements\nREQ-SEC-OCLOUD-SU-1\nREQ-SEC-OCLOUD-SU-5\nREQ-SEC-OCLOUD-SU-6\nREQ-SEC-OCLOUD-SU-7\nREQ-SEC-SMO-9\nREQ-SEC-SMO-10\nREQ-SEC-SLM-GEN-EVT-1..6, REQ-SEC-SLM-HYP-EVT-1..3, REQ-SEC-SLM-CON-EVT-1..3, REQ-SEC-SLM-APP-EVT-1..2, REQ-SEC-SLM-DAT-EVT-1..8, REQ-SEC-SLM-AAI-EVT-1..10, REQ-SEC-SLM-GSE-1..6, REQ-SEC-SLM-TESS-4, REQ-SEC-SLM-FLD-3, REQ-SEC-SLM-AAI-EVT-4, REQ-SEC-SLM-TESS-3                                                                 REQ-SEC-ALM-SU-2\nREQ-SEC-ALM-SU-3\nREQ-SEC-ALM-SU-5"
+  },
+  {
+    "threat_id": "T-GEN-02",
+    "threat_title": "Malicious access to exposed services using valid accounts",
+    "security_requirements": "REQ-SEC-OCLOUD-1\nREQ-SEC-OCLOUD-2\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-GEN-03",
+    "threat_title": "Untrust binding between the different O-Cloud layers",
+    "security_requirements": "REQ-SEC-OCLOUD-COT-1\nREQ-SEC-OCLOUD-COT-2\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-GEN-04",
+    "threat_title": "Lack of Authentication & Authorization in interfaces between O-Cloud components",
+    "security_requirements": "REQ-SEC-OCLOUD-ISO-1\nREQ-SEC-OCLOUD-ISO-2\nREQ-SEC-OCLOUD-ISO-3\nREQ-SEC-OCLOUD-ISO-4\nREQ-SEC-OCLOUD-ISO-5\nREQ-SEC-OCLOUD-ISO-6\nREQ-SEC-OCLOUD-ISO-7\nREQ-SEC-TESR-1\nREQ-SEC-SLM-GEN-EVT-1..6, REQ-SEC-SLM-HYP-EVT-1..3, REQ-SEC-SLM-CON-EVT-1..3, REQ-SEC-SLM-APP-EVT-1..2, REQ-SEC-SLM-DAT-EVT-1..8, REQ-SEC-SLM-AAI-EVT-1..10, REQ-SEC-SLM-GSE-1..6, REQ-SEC-SLM-TESS-4, REQ-SEC-SLM-FLD-3, REQ-SEC-SLM-AAI-EVT-4, REQ-SEC-SLM-TESS-3"
+  },
+  {
+    "threat_id": "T-GEN-05",
+    "threat_title": "Unsecured credentials and keys",
+    "security_requirements": "REQ-SEC-OCLOUD-SS-1\nREQ-SEC-OCLOUD-SS-2\nREQ-SEC-OCLOUD-SS-3\nREQ-SEC-OCLOUD-SS-4\nREQ-SEC-SLM-GEN-EVT-1..6, REQ-SEC-SLM-HYP-EVT-1..3, REQ-SEC-SLM-CON-EVT-1..3, REQ-SEC-SLM-APP-EVT-1..2, REQ-SEC-SLM-DAT-EVT-1..8, REQ-SEC-SLM-AAI-EVT-1..10, REQ-SEC-SLM-GSE-1..6, REQ-SEC-SLM-TESS-4, REQ-SEC-SLM-FLD-3, REQ-SEC-SLM-AAI-EVT-4, REQ-SEC-SLM-TESS-3"
+  },
+  {
+    "threat_id": "T-GEN-06",
+    "threat_title": "Sensitive application data cache exploitation",
+    "security_requirements": "REQ-SEC-OCLOUD-SS-1\nREQ-SEC-OCLOUD-SS-2\nREQ-SEC-OCLOUD-SS-3\nREQ-SEC-OCLOUD-SS-4\nREQ-SEC-OCLOUD-SS-5"
+  },
+  {
+    "threat_id": "T-VM-C-01",
+    "threat_title": "Abuse of a privileged VM/Container",
+    "security_requirements": "REQ-SEC-OCLOUD-ISO-1\nREQ-SEC-OCLOUD-ISO-2\nREQ-SEC-OCLOUD-ISO-3\nREQ-SEC-OCLOUD-ISO-4\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-VM-C-02",
+    "threat_title": "VM/Container escape attack",
+    "security_requirements": "REQ-SEC-OCLOUD-ISO-1\nREQ-SEC-OCLOUD-ISO-3\nREQ-SEC-SLM-GEN-EVT-1..6, REQ-SEC-SLM-HYP-EVT-1..3, REQ-SEC-SLM-CON-EVT-1..3, REQ-SEC-SLM-APP-EVT-1..2, REQ-SEC-SLM-DAT-EVT-1..8, REQ-SEC-SLM-AAI-EVT-1..10, REQ-SEC-SLM-GSE-1..6, REQ-SEC-SLM-TESS-4, REQ-SEC-SLM-FLD-3, REQ-SEC-SLM-AAI-EVT-4, REQ-SEC-SLM-TESS-3"
+  },
+  {
+    "threat_id": "T-VM-C-03",
+    "threat_title": "VM/Container data theft",
+    "security_requirements": "REQ-SEC-O-CLOUD-ISO-4\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-VM-C-04",
+    "threat_title": "VM/Container migration attacks",
+    "security_requirements": "REQ-SEC-LCM-SD-6\nREQ-SEC-ALM-PKG-13\nREQ-SEC-ALM-PKG-15\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-VM-C-05",
+    "threat_title": "Changing virtualization resource without authorization",
+    "security_requirements": "REQ-SEC-OCLOUD-ISO-1\nREQ-SEC-OCLOUD-ISO-3\nREQ-SEC-O-CLOUD-ISO-4\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-VM-C-06",
+    "threat_title": "Failed or incomplete VNF/CNF termination or releasing of resources",
+    "security_requirements": "REQ-SEC-ALM-PKG-13\nREQ-SEC-ALM-DECOM-3\nREQ-SEC-ALM-PKG-15\nREQ-SEC-OCLOUD-SS-2\nREQ-SEC-OCLOUD-SS-3\nREQ-SEC-OCLOUD-SS-4\nREQ-SEC-OCLOUD-SS-5\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-IMG-01",
+    "threat_title": "VM/Container images tampering",
+    "security_requirements": "REQ-SEC-OCLOUD-PKG-1\nREQ-SEC-OCLOUD-PKG-2\nREQ-SEC-OCLOUD-PKG-3\nREQ-SEC-ALM-PKG-1 to REQ-SEC-ALM-PKG-15\nREQ-SEC-SLM-GEN-EVT-1..6, REQ-SEC-SLM-HYP-EVT-1..3, REQ-SEC-SLM-CON-EVT-1..3, REQ-SEC-SLM-APP-EVT-1..2, REQ-SEC-SLM-DAT-EVT-1..8, REQ-SEC-SLM-AAI-EVT-1..10, REQ-SEC-SLM-GSE-1..6, REQ-SEC-SLM-TESS-4, REQ-SEC-SLM-FLD-3, REQ-SEC-SLM-AAI-EVT-4, REQ-SEC-SLM-TESS-3"
+  },
+  {
+    "threat_id": "T-IMG-02",
+    "threat_title": "Insecure channels with images repository",
+    "security_requirements": "REQ-SEC-OCLOUD-PKG-1\nREQ-SEC-OCLOUD-PKG-2\nREQ-SEC-OCLOUD-PKG-3\nREQ-SEC-ALM-PKG-1 to REQ-SEC-ALM-PKG-15\nREQ-SEC-SLM-GEN-EVT-1..6, REQ-SEC-SLM-HYP-EVT-1..3, REQ-SEC-SLM-CON-EVT-1..3, REQ-SEC-SLM-APP-EVT-1..2, REQ-SEC-SLM-DAT-EVT-1..8, REQ-SEC-SLM-AAI-EVT-1..10, REQ-SEC-SLM-GSE-1..6, REQ-SEC-SLM-TESS-4, REQ-SEC-SLM-FLD-3, REQ-SEC-SLM-AAI-EVT-4, REQ-SEC-SLM-TESS-3"
+  },
+  {
+    "threat_id": "T-IMG-03",
+    "threat_title": "Secrets disclosure in VM/Container images",
+    "security_requirements": "REQ-SEC-OCLOUD-PKG-1\nREQ-SEC-OCLOUD-PKG-2\nREQ-SEC-OCLOUD-PKG-3\nREQ-SEC-ALM-PKG-1 to REQ-SEC-ALM-PKG-15\nREQ-SEC-SLM-GEN-EVT-1..6, REQ-SEC-SLM-HYP-EVT-1..3, REQ-SEC-SLM-CON-EVT-1..3, REQ-SEC-SLM-APP-EVT-1..2, REQ-SEC-SLM-DAT-EVT-1..8, REQ-SEC-SLM-AAI-EVT-1..10, REQ-SEC-SLM-GSE-1..6, REQ-SEC-SLM-TESS-4, REQ-SEC-SLM-FLD-3, REQ-SEC-SLM-AAI-EVT-4, REQ-SEC-SLM-TESS-3"
+  },
+  {
+    "threat_id": "T-IMG-04",
+    "threat_title": "Build image on VL",
+    "security_requirements": "REQ-SEC-OCLOUD-PKG-1\nREQ-SEC-OCLOUD-PKG-2\nREQ-SEC-OCLOUD-PKG-3\nREQ-SEC-ALM-PKG-1 to REQ-SEC-ALM-PKG-15\nREQ-SEC-SLM-GEN-EVT-1..6, REQ-SEC-SLM-HYP-EVT-1..3, REQ-SEC-SLM-CON-EVT-1..3, REQ-SEC-SLM-APP-EVT-1..2, REQ-SEC-SLM-DAT-EVT-1..8, REQ-SEC-SLM-AAI-EVT-1..10, REQ-SEC-SLM-GSE-1..6, REQ-SEC-SLM-TESS-4, REQ-SEC-SLM-FLD-3, REQ-SEC-SLM-AAI-EVT-4, REQ-SEC-SLM-TESS-3"
+  },
+  {
+    "threat_id": "T-VL-01",
+    "threat_title": "VM/Container hyperjacking attack",
+    "security_requirements": "REQ-SEC-OCLOUD-SU-1\nREQ-SEC-OCLOUD-SU-5\nREQ-SEC-OCLOUD-SU-6\u00a0\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-VL-02",
+    "threat_title": "Boot tampering",
+    "security_requirements": "REQ-SEC-OCLOUD-COT-1\nREQ-SEC-OCLOUD-COT-2\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-VL-03",
+    "threat_title": "Attack internal network services",
+    "security_requirements": "REQ-SEC-OCLOUD-ISO-1\nREQ-SEC-OCLOUD-ISO-2\nREQ-SEC-OCLOUD-ISO-3\nREQ-SEC-OCLOUD-ISO-4\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-O2-01",
+    "threat_title": "MitM attacks on O2 interface between O-Cloud and SMO",
+    "security_requirements": "REQ-SEC-OCLOUD-O2dms-1\nREQ-SEC-OCLOUD-O2dms-2\nREQ-SEC-OCLOUD-O2dms-3\nREQ-SEC-OCLOUD-O2dms-4\nREQ-SEC-OCLOUD-O2ims-1\nREQ-SEC-OCLOUD-O2ims-2\nREQ-SEC-OCLOUD-O2ims-3\nREQ-SEC-OCLOUD-O2ims-4\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-OCAPI-01",
+    "threat_title": "MitM attacks on O-Cloud interface between VNFs/CNFs and the virtualization layer",
+    "security_requirements": "REQ-SEC-O-CLOUD-NotifAPI-1\nREQ-SEC-O-CLOUD-NotifAPI-2\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-HW-01",
+    "threat_title": "Cross VM/Container side channel attacks",
+    "security_requirements": "REQ-SEC-O-CLOUD-HW-1\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-HW-02",
+    "threat_title": "MitM attacks on the interface between virtualization layer and hardware",
+    "security_requirements": "To be addressed in a future version\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-ADMIN-01",
+    "threat_title": "Denial of service against NFO/FOCOM",
+    "security_requirements": "REQ-SEC-DOS-1\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-ADMIN-02",
+    "threat_title": "Abuse a O-Cloud administration service",
+    "security_requirements": "To be addressed in a future version\nREQ-SEC-SLM-GEN-EVT-1..6, REQ-SEC-SLM-HYP-EVT-1..3, REQ-SEC-SLM-CON-EVT-1..3, REQ-SEC-SLM-APP-EVT-1..2, REQ-SEC-SLM-DAT-EVT-1..8, REQ-SEC-SLM-AAI-EVT-1..10, REQ-SEC-SLM-GSE-1..6, REQ-SEC-SLM-TESS-4, REQ-SEC-SLM-FLD-3, REQ-SEC-SLM-AAI-EVT-4, , REQ-SEC-SLM-TESS-3"
+  },
+  {
+    "threat_id": "T-AAL-01",
+    "threat_title": "Attacker exploits insecure API to gain access to hardware accelerator resources",
+    "security_requirements": "REQ-SEC-AALI-C-Mgmt-1\nREQ-SEC-AALI-C-Mgmt-2\nREQ-SEC-AALI-C-Mgmt-3\nREQ-SEC-AAL-VS-1\nREQ-SEC-AAL-VS-2\nREQ-SEC-AAL-VS-3\nREQ-SEC-AAL-VS-4\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-AAL-02",
+    "threat_title": "Internal Overload DoS attack targeting AAL services",
+    "security_requirements": "REQ-SEC-DOS-1\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-AAL-03",
+    "threat_title": "Fail to clear resources",
+    "security_requirements": "REQ-SEC-AAL-1\nREQ-SEC-AAL-2\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-AAL-04",
+    "threat_title": "HAM compromise",
+    "security_requirements": "REQ-SEC-AAL-4\nREQ-SEC-AAL-6\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-AAL-05",
+    "threat_title": "Malicious memory accesses",
+    "security_requirements": "REQ-SEC-AAL-4\nREQ-SEC-AAL-5\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-AAL-06",
+    "threat_title": "Firmware attacks",
+    "security_requirements": "REQ-SEC-AAL-3\nREQ-SEC-AAL-4\nREQ-SEC-SLM-TESS-3, REQ-SEC-SLM-NET-EVT-1, REQ-SEC-SLM-GEN-EVT-1..6"
+  },
+  {
+    "threat_id": "T-O-CLOUD-ID-01",
+    "threat_title": "ID reuse in O-Cloud's object lifecycle",
+    "security_requirements": "REQ-SEC-OCLOUD-INST-ID-1\nREQ-SEC-OCLOUD-INST-ID-2\nREQ-SEC-OCLOUD-INST-ID-3\nREQ-SEC-OCLOUD-INST-ID-4\nREQ-SEC-OCLOUD-INST-ID-5"
+  },
+  {
+    "threat_id": "T-O-CLOUD-ID-02",
+    "threat_title": "Node redundancy in O-Cloud deployments",
+    "security_requirements": "REQ-SEC-OCLOUD-INST-ID-1\nREQ-SEC-OCLOUD-INST-ID-2\nREQ-SEC-OCLOUD-INST-ID-3\nREQ-SEC-OCLOUD-INST-ID-4\nREQ-SEC-OCLOUD-INST-ID-5"
+  },
+  {
+    "threat_id": "T-O-CLOUD-ID-03",
+    "threat_title": "O-Cloud ID mismanagement",
+    "security_requirements": "REQ-SEC-OCLOUD-INST-ID-1\nREQ-SEC-OCLOUD-INST-ID-2\nREQ-SEC-OCLOUD-INST-ID-3\nREQ-SEC-OCLOUD-INST-ID-4\nREQ-SEC-OCLOUD-INST-ID-5"
+  },
+  {
+    "threat_id": "T-TS-01",
+    "threat_title": "Time synchronization disruption in O-Cloud",
+    "security_requirements": "REQ-SEC-OCLOUD-TS-1\nREQ-SEC-OCLOUD-TS-2\nREQ-SEC-OCLOUD-TS-3\nREQ-SEC-OCLOUD-TS-4\nREQ-SEC-OCLOUD-TS-5"
+  },
+  {
+    "threat_id": "T-OPENSRC-01",
+    "threat_title": "Developers use SW components with known vulnerabilities and untrusted libraries that can be exploited by an attacker through a backdoor attack",
+    "security_requirements": "REQ-SEC-SLM-APP-EVT-2"
+  },
+  {
+    "threat_id": "T-OPENSRC-02",
+    "threat_title": "A trusted developer intentionally inserts a backdoor into an open source code O-RAN component",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-PHYS-01",
+    "threat_title": "An intruder into a site gains physical access to O-RAN components to cause damage or access sensitive data",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-PHYS-02",
+    "threat_title": "An intruder into the exchange over the Fronthaul cable network attempts to gain electronic access to cause damage or access sensitive data",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-RADIO-01",
+    "threat_title": "Disruption through radio jamming, sniffing and spoofing",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-RADIO-02",
+    "threat_title": "DoS attacks on cognitive radio networks",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-AIML-DP-01",
+    "threat_title": "Black box Data Poisoning",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7,REQ-SEC-AIML-13, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-16, REQ-SEC-AIML-20, REQ-SEC-AIML-21, REQ-SEC-AIML-27, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-DP-02",
+    "threat_title": "Grey box Data Poisoning",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7,REQ-SEC-AIML-13, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-16, REQ-SEC-AIML-20, REQ-SEC-AIML-21, REQ-SEC-AIML-27, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-DP-03",
+    "threat_title": "White box Data Poisoning",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7,REQ-SEC-AIML-13, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-16, REQ-SEC-AIML-20, REQ-SEC-AIML-21, REQ-SEC-AIML-27, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-MEI-01",
+    "threat_title": "Information Access \u2013 Membership Inference",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-8, REQ-SEC-AIML-9, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-16, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-21, REQ-SEC-AIML-33"
+  },
+  {
+    "threat_id": "T-AIML-MEI-02",
+    "threat_title": "Inference Technique \u2013 Membership Inference",
+    "security_requirements": "REQ-SEC-AIML-8, REQ-SEC-AIML-9, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-16, REQ-SEC-AIML-21, REQ-SEC-AIML-22, REQ-SEC-AIML-33"
+  },
+  {
+    "threat_id": "T-AIML-MEI-03",
+    "threat_title": "Target based \u2013 Membership Inference",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-3, REQ-SEC-AIML-8, REQ-SEC-AIML-9, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-16, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-21, REQ-SEC-AIML-33, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-ME-01",
+    "threat_title": "Intellectual Property Theft",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-3, REQ-SEC-AIML-8, REQ-SEC-AIML-9, REQ-SEC-AIML-12, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-29, REQ-SEC-AIML-35, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-ME-02",
+    "threat_title": "Data Privacy Violations",
+    "security_requirements": "REQ-SEC-AIML-3, REQ-SEC-AIML-8, REQ-SEC-AIML-9, REQ-SEC-AIML-12, REQ-SEC-AIML-35, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-ME-03",
+    "threat_title": "Adversarial Attacks with Stolen Models",
+    "security_requirements": "REQ-SEC-AIML-3, REQ-SEC-AIML-8, REQ-SEC-AIML-9, REQ-SEC-AIML-12, REQ-SEC-AIML-35, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-IM-1",
+    "threat_title": "Training Data Control",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7, REQ-SEC-AIML-13, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-IM-2",
+    "threat_title": "Testing Data Control",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7, REQ-SEC-AIML-13, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-16, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-19, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-IM-3",
+    "threat_title": "Label Manipulation",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7, REQ-SEC-AIML-13, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-IM-4",
+    "threat_title": "AI/ML Query Exploitation",
+    "security_requirements": "REQ-SEC-AIML-16"
+  },
+  {
+    "threat_id": "T-AIML-MOI-01",
+    "threat_title": "Black-box Model Inversion",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-8, REQ-SEC-AIML-9, REQ-SEC-AIML-12, REQ-SEC-AIML-13, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-21, REQ-SEC-AIML-33, REQ-SEC-AIML-35"
+  },
+  {
+    "threat_id": "T-AIML-MOI-02",
+    "threat_title": "White-box Model Inversion",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-8, REQ-SEC-AIML-9, REQ-SEC-AIML-12, REQ-SEC-AIML-13, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-21, REQ-SEC-AIML-33, REQ-SEC-AIML-35"
+  },
+  {
+    "threat_id": "T-AIML-SC-01",
+    "threat_title": "Poisoning via Supply Chain",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7, REQ-SEC-AIML-13, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-16, REQ-SEC-AIML-21, REQ-SEC-AIML-20, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-30, REQ-SEC-AIML-31, REQ-SEC-AIML-32, REQ-SEC-OCLOUD-PKG-2, REQ-SEC-ALM-PKG-4, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-SC-02",
+    "threat_title": "Model Tampering",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7, REQ-SEC-AIML-13, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-16, REQ-SEC-AIML-21, REQ-SEC-AIML-20, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-30, REQ-SEC-AIML-31, REQ-SEC-AIML-32, REQ-SEC-OCLOUD-PKG-2, REQ-SEC-ALM-PKG-4, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-SC-03",
+    "threat_title": "Backdoor via Supply Chain",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-21, REQ-SEC-AIML-20, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-28, REQ-SEC-AIML-30, REQ-SEC-AIML-31, REQ-SEC-AIML-32, REQ-SEC-OCLOUD-PKG-2, REQ-SEC-ALM-PKG-4, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-SC-04",
+    "threat_title": "Hardware Tampering",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-30, REQ-SEC-AIML-31, REQ-SEC-AIML-32, REQ-SEC-OCLOUD-PKG-2, REQ-SEC-ALM-PKG-4"
+  },
+  {
+    "threat_id": "T-AIML-SC-05",
+    "threat_title": "Insecure Maintenance APIs",
+    "security_requirements": "REQ-SEC-AIML-3, REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-13, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-30, REQ-SEC-AIML-31, REQ-SEC-AIML-32, REQ-SEC-OCLOUD-PKG-2, REQ-SEC-ALM-PKG-4, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-SC-06",
+    "threat_title": "Third-party Libraries and Dependencies",
+    "security_requirements": "REQ-SEC-AIML-30, REQ-SEC-AIML-31, REQ-SEC-AIML-32, REQ-SEC-OCLOUD-PKG-2, REQ-SEC-ALM-PKG-4"
+  },
+  {
+    "threat_id": "T-AIML-OI-01",
+    "threat_title": "Denial of Service Impacting Output Integrity",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-3, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-28, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-OI-02",
+    "threat_title": "Subscriber QoE Change",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-3, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-28, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-MP-01",
+    "threat_title": "Model Parameter Poisoning",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-10, REQ-SEC-AIML-11, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-28"
+  },
+  {
+    "threat_id": "T-AIML-MP-02",
+    "threat_title": "Inference Algorithm Poisoning",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-28, REQ-SEC-AIML-30, REQ-SEC-AIML-31, REQ-SEC-AIML-32, REQ-SEC-OCLOUD-PKG-2, REQ-SEC-ALM-PKG-4"
+  },
+  {
+    "threat_id": "T-AIML-MP-03",
+    "threat_title": "Learning Algorithm Poisoning",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-28, REQ-SEC-AIML-30, REQ-SEC-AIML-31, REQ-SEC-AIML-32, REQ-SEC-OCLOUD-PKG-2, REQ-SEC-ALM-PKG-4"
+  },
+  {
+    "threat_id": "T-AIML-MP-04",
+    "threat_title": "Model Control",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7, REQ-SEC-AIML-13, REQ-SEC-AIML-15, REQ-SEC-AIML-16, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-19, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-MS-01",
+    "threat_title": "Data Manipulation for Model Skewing",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-13, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-16, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-19, REQ-SEC-AIML-21, REQ-SEC-AIML-28"
+  },
+  {
+    "threat_id": "T-AIML-MS-02",
+    "threat_title": "Feedback manipulation for Model Skewing",
+    "security_requirements": "REQ-SEC-AIML-13, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-16, REQ-SEC-AIML-21, REQ-SEC-AIML-27, REQ-SEC-AIML-28"
+  },
+  {
+    "threat_id": "T-AIML-TL-01",
+    "threat_title": "Data Poisoning for Transfer Learning",
+    "security_requirements": "REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7, REQ-SEC-AIML-13, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-16, REQ-SEC-AIML-20, REQ-SEC-AIML-21, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-TL-02",
+    "threat_title": "Model Stealing for Transfer Learning",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-3, REQ-SEC-AIML-8, REQ-SEC-AIML-9, REQ-SEC-AIML-12, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-29, REQ-SEC-AIML-35, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-TL-03",
+    "threat_title": "Adversarial Examples",
+    "security_requirements": "REQ-SEC-AIML-3, REQ-SEC-AIML-8, REQ-SEC-AIML-9, REQ-SEC-AIML-12, REQ-SEC-AIML-35, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-TL-04",
+    "threat_title": "Backdoor for Transfer Learning",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7, REQ-SEC-AIML-14, REQ-SEC-AIML-15, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-20, REQ-SEC-AIML-21, REQ-SEC-AIML-28, REQ-SEC-AIML-30, REQ-SEC-AIML-31, REQ-SEC-AIML-32, REQ-SEC-OCLOUD-PKG-2, REQ-SEC-ALM-PKG-4, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-EV-01",
+    "threat_title": "Grey-box based Data Evasion",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-3, REQ-SEC-AIML-13, REQ-SEC-AIML-16, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-19, REQ-SEC-AIML-27, REQ-SEC-AIML-35, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-EV-02",
+    "threat_title": "White-box based data evasion attacks",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-3, REQ-SEC-AIML-13, REQ-SEC-AIML-16, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-19, REQ-SEC-AIML-27, REQ-SEC-AIML-35, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-EV-03",
+    "threat_title": "Black-box based data evasion attacks",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-3, REQ-SEC-AIML-13, REQ-SEC-AIML-16, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-19, REQ-SEC-AIML-27, REQ-SEC-AIML-35, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-EL-01",
+    "threat_title": "Model Extraction",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7, REQ-SEC-AIML-8, REQ-SEC-AIML-9, REQ-SEC-AIML-13, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-21, REQ-SEC-AIML-23, REQ-SEC-AIML-24, REQ-SEC-AIML-25, REQ-SEC-AIML-26, REQ-SEC-AIML-28, REQ-SEC-AIML-34, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-EL-02",
+    "threat_title": "Data Inference",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7, REQ-SEC-AIML-8, REQ-SEC-AIML-9, REQ-SEC-AIML-13, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-21, REQ-SEC-AIML-23, REQ-SEC-AIML-24, REQ-SEC-AIML-25, REQ-SEC-AIML-26, REQ-SEC-AIML-28, REQ-SEC-AIML-34, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-AIML-EL-03",
+    "threat_title": "Denial of Service via Side Channels",
+    "security_requirements": "REQ-SEC-AIML-1, REQ-SEC-AIML-2, REQ-SEC-AIML-4, REQ-SEC-AIML-5, REQ-SEC-AIML-6, REQ-SEC-AIML-7, REQ-SEC-AIML-8, REQ-SEC-AIML-9, REQ-SEC-AIML-13, REQ-SEC-AIML-17, REQ-SEC-AIML-18, REQ-SEC-AIML-21, REQ-SEC-AIML-23, REQ-SEC-AIML-24, REQ-SEC-AIML-25, REQ-SEC-AIML-26, REQ-SEC-AIML-28, REQ-SEC-AIML-34, REQ-SEC-AIML-40"
+  },
+  {
+    "threat_id": "T-ProtocolStack-01",
+    "threat_title": "REST API Exploits",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-ProtocolStack-02",
+    "threat_title": "REST API \u2013 Broken Object Level Authorization",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-ProtocolStack-03",
+    "threat_title": "JSON Exploits",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-ProtocolStack-04",
+    "threat_title": "HTTP Exploits",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-ProtocolStack-05",
+    "threat_title": "TCP Volumetric DDoS",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SMO-01",
+    "threat_title": "External attacker exploits authentication weakness on SMO",
+    "security_requirements": "REQ-SEC-SMO-2, REQ-SEC-SMO-External-2, REQ-SEC-SME-2, REQ-SEC-DME-2"
+  },
+  {
+    "threat_id": "T-SMO-02",
+    "threat_title": "External attacker exploits authorization weakness on SMO",
+    "security_requirements": "REQ-SEC-SMO-4, REQ-SEC-SMO-External-3, REQ-SEC-SME-5, REQ-SEC-DME-4"
+  },
+  {
+    "threat_id": "T-SMO-03",
+    "threat_title": "External Overload DoS attack targeted at SMO",
+    "security_requirements": "REQ-SEC-SMO-6, REQ-SEC-SME-8, REQ-SEC-DME-7"
+  },
+  {
+    "threat_id": "T-SMO-04",
+    "threat_title": "Internal attacker exploits authentication weakness on a SMO function",
+    "security_requirements": "REQ-SEC-SMO-1, REQ-SEC-SMO-Internal-2, REQ-SEC-NFO-FOCOM-3, REQ-SEC-NFO-FOCOM-4, REQ-SEC-SME-1, REQ-SEC-SME-3, REQ-SEC-DME-1, REQ-SEC-SMOS-1"
+  },
+  {
+    "threat_id": "T-SMO-05",
+    "threat_title": "Internal attacker exploits authorization weakness on a SMO function",
+    "security_requirements": "REQ-SEC-SMO-3, REQ-SEC-SME-4, REQ-SEC-SME-9, REQ-SEC-DME-3, REQ-SEC-SMOS-2"
+  },
+  {
+    "threat_id": "T-SMO-06",
+    "threat_title": "Internal Overload DoS attack targeted at SMO functions",
+    "security_requirements": "REQ-SEC-SMO-5, REQ-SEC-SMO-7, REQ-SEC-SME-7, REQ-SEC-DME-6"
+  },
+  {
+    "threat_id": "T-SMO-07",
+    "threat_title": "Internal DoS attack disables internal SMO function(s) or process(es)",
+    "security_requirements": "REQ-SEC-NFO-FOCOM-5"
+  },
+  {
+    "threat_id": "T-SMO-08",
+    "threat_title": "Attacker exploits insecure API to gain access to SMO",
+    "security_requirements": "REQ-SEC-SMO-External-1, REQ-SEC-SME-6"
+  },
+  {
+    "threat_id": "T-SMO-09",
+    "threat_title": "Sensitive data in transit is exposed to an internal attacker",
+    "security_requirements": "REQ-SEC-SMO-Internal-1, REQ-SEC-SMOS-3, REQ-SEC-SME-6, REQ-SEC-DME-5"
+  },
+  {
+    "threat_id": "T-SMO-10",
+    "threat_title": "Sensitive data at rest is exposed to an internal attacker",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SMO-11",
+    "threat_title": "AI/ML poisoning by internal attacker",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SMO-12",
+    "threat_title": "AI/ML exposure on external entity",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SMO-13",
+    "threat_title": "Malicious actor views local logs",
+    "security_requirements": "REQ-SEC-SMO-Log-5, REQ-SEC-SMO-Log-10"
+  },
+  {
+    "threat_id": "T-SMO-14",
+    "threat_title": "Malicious actor modifies local log entries",
+    "security_requirements": "REQ-SEC-SMO-Log-6"
+  },
+  {
+    "threat_id": "T-SMO-15",
+    "threat_title": "Malicious actor deletes local logs",
+    "security_requirements": "REQ-SEC-SMO-Log-6"
+  },
+  {
+    "threat_id": "T-SMO-16",
+    "threat_title": "Malicious actor intercepts exports of local logs",
+    "security_requirements": "REQ-SEC-SMO-Log-1, REQ-SEC-SMO-Log-2, REQ-SEC-SMO-Log-3"
+  },
+  {
+    "threat_id": "T-SMO-17",
+    "threat_title": "Malicious external actor gains unauthorized access to logs",
+    "security_requirements": "REQ-SEC-SMO-Log-7, REQ-SEC-SMO-Log-8, REQ-SEC-SMO-Log-11, REQ-SEC-SMO-Log-12"
+  },
+  {
+    "threat_id": "T-SMO-18",
+    "threat_title": "Malicious internal actor gains authorized access to logs",
+    "security_requirements": "REQ-SEC-SMO-Log-11, REQ-SEC-SMO-Log-12"
+  },
+  {
+    "threat_id": "T-SMO-19",
+    "threat_title": "Internal attacker exploits O2 interface to view data in transit between SMO and O-Cloud",
+    "security_requirements": "REQ-SEC-NFO-FOCOM-1"
+  },
+  {
+    "threat_id": "T-SMO-20",
+    "threat_title": "Internal attacker exploits O2 interface to modify data in transit between SMO and O-Cloud",
+    "security_requirements": "REQ-SEC-NFO-FOCOM-1"
+  },
+  {
+    "threat_id": "T-SMO-21",
+    "threat_title": "Internal attacker uses O2 interface via SMO to exploit API vulnerability to gain access to O-Cloud infrastructure",
+    "security_requirements": "REQ-SEC-NFO-FOCOM-1"
+  },
+  {
+    "threat_id": "T-SMO-22",
+    "threat_title": "Internal attacker floods O2 interface via SMO to cause DDoS on O-Cloud infrastructure",
+    "security_requirements": "REQ-SEC-NFO-FOCOM-6, REQ-SEC-NFO-FOCOM-8"
+  },
+  {
+    "threat_id": "T-SMO-23",
+    "threat_title": "External attacker uses O2 interface via O-Cloud to exploit API vulnerability to gain access to SMO",
+    "security_requirements": "REQ-SEC-NFO-FOCOM-1"
+  },
+  {
+    "threat_id": "T-SMO-24",
+    "threat_title": "External attacker floods O2 interface via O-Cloud to cause DDoS on SMO",
+    "security_requirements": "REQ-SEC-NFO-FOCOM-6, REQ-SEC-NFO FOCOM-8"
+  },
+  {
+    "threat_id": "T-SMO-25",
+    "threat_title": "External attacker uses O2 interface via O-Cloud to gain authorized access to sensitive data-at-rest at the SMO",
+    "security_requirements": "REQ-SEC-NFO-FOCOM-5"
+  },
+  {
+    "threat_id": "T-SMO-26",
+    "threat_title": "External attacker exploits External interface to view data in transit between SMO and external service",
+    "security_requirements": "REQ-SEC-SMO-External-1"
+  },
+  {
+    "threat_id": "T-SMO-27",
+    "threat_title": "External attacker exploits External interface to modify data in transit between SMO and external service",
+    "security_requirements": "REQ-SEC-SMO-External-1"
+  },
+  {
+    "threat_id": "T-SMO-28",
+    "threat_title": "External attacker uses External interface to exploit API vulnerability to gain access to SMO",
+    "security_requirements": "REQ-SEC-SMO-External-1"
+  },
+  {
+    "threat_id": "T-SMO-29",
+    "threat_title": "External attacker floods External interface to cause DDoS at SMO",
+    "security_requirements": "REQ-SEC-SMO-6"
+  },
+  {
+    "threat_id": "T-SMO-30",
+    "threat_title": "External attacker uses External interface to gain access to sensitive data-at-rest at the SMO",
+    "security_requirements": "REQ-SEC-SMO-External-2, REQ-SEC-SMO-External-3"
+  },
+  {
+    "threat_id": "T-SMO-31",
+    "threat_title": "External attacker poisons External AI/ML data to corrupt SMO",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SMO-32",
+    "threat_title": "External attacker poisons External Enrichment Information data sources to corrupt SMO",
+    "security_requirements": "Not in O-RAN scope for specification"
+  },
+  {
+    "threat_id": "T-SMO-33",
+    "threat_title": "rApp floods SME",
+    "security_requirements": "REQ-SEC-SME-7"
+  },
+  {
+    "threat_id": "T-SMO-34",
+    "threat_title": "External Consumer floods SME",
+    "security_requirements": "REQ-SEC-SME-8"
+  },
+  {
+    "threat_id": "T-SharedORU-01",
+    "threat_title": "O-DU Tenant accesses O-DU Host",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-02",
+    "threat_title": "O-DU Host accesses O-DU Tenant",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-03",
+    "threat_title": "O-DU Tenant accesses O-DU Tenant",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-04",
+    "threat_title": "Password Attack on OFH M-Plane",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-05",
+    "threat_title": "Untrusted peering to O-DU",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-06",
+    "threat_title": "Untrusted peering to the Shared O-RU",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-07",
+    "threat_title": "Untrusted peering to the SMO",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-08",
+    "threat_title": "SMO Tenant accesses SMO Host",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-09",
+    "threat_title": "SMO Host accesses SMO Tenant",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-10",
+    "threat_title": "O-DU Host accesses O-CU Tenant",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-11",
+    "threat_title": "O-DU Tenant accesses O-CU Host",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-12",
+    "threat_title": "O-DU Tenant accesses O-CU Tenant",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-13",
+    "threat_title": "SMO Host accesses O-CU Tenant",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-14",
+    "threat_title": "SMO Tenant accesses O-CU Host",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-15",
+    "threat_title": "Physical port access to Shared O-RU Host/Tenant",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-16",
+    "threat_title": "Physical port access to O-DU Host/Tenant",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-17",
+    "threat_title": "Physical port access to O-CU Host/Tenant",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-18",
+    "threat_title": "Malicious User Login Attempt to SMO Host/Tenant",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-19",
+    "threat_title": "Malicious User Login Attempt to O-CU Host/Tenant",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-20",
+    "threat_title": "Malicious User Login Attempt to O-DU Host/Tenant",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-21",
+    "threat_title": "Malicious User Login Attempt to Shared O-RU Host/Tenant",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-22",
+    "threat_title": "Unauthorized internal threat actor gains access to data in Shared O-RU",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-23",
+    "threat_title": "Unauthorized external threat actor gains access to data in Shared O-RU",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-24",
+    "threat_title": "Data exposure at Shared O-RU",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-25",
+    "threat_title": "Shared O-RU data exposure at SMO",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-26",
+    "threat_title": "Shared O-RU data exposure at O-DU",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-27",
+    "threat_title": "Exposed data in transit between Shared O-RU and O-DU Host/Tenant",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-28",
+    "threat_title": "Exposed data in transit between Shared O-RU and SMO Host/Tenant",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-29",
+    "threat_title": "Modify/Delete OFH C-Plane messages",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-30",
+    "threat_title": "Clock hijacking on OFH S-Plane",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-31",
+    "threat_title": "Parameter conflicts at Shared O-RU",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-32",
+    "threat_title": "Volumetric DDoS attack from O-DU targeting Shared O-RU",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-33",
+    "threat_title": "Volumetric DDoS attack from SMO targeting Shared O-RU",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-34",
+    "threat_title": "Volumetric DDoS attack targeting O-DU",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-35",
+    "threat_title": "Shared O-RU initialization hijacking by DHCP compromise",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-36",
+    "threat_title": "Shared O-RU M-plane hijacking by DNS compromise",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-37",
+    "threat_title": "Misconfiguration of MNO Host Role",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-38",
+    "threat_title": "Incorrect Assignment of Spectrum Resources",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-39",
+    "threat_title": "Chain of Trust in a Multi-Tenant Environment",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-40",
+    "threat_title": "Hijack of MNO Host Role",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-41",
+    "threat_title": "Not Released Host Role (Host Role resume)",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-42",
+    "threat_title": "Misuse of \u201csudo\u201d privileges",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-43",
+    "threat_title": "Eavesdropping of unprotected CUSM-plane data within shared O-RU",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-52",
+    "threat_title": "Thrashing O-DU Failovers",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-53",
+    "threat_title": "Dual (Dueling) Active O-DUs",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-54",
+    "threat_title": "Modify/Inject O1 messages at the SMO",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-55",
+    "threat_title": "Set Incorrect Array-Carrier configuration on O-DU (Standby)",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-56",
+    "threat_title": "Modify Array-Carrier pre-configuration on Shared O-RU",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-SharedORU-57",
+    "threat_title": "Modify/Inject M-Plane messages with Array-Carrier configuration",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-01",
+    "threat_title": "Obtaining client secrets",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-02",
+    "threat_title": "Obtaining refresh tokens",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-03",
+    "threat_title": "Obtaining access tokens",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-04",
+    "threat_title": "Eavesdropping access tokens",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-05",
+    "threat_title": "Disclosure of client credentials during transmission",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-06",
+    "threat_title": "Open redirectors on client",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-07",
+    "threat_title": "Obtain a deployment specific secret",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-08",
+    "threat_title": "Obtaining authorization by code substitution (OAuth Login)",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-09",
+    "threat_title": "Access token leak in transport/endpoints",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-10",
+    "threat_title": "Malicious client obtains existing authorization by fraud",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-11",
+    "threat_title": "Malicious client obtains authorization",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-12",
+    "threat_title": "Accidental exposure of passwords at client site",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-13",
+    "threat_title": "Client obtains scopes without end-user authorization and possible misconfigurations",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-14",
+    "threat_title": "Client obtains refresh token through automatic authorization",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-15",
+    "threat_title": "Eavesdropping refresh tokens from authorization server",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-16",
+    "threat_title": "Obtaining refresh token by online guessing",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-17",
+    "threat_title": "Refresh token phishing by counterfeit authorization server",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-18",
+    "threat_title": "Guessing access tokens",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-19",
+    "threat_title": "Access token phishing by counterfeit resource server",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-20",
+    "threat_title": "Abuse of token by legitimate resource server or client",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-21",
+    "threat_title": "Token leakage via log files and http referrers",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-22",
+    "threat_title": "User unintentionally grants too much access scope",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-23",
+    "threat_title": "Leak of confidential data in HTTP proxies",
+    "security_requirements": "For further study"
+  },
+  {
+    "threat_id": "T-OAuth-G-24",
+    "threat_title": "Replay of authorized resource server requests",
+    "security_requirements": "For further study"
+  }
+]

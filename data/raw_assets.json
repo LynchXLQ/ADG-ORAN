@@ -1,0 +1,674 @@
+[
+  {
+    "id": "ASSET-D-01",
+    "description": "Critical S-Plane data such as: \nData flow for synchronization and timing information between nodes\nPTP (e.g. ANNOUNCE message) transported over Fronthaul that interconnects multiple O-RUs and O-DUs.\nTiming configuration (LLS C1, C2, C3, C4) and topology",
+    "component": "O-DU, O-RU",
+    "interface": "Fronthaul CUS-Plane"
+  },
+  {
+    "id": "ASSET-D-01",
+    "description": "Critical S-Plane data such as: \nData flow for synchronization and timing information between nodes\nPTP (e.g. ANNOUNCE message) transported over Fronthaul that interconnects multiple O-RUs and O-DUs.\nTiming configuration (LLS C1, C2, C3, C4) and topology",
+    "component": "O-DU, O-RU",
+    "interface": "Fronthaul CUS-Plane"
+  },
+  {
+    "id": "ASSET-D-02",
+    "description": "Critical Management-Plane data transported over the Fronthaul interface such as: maintenance and monitoring signals, data collected related to O-RU operations, logs (troubleshooting, trace)",
+    "component": "O-DU, O-RU, SMO",
+    "interface": "Fronthaul M-Plane"
+  },
+  {
+    "id": "ASSET-D-02",
+    "description": "Critical Management-Plane data transported over the Fronthaul interface such as: maintenance and monitoring signals, data collected related to O-RU operations, logs (troubleshooting, trace)",
+    "component": "O-DU, O-RU, SMO",
+    "interface": "Fronthaul M-Plane"
+  },
+  {
+    "id": "ASSET-D-03",
+    "description": "Critical Management-Plane data transported over the O1 interface such as:\nObservables (events and counters) and network status provided over O1 to non-RT RIC from Near-RT RIC, O-CU and O-DU. \nThe non-RT RIC uses the O1 observables (Feedback on the fulfilment of A1 policies in the near-RT RIC) to continuously evaluate the impact of the A1 policies towards fulfillment of the RAN Intent.\nManaged Element Telemetry to monitor the application behavior (from O-Cloud).",
+    "component": "Near-RT RIC, Non-RT RIC, O-CU, O-DU, SMO",
+    "interface": "O1"
+  },
+  {
+    "id": "ASSET-D-03",
+    "description": "Critical Management-Plane data transported over the O1 interface such as:\nObservables (events and counters) and network status provided over O1 to non-RT RIC from Near-RT RIC, O-CU and O-DU. \nThe non-RT RIC uses the O1 observables (Feedback on the fulfilment of A1 policies in the near-RT RIC) to continuously evaluate the impact of the A1 policies towards fulfillment of the RAN Intent.\nManaged Element Telemetry to monitor the application behavior (from O-Cloud).",
+    "component": "Near-RT RIC, Non-RT RIC, O-CU, O-DU, SMO",
+    "interface": "O1"
+  },
+  {
+    "id": "ASSET-D-04",
+    "description": "Critical C-Plane data such as:\nScheduling information, FFT size, CP length, Subcarrier spacing, UL PRACH scheduling \nDL and UL Beamforming commands (e.g., beam index) and scheduling\nLBT Configuration parameters such as lbtHandle, lbtDeferFactor, lbtBackoffCounter, lbtOffset, MCOT, lbtMode, sfnSf, lbtCWconfig_H, lbtCWconfig_T, lbtTrafficClass. \nLBT DL indication parameters such as lbtHandle, lbtResult, initialPartialSFs, bufferError, lbtCWR_Result",
+    "component": "O-DU, O-RU",
+    "interface": "Fronthaul CUS-Plane"
+  },
+  {
+    "id": "ASSET-D-04",
+    "description": "Critical C-Plane data such as:\nScheduling information, FFT size, CP length, Subcarrier spacing, UL PRACH scheduling \nDL and UL Beamforming commands (e.g., beam index) and scheduling\nLBT Configuration parameters such as lbtHandle, lbtDeferFactor, lbtBackoffCounter, lbtOffset, MCOT, lbtMode, sfnSf, lbtCWconfig_H, lbtCWconfig_T, lbtTrafficClass. \nLBT DL indication parameters such as lbtHandle, lbtResult, initialPartialSFs, bufferError, lbtCWR_Result",
+    "component": "O-DU, O-RU",
+    "interface": "Fronthaul CUS-Plane"
+  },
+  {
+    "id": "ASSET-D-05",
+    "description": "Critical Fronthaul U-Plane data such as: \nUser data (i.e. DNS, PUSCH, PDSCH, etc.), \nControl channel data (PDCCH, PUCCH, etc.), \nI/Q samples, PRACH-related information, eCPRI, and O-RAN headers \nMAC CEs (Control Elements)",
+    "component": "O-DU, O-RU",
+    "interface": "Fronthaul CUS-Plane"
+  },
+  {
+    "id": "ASSET-D-05",
+    "description": "Critical Fronthaul U-Plane data such as: \nUser data (i.e. DNS, PUSCH, PDSCH, etc.), \nControl channel data (PDCCH, PUCCH, etc.), \nI/Q samples, PRACH-related information, eCPRI, and O-RAN headers \nMAC CEs (Control Elements)",
+    "component": "O-DU, O-RU",
+    "interface": "Fronthaul CUS-Plane"
+  },
+  {
+    "id": "ASSET-D-06",
+    "description": "Reference signals, synchronization signal and channels in downlink and uplink between O-RU and UE",
+    "component": "O-RU",
+    "interface": "Radio"
+  },
+  {
+    "id": "ASSET-D-07",
+    "description": "A1 policies that are provided to the near-RT RIC over the A1 interface to guide the RAN performance towards the overall goal expressed in RAN Intent. The A1 policies are declarative policies that contain statements on policy objectives and policy resources applicable to UEs and cells. A1 policies are created, modified and deleted by the non-RT RIC.",
+    "component": "Near-RT RIC, Non-RT RIC",
+    "interface": "A1"
+  },
+  {
+    "id": "ASSET-D-08",
+    "description": "A1 Enrichment Information that is collected or derived at SMO/non-RT RIC either from non-network data sources or from network functions themselves and provided over the A1 interface to be utilized by near-RT RIC, e.g. an ML model, to improve its performance.\nDiscovery and request of A1 Enrichment Information from near-RT RIC to non-RT RIC\nExternal Enrichment Information that is provided by an O-RAN external information source to near-RT RIC over A1",
+    "component": "Near-RT RIC, Non-RT RIC",
+    "interface": "A1"
+  },
+  {
+    "id": "ASSET-D-09",
+    "description": "Data transported over the E2 interface such as:\nNear real-time information (e.g. UE basis, 2Cell basis).\nThe persistent configuration used by the near-RT RIC to control the RAN.\nIdentifiers of E2 nodes.\nxApp-related messages.\nControl signaling information.\nPolicies used by the Near-RT RIC to monitor, suspend/stop, override or control the behavior of E2 node.\nNEAR-RT RIC services messages (REPORT, INSERT, CONTROL and POLICY).\nInterface Management messages (E2 Setup, E2 Reset, E2 Node Configuration Update, Reporting of General Error Situations).\nNear-RT RIC Service Update messages.",
+    "component": "O-DU, O-CU, Near-RT RIC",
+    "interface": "E2"
+  },
+  {
+    "id": "ASSET-D-10",
+    "description": "Database holding data from xApp applications and E2 Node",
+    "component": "Near-RT RIC",
+    "interface": "-"
+  },
+  {
+    "id": "ASSET-D-11",
+    "description": "E2 Node data (e.g. configuration information (cell configuration, supported slices, PLMNs, etc.), network measurements, context information, etc.)",
+    "component": "E2 nodes",
+    "interface": "-"
+  },
+  {
+    "id": "ASSET-D-12",
+    "description": "It consists of \nThe Physical Infrastructure (O-Cloud Node Identifier, Pool Identifier, Pool Location Identifier, and Use Identifier) used to create the O-Cloud, \nThe logical Clouds which it provides as interfaces for deployments, and the inventory of deployments (deployment ID and descriptor) on the cloud\nO-Cloud ID, IP address, IMS address, the IP address endpoint or url of the SMO and any necessary security keys or passwords for communication using O2\nDMS capabilities\nO-Cloud (IMS): List of All Resource Pools in the O-Cloud, Attributes of a specific O-Cloud, List of all resources of an O-Cloud Pool, Attributes of each O-Cloud Resource, List of all DMS \nO-Cloud (DMS): List of Locations Supported For a given location the Capabilities supported (e.g. Descriptor types, Technology types, Accelerator types), For a given location the Capacity of the location, For a given location the Availability of the location",
+    "component": "SMO, O-CLOUD",
+    "interface": "O2, O-CLOUD internal interfaces"
+  },
+  {
+    "id": "ASSET-D-13",
+    "description": "It includes:\nTelemetry information of O-Cloud deployments in the network for analyzing the O-Cloud’s state and health, and for delivering on service monitoring goals. It consists of fault, performance and configuration data:\nDeployment Telemetry to monitor the number of deployment instances an O-Cloud has at that moment and how many were expected, how the on-progress deployment is going, and health checks.  Additional Deployment Telemetry metrics like CPU, network, and memory usage can also be collected.\n- Infrastructure Telemetry to monitor the health of the O-Cloud Infrastructure components. Network Operations are interested in discovering if all the components in the O-Cloud Infrastructure are working properly and at what capacity, how many deployments are running on each node, and the resource utilization of the O-Cloud Infrastructure.",
+    "component": "SMO, O-CLOUD",
+    "interface": "O2, O-CLOUD internal interfaces"
+  },
+  {
+    "id": "ASSET-D-14",
+    "description": "O-Cloud Provisioning information (Affinity, Anti-Affinity, Quorum Diversity Rules, capabilities, capacity and availability)\nO-Cloud software management information: catalog of authorized software and its version, list of authorized VNF/CNF, VNF/CNF description files",
+    "component": "SMO, O-CLOUD",
+    "interface": "O2, O-CLOUD internal interfaces"
+  },
+  {
+    "id": "ASSET-D-15",
+    "description": "Package: O-RAN Cloudified Network Function Software Image including the underlying software executable image, image properties/metadata such as descriptors, image signature(s), LCM scripts, data files, SoftwareImageId, Vendor, and version, secrets, configuration files.\nApplication data: Subscriber data, Policy data, UE context, etc.\nNF location, time clock\nNF instance: Application software, guest OS, host OS, Libs, instance identity, crypto keys, namespaces, virtual resources instance states, physical hardware, etc.",
+    "component": "O-CLOUD",
+    "interface": "-"
+  },
+  {
+    "id": "ASSET-D-16",
+    "description": "X.509 certificates in O-RAN network such as those used for SMO, O-CU-CP, O-CU-UP, O-DU, O-RU, Near-RT RIC, Non-RT RIC, O-CLOUD, NetCONF (O1, Fronthaul)",
+    "component": "All",
+    "interface": "O1, Fronthaul, O2, E2, A1"
+  },
+  {
+    "id": "ASSET-D-17",
+    "description": "Security private keys in O-RAN network such as those used for SMO, O-CU-CP, O-CU-UP, O-DU, O-RU, Near-RT RIC, Non-RT RIC, O-CLOUD, NetCONF (O1, Fronthaul) ), for authentication, encryption, signing (e.g. for TLS and similar protocols, image signing)",
+    "component": "All",
+    "interface": "O1, Fronthaul, O2, E2, A1"
+  },
+  {
+    "id": "ASSET-D-18",
+    "description": "O-RAN components associated and configuration data, such as:\nSoftware version information, identifier, IP address, port number, network layer parameters, time of request, previous behavior, etc.\nThe security related parameters (such audit records, lists of algorithms which are allowed for usage, file management, hash values, etc.).",
+    "component": "All",
+    "interface": "-"
+  },
+  {
+    "id": "ASSET-D-19",
+    "description": "Cryptographic keys: KgNB, KRRC-enc, KRRC-int, KUP-int, and KUP-enc (Hierarchy of cryptographic key derived from Anchor Key. (as defined in ETSI TS 133 501 clause 6.2.)",
+    "component": "O-CU",
+    "interface": "-"
+  },
+  {
+    "id": "ASSET-D-20",
+    "description": "Credentials (Administrators): account information and passwords on SMO, O-CU-CP, O-CU-UP, O-DU, O-RU, Near-RT RIC, Non-RT RIC, O-Cloud used in O-RAN network",
+    "component": "All",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-D-21",
+    "description": "3GPP application related data such as subscription data, session data, call control related information etc.",
+    "component": "O-CU",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-D-22",
+    "description": "Inter- and intra-slice UE priority [i.14]",
+    "component": "O-CU, O-DU",
+    "interface": "-"
+  },
+  {
+    "id": "ASSET-D-23",
+    "description": "Patches for vulnerable SW components",
+    "component": "All",
+    "interface": "-"
+  },
+  {
+    "id": "ASSET-D-24",
+    "description": "NETCONF Configuration Access Control Model datastores",
+    "component": "All",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-D-25",
+    "description": "Training or test data and associated labels: data sets collected externally or internally from the Near-RT RIC, O-CU and O-DU and passed to the ML training hosts in a ML system.",
+    "component": "Near-RT RIC, Non-RT RIC, xAPPs, rAPPs",
+    "interface": "A1, O1, E2"
+  },
+  {
+    "id": "ASSET-D-25",
+    "description": "Training or test data and associated labels: data sets collected externally or internally from the Near-RT RIC, O-CU and O-DU and passed to the ML training hosts in a ML system.",
+    "component": "Near-RT RIC, Non-RT RIC, xAPPs, rAPPs",
+    "interface": "A1, O1, E2"
+  },
+  {
+    "id": "ASSET-D-26",
+    "description": "The trained ML model which includes the configured hyperparameters, inference algorithm, and learned parameters.",
+    "component": "Near-RT RIC, Non-RT RIC, xAPPs, rAPPs",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-D-27",
+    "description": "The ML prediction results built into the model (e.g. expected outcomes)",
+    "component": "Near-RT RIC, Non-RT RIC, xAPPs, rAPPs",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-D-28",
+    "description": "The behavior of the ML system including tasks for data collection, data wrangling, pipeline management, model retraining, and model deployment.",
+    "component": "Near-RT RIC, Non-RT RIC, xAPPs, rAPPs",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-D-29",
+    "description": "Security event log files generated by O-RAN components",
+    "component": "All",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-D-30",
+    "description": "O-RAN specific several UE IDs",
+    "component": "Near-RT RIC, Non-RT RIC, SMO",
+    "interface": "A1, E2, O1"
+  },
+  {
+    "id": "ASSET-D-30",
+    "description": "O-RAN specific several UE IDs",
+    "component": "Near-RT RIC, Non-RT RIC, SMO",
+    "interface": "A1, E2, O1"
+  },
+  {
+    "id": "ASSET-D-31",
+    "description": "Security telemetry from the O-Cloud for detecting threats and anomalies",
+    "component": "All",
+    "interface": "O2, O-CLOUD internal interfaces"
+  },
+  {
+    "id": "ASSET-D-32",
+    "description": "Cryptographic keys used during secure boot, for encryption/decryption, etc.",
+    "component": "All",
+    "interface": "-"
+  },
+  {
+    "id": "ASSET-D-33",
+    "description": "Data transported over the AALI-C-Mgmt interface",
+    "component": "",
+    "interface": "AALI-C-Mgmt"
+  },
+  {
+    "id": "ASSET-D-34",
+    "description": "Data transported over the AALI-C-App & AALI-P interfaces",
+    "component": "",
+    "interface": "AALI-C-App & AALI-P"
+  },
+  {
+    "id": "ASSET-D-35",
+    "description": "Data in transit between the HAM and the accelerator device",
+    "component": "",
+    "interface": "Implementation-specific interface (not specified by O-RAN)"
+  },
+  {
+    "id": "ASSET-D-36",
+    "description": "AAL profile data, including profile identifiers, version, supported accelerated functions, and any assignments to AAL-LPUs or AAL Applications.",
+    "component": "AAL",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-D-37",
+    "description": "AAL-LPU data describing an AAL Logical Processing Unit’s identifiers, mapping to hardware accelerators, supported profiles, capabilities, and configuration parameters.",
+    "component": "AAL",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-D-38",
+    "description": "Stored AAL data:  Persistent data stored by the AAL Implementation and HAM, such as logs, configuration data, manifests, and artifacts that describe the accelerator and its profile.",
+    "component": "AAL",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-D-39",
+    "description": "xAppID",
+    "component": "Near-RT RIC, xApps",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-D-40",
+    "description": "ML models that have not been trained yet, i.e., Initial Models and their associated learning algorithm.",
+    "component": "Non-RT RIC, Near-RT RIC, SMO",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-01",
+    "description": "Logical module: Service Management and Orchestration (SMO)",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-02",
+    "description": "Near-RT RIC",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-03",
+    "description": "O-CU-CP",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-04",
+    "description": "O-CU-UP",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-05",
+    "description": "O-DU",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-06",
+    "description": "O-RU",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-07",
+    "description": "O-eNB",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-08",
+    "description": "O-Cloud",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-09",
+    "description": "xApps",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-10",
+    "description": "rApps",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-11",
+    "description": "Non-RT RIC",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-12",
+    "description": "ML components deploying machine learning such as: ML training and interference hosts, ML applications (xAPPS, rAPPs)",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-12a",
+    "description": "PNF NF equipment",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-13",
+    "description": "A1 termination",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-14",
+    "description": "A1 interface, including protocol stack",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-15",
+    "description": "R1 termination",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-16",
+    "description": "R1 interface, including protocol stack",
+    "component": "",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-17",
+    "description": "SMO Framework/Platform",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-18",
+    "description": "SMO Functions",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-19",
+    "description": "R1 Service Exposure Functions",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-20",
+    "description": "A1 Functions",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-21",
+    "description": "Data Management and Exposure Functions",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-22",
+    "description": "O1, including protocol stack",
+    "component": "",
+    "interface": "x"
+  },
+  {
+    "id": "ASSET-C-23",
+    "description": "O2, including protocol stack",
+    "component": "",
+    "interface": "x"
+  },
+  {
+    "id": "ASSET-C-24",
+    "description": "OFH M-Plane, including protocol stack",
+    "component": "",
+    "interface": "x"
+  },
+  {
+    "id": "ASSET-C-25",
+    "description": "OFH CUS-Plane, including protocol stack",
+    "component": "",
+    "interface": "x"
+  },
+  {
+    "id": "ASSET-C-26",
+    "description": "External interfaces",
+    "component": "",
+    "interface": "x"
+  },
+  {
+    "id": "ASSET-C-27",
+    "description": "External interfaces termination at SMO Framework/Platform",
+    "component": "",
+    "interface": "x"
+  },
+  {
+    "id": "ASSET-C-28",
+    "description": "External interfaces termination at Non-RT RIC Framework",
+    "component": "",
+    "interface": "x"
+  },
+  {
+    "id": "ASSET-C-29",
+    "description": "AAL software including software, libraries, drivers, etc.",
+    "component": "AAL",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-30",
+    "description": "The hardware accelerator device firmware",
+    "component": "Hardware accelerator device",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-31",
+    "description": "Shared O-RU",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-32",
+    "description": "O-RU Host",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-33",
+    "description": "O-RU Tenant (Shared Resource Operator)",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-34",
+    "description": "O-DU Host",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-35",
+    "description": "O-DU Tenant (Shared Resource Operator)",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-36",
+    "description": "O-CU Host, includes O-CU-CP and O-CU-UP software",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-37",
+    "description": "O-CU Tenant (Shared Resource Operator), includes O-CU-CP and O-CU-UP software",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-38",
+    "description": "SMO Host",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-39",
+    "description": "SMO Tenant (Shared Resource Operator)",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-40",
+    "description": "E2 interface, including protocol stack",
+    "component": "",
+    "interface": "x"
+  },
+  {
+    "id": "ASSET-C-41",
+    "description": "E2 Functions (RIC services supported by RIC functional procedures and global procedures, both as defined in [i.25], clause 5.3.1)",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-42",
+    "description": "Y1 interface, including protocol stack",
+    "component": "",
+    "interface": "x"
+  },
+  {
+    "id": "ASSET-C-43",
+    "description": "Y1 Functions",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-44",
+    "description": "Service Management and Exposure (SME)",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-45",
+    "description": "Data Management and Exposure (DME)",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-46",
+    "description": "Topology Exposure and Inventory Management (TE&IM)",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-47",
+    "description": "rApp Management",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-48",
+    "description": "R1 Services",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-49",
+    "description": "Network Function Orchestrator (NFO)",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-50",
+    "description": "Federated O-Cloud Orchestration and Management (FOCOM)",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-51",
+    "description": "RAN NF Fault Management (FM)",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-52",
+    "description": "RAN NF Configuration Management (CM)",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-53",
+    "description": "RAN NF Performance Management (PM)",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-54",
+    "description": "A1 Enrichment Information Management",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-55",
+    "description": "A1 Policy Management",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-56",
+    "description": "A1 E1 Management",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-57",
+    "description": "SW Package Onboarding",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-58",
+    "description": "Service Orchestration",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-59",
+    "description": "Service Assurance",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-60",
+    "description": "RAN Analytics",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-61",
+    "description": "R1 service: AI/ML workflow services, as specified in [i.38], clause 7.7",
+    "component": "x",
+    "interface": ""
+  },
+  {
+    "id": "ASSET-C-62",
+    "description": "SMOS Communication",
+    "component": "",
+    "interface": "x"
+  },
+  {
+    "id": "ASSET-C-63",
+    "description": "Near RT RIC API’s\nThe Near-RT RIC APIs are a set of service-based interfaces that can be produced and consumed by the Near-RT RIC Platform and xApps as specified in [i.6].",
+    "component": "",
+    "interface": "x"
+  },
+  {
+    "id": "ASSET-C-64",
+    "description": "Near-RT RIC platform service: AI/ML workflow services, as specified in [i.8], clause 6A.2.7",
+    "component": "x",
+    "interface": ""
+  }
+]
